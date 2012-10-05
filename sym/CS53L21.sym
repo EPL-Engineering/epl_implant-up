@@ -1,0 +1,380 @@
+v 20100214 2
+P 0 3600 300 3600 1 0 0
+{
+T 2700 3600 5 10 0 0 0 0 1
+pintype=io
+T 355 3595 5 10 1 1 0 0 1
+pinlabel=LRCK
+T 205 3645 5 10 1 1 0 6 1
+pinnumber=1
+T 4300 3600 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 3300 300 3300 1 0 0
+{
+T 2700 3300 5 10 0 0 0 0 1
+pintype=io
+T 355 3295 5 10 1 1 0 0 1
+pinlabel=SDA/CDIN (MCLKDIV2)
+T 205 3345 5 10 1 1 0 6 1
+pinnumber=2
+T 4300 3300 5 10 0 0 0 0 1
+pinseq=2
+}
+P 0 3000 300 3000 1 0 0
+{
+T 2700 3000 5 10 0 0 0 0 1
+pintype=in
+T 355 2995 5 10 1 1 0 0 1
+pinlabel=SCL/CCLK (I2S/\_LJ\_)
+T 205 3045 5 10 1 1 0 6 1
+pinnumber=3
+T 4300 3000 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 2700 300 2700 1 0 0
+{
+T 2700 2700 5 10 0 0 0 0 1
+pintype=in
+T 355 2695 5 10 1 1 0 0 1
+pinlabel=AD0/\_CS\_ (TSTN)
+T 205 2745 5 10 1 1 0 6 1
+pinnumber=4
+T 4300 2700 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 2400 300 2400 1 0 0
+{
+T 2700 2400 5 10 0 0 0 0 1
+pintype=in
+T 355 2395 5 10 1 1 0 0 1
+pinlabel=VA_PULLUP
+T 205 2445 5 10 1 1 0 6 1
+pinnumber=5
+T 4300 2400 5 10 0 0 0 0 1
+pinseq=5
+}
+P 0 2100 300 2100 1 0 0
+{
+T 2700 2100 5 10 0 0 0 0 1
+pintype=out
+T 355 2095 5 10 1 1 0 0 1
+pinlabel=TSTO
+T 205 2145 5 10 1 1 0 6 1
+pinnumber=6
+T 4300 2100 5 10 0 0 0 0 1
+pinseq=6
+}
+P 0 1800 300 1800 1 0 0
+{
+T 2700 1800 5 10 0 0 0 0 1
+pintype=pwr
+T 355 1795 5 10 1 1 0 0 1
+pinlabel=AGND
+T 205 1845 5 10 1 1 0 6 1
+pinnumber=7
+T 4300 1800 5 10 0 0 0 0 1
+pinseq=7
+}
+P 0 1500 300 1500 1 0 0
+{
+T 2700 1500 5 10 0 0 0 0 1
+pintype=out
+T 355 1495 5 10 1 1 0 0 1
+pinlabel=TSTO
+T 205 1545 5 10 1 1 0 6 1
+pinnumber=8
+T 4300 1500 5 10 0 0 0 0 1
+pinseq=8
+}
+P 1800 0 1800 300 1 0 0
+{
+T 1800 2700 5 10 0 0 90 0 1
+pintype=out
+T 1800 355 5 10 1 1 90 0 1
+pinlabel=TSTO
+T 1750 205 5 10 1 1 90 6 1
+pinnumber=9
+T 1800 4300 5 10 0 0 90 0 1
+pinseq=9
+}
+P 2100 0 2100 300 1 0 0
+{
+T 2100 2700 5 10 0 0 90 0 1
+pintype=pas
+T 2100 355 5 10 1 1 90 0 1
+pinlabel=NIC
+T 2050 205 5 10 1 1 90 6 1
+pinnumber=10
+T 2100 4300 5 10 0 0 90 0 1
+pinseq=10
+}
+P 2400 0 2400 300 1 0 0
+{
+T 2400 2700 5 10 0 0 90 0 1
+pintype=pas
+T 2400 355 5 10 1 1 90 0 1
+pinlabel=NIC
+T 2350 205 5 10 1 1 90 6 1
+pinnumber=11
+T 2400 4300 5 10 0 0 90 0 1
+pinseq=11
+}
+P 2700 0 2700 300 1 0 0
+{
+T 2700 2700 5 10 0 0 90 0 1
+pintype=pwr
+T 2700 355 5 10 1 1 90 0 1
+pinlabel=VA
+T 2650 205 5 10 1 1 90 6 1
+pinnumber=12\
+T 2700 4300 5 10 0 0 90 0 1
+pinseq=12
+}
+P 3000 0 3000 300 1 0 0
+{
+T 3000 2700 5 10 0 0 90 0 1
+pintype=pwr
+T 3000 355 5 10 1 1 90 0 1
+pinlabel=AGND
+T 2950 205 5 10 1 1 90 6 1
+pinnumber=13
+T 3000 4300 5 10 0 0 90 0 1
+pinseq=13
+}
+P 3300 0 3300 300 1 0 0
+{
+T 3300 2700 5 10 0 0 90 0 1
+pintype=out
+T 3300 355 5 10 1 1 90 0 1
+pinlabel=TSTO
+T 3250 205 5 10 1 1 90 6 1
+pinnumber=14
+T 3300 4300 5 10 0 0 90 0 1
+pinseq=14
+}
+P 3600 0 3600 300 1 0 0
+{
+T 3600 2700 5 10 0 0 90 0 1
+pintype=out
+T 3600 355 5 10 1 1 90 0 1
+pinlabel=VQ
+T 3550 205 5 10 1 1 90 6 1
+pinnumber=15
+T 3600 4300 5 10 0 0 90 0 1
+pinseq=15
+}
+P 3900 0 3900 300 1 0 0
+{
+T 3900 2700 5 10 0 0 90 0 1
+pintype=out
+T 3900 355 5 10 1 1 90 0 1
+pinlabel=FILT+
+T 3850 205 5 10 1 1 90 6 1
+pinnumber=16
+T 3900 4300 5 10 0 0 90 0 1
+pinseq=16
+}
+P 5600 1500 5300 1500 1 0 0
+{
+T 2900 1500 5 10 0 0 180 0 1
+pintype=in
+T 5245 1495 5 10 1 1 0 6 1
+pinlabel=MICIN1/AIN3A
+T 5395 1545 5 10 1 1 0 0 1
+pinnumber=17
+T 1300 1500 5 10 0 0 180 0 1
+pinseq=17
+}
+P 5600 1800 5300 1800 1 0 0
+{
+T 2900 1800 5 10 0 0 180 0 1
+pintype=io
+T 5245 1795 5 10 1 1 0 6 1
+pinlabel=MICIN2/BIAS/AIN3B
+T 5395 1845 5 10 1 1 0 0 1
+pinnumber=18
+T 1300 1800 5 10 0 0 180 0 1
+pinseq=18
+}
+P 5600 2100 5300 2100 1 0 0
+{
+T 2900 2100 5 10 0 0 180 0 1
+pintype=in
+T 5245 2095 5 10 1 1 0 6 1
+pinlabel=AIN2A
+T 5395 2145 5 10 1 1 0 0 1
+pinnumber=19
+T 1300 2100 5 10 0 0 180 0 1
+pinseq=19
+}
+P 5600 2400 5300 2400 1 0 0
+{
+T 2900 2400 5 10 0 0 180 0 1
+pintype=io
+T 5245 2395 5 10 1 1 0 6 1
+pinlabel=AIN2B/BIAS
+T 5395 2445 5 10 1 1 0 0 1
+pinnumber=20
+T 1300 2400 5 10 0 0 180 0 1
+pinseq=20
+}
+P 5600 2700 5300 2700 1 0 0
+{
+T 2900 2700 5 10 0 0 180 0 1
+pintype=out
+T 5245 2695 5 10 1 1 0 6 1
+pinlabel=AFILTA
+T 5395 2745 5 10 1 1 0 0 1
+pinnumber=21
+T 1300 2700 5 10 0 0 180 0 1
+pinseq=21
+}
+P 5600 3000 5300 3000 1 0 0
+{
+T 2900 3000 5 10 0 0 180 0 1
+pintype=out
+T 5245 2995 5 10 1 1 0 6 1
+pinlabel=AFILTB
+T 5395 3045 5 10 1 1 0 0 1
+pinnumber=22
+T 1300 3000 5 10 0 0 180 0 1
+pinseq=22
+}
+P 5600 3300 5300 3300 1 0 0
+{
+T 2900 3300 5 10 0 0 180 0 1
+pintype=in
+T 5245 3295 5 10 1 1 0 6 1
+pinlabel=AIN1A
+T 5395 3345 5 10 1 1 0 0 1
+pinnumber=23
+T 1300 3300 5 10 0 0 180 0 1
+pinseq=23
+}
+P 5600 3600 5300 3600 1 0 0
+{
+T 2900 3600 5 10 0 0 180 0 1
+pintype=in
+T 5245 3595 5 10 1 1 0 6 1
+pinlabel=AIN1B
+T 5395 3645 5 10 1 1 0 0 1
+pinnumber=24
+T 1300 3600 5 10 0 0 180 0 1
+pinseq=24
+}
+P 3900 5100 3900 4800 1 0 0
+{
+T 3900 2400 5 10 0 0 270 0 1
+pintype=in
+T 3900 4745 5 10 1 1 90 6 1
+pinlabel=\_RESET\_
+T 3850 4895 5 10 1 1 90 0 1
+pinnumber=25
+T 3900 800 5 10 0 0 270 0 1
+pinseq=25
+}
+P 3600 5100 3600 4800 1 0 0
+{
+T 3600 2400 5 10 0 0 270 0 1
+pintype=in
+T 3600 4745 5 10 1 1 90 6 1
+pinlabel=VL
+T 3550 4895 5 10 1 1 90 0 1
+pinnumber=26
+T 3600 800 5 10 0 0 270 0 1
+pinseq=26
+}
+P 3300 5100 3300 4800 1 0 0
+{
+T 3300 2400 5 10 0 0 270 0 1
+pintype=in
+T 3300 4745 5 10 1 1 90 6 1
+pinlabel=VD
+T 3250 4895 5 10 1 1 90 0 1
+pinnumber=27
+T 3300 800 5 10 0 0 270 0 1
+pinseq=27
+}
+P 3000 5100 3000 4800 1 0 0
+{
+T 3000 2400 5 10 0 0 270 0 1
+pintype=pwr
+T 3000 4745 5 10 1 1 90 6 1
+pinlabel=DGND
+T 2950 4895 5 10 1 1 90 0 1
+pinnumber=28
+T 3000 800 5 10 0 0 270 0 1
+pinseq=28
+}
+P 2700 5100 2700 4800 1 0 0
+{
+T 2700 2400 5 10 0 0 270 0 1
+pintype=io
+T 2700 4745 5 10 1 1 90 6 1
+pinlabel=SDOUT (M\/\_S\_)
+T 2650 4895 5 10 1 1 90 0 1
+pinnumber=29
+T 2700 800 5 10 0 0 270 0 1
+pinseq=29
+}
+P 2400 5100 2400 4800 1 0 0
+{
+T 2400 2400 5 10 0 0 270 0 1
+pintype=in
+T 2400 4745 5 10 1 1 90 6 1
+pinlabel=MCLK
+T 2350 4895 5 10 1 1 90 0 1
+pinnumber=30
+T 2400 800 5 10 0 0 270 0 1
+pinseq=30
+}
+P 2100 5100 2100 4800 1 0 0
+{
+T 2100 2400 5 10 0 0 270 0 1
+pintype=io
+T 2100 4745 5 10 1 1 90 6 1
+pinlabel=SCLK
+T 2050 4895 5 10 1 1 90 0 1
+pinnumber=31
+T 2100 800 5 10 0 0 270 0 1
+pinseq=31
+}
+P 1800 5100 1800 4800 1 0 0
+{
+T 1800 2400 5 10 0 0 270 0 1
+pintype=in
+T 1800 4745 5 10 1 1 90 6 1
+pinlabel=TSTN
+T 1750 4895 5 10 1 1 90 0 1
+pinnumber=32
+T 1800 800 5 10 0 0 270 0 1
+pinseq=32
+}
+P 0 4600 300 4600 1 0 0
+{
+T 2700 4600 5 10 0 0 0 0 1
+pintype=pwr
+T 355 4595 5 10 1 1 0 0 1
+pinlabel=Thermal
+T 205 4645 5 10 1 1 0 6 1
+pinnumber=33
+T 4300 4600 5 10 0 0 0 0 1
+pinseq=33
+}
+B 300 300 5000 4500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 1300 4800 300 3800 3 0 0 0 -1 -1
+T 2795 2395 8 10 1 1 0 4 1
+footprint=QFN32_5_EP
+T 2795 2595 8 10 1 1 0 4 1
+model=CS53L21
+T 2795 2795 8 10 1 1 0 4 1
+refdes=U?
+T 5995 4595 8 10 0 1 0 0 1
+description=Sterio Audio Delta-Sigma 24Bit ADC
+T 5995 4195 8 10 0 1 0 0 1
+author=Evan Foss (evanfoss@gmail.com;evan_foss@meei.harvard.edu)
+T 5995 4395 8 10 0 1 0 0 1
+documentation=http://www.cirrus.com/en/pubs/proDatasheet/CS53L21_PP1.pdf
+T 5995 3995 8 10 0 1 0 0 1
+dist-license=GPL2
