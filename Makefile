@@ -30,7 +30,7 @@ GRAPHCMDFILE_GNUPLOT = plot.gnu
 #Project Schematics to PCB File
 SCH2PCB = uProcessor-art.prj
 #Project Printed Circuit Boards
-PCBS = uProcessor-art
+PCBS = uProcessor-art.pcb
 #Project Gerbers
 GERBERS = $(PCBS).fab.gbr $(PCBS).plated-drill.cnc $(PCBS).frontsilk.gbr (PCBS$).front.gbr $(PCBS).frontmask.gbr $(PCBS).back.gbr  $(PCBS).backmask.gbr
 
