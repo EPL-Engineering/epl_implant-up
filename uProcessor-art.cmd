@@ -1,5 +1,42 @@
 # Pin name action command file
 
+# Start of element CONN?
+ChangePinName(CONN?, 19, Chassis)
+ChangePinName(CONN?, 18, COM)
+ChangePinName(CONN?, 17, CD)
+ChangePinName(CONN?, 16, Reserved)
+ChangePinName(CONN?, 15, I/O)
+ChangePinName(CONN?, 14, VPP)
+ChangePinName(CONN?, 13, GND)
+ChangePinName(CONN?, 12, Reserved)
+ChangePinName(CONN?, 11, CLK)
+ChangePinName(CONN?, 10, RST)
+ChangePinName(CONN?, 9, VCC)
+ChangePinName(CONN?, 8, DAT1)
+ChangePinName(CONN?, 7, DAT0)
+ChangePinName(CONN?, 6, VSS)
+ChangePinName(CONN?, 5, CLK)
+ChangePinName(CONN?, 4, VDD)
+ChangePinName(CONN?, 3, CMD)
+ChangePinName(CONN?, 2, CD/DAT3)
+ChangePinName(CONN?, 1, DAT2)
+
+# Start of element R40
+ChangePinName(R40, 1, 1)
+ChangePinName(R40, 2, 2)
+
+# Start of element C41
+ChangePinName(C41, 2, 2)
+ChangePinName(C41, 1, 1)
+
+# Start of element C40
+ChangePinName(C40, 2, 2)
+ChangePinName(C40, 1, 1)
+
+# Start of element F1
+ChangePinName(F1, 2, 2)
+ChangePinName(F1, 1, 1)
+
 # Start of element C18
 ChangePinName(C18, 2, 2)
 ChangePinName(C18, 1, 1)
@@ -17,6 +54,14 @@ ChangePinName(C15, 2, -)
 ChangePinName(C15, 1, +)
 
 # Start of element R2
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
 ChangePinName(R2, 1, 1)
 ChangePinName(R2, 2, 2)
 ChangePinName(R2, 1, 1)
@@ -191,7 +236,3 @@ ChangePinName(C7, 1, 1)
 # Start of element C6
 ChangePinName(C6, 2, 2)
 ChangePinName(C6, 1, 1)
-
-# Start of element C5
-ChangePinName(C5, 2, -)
-ChangePinName(C5, 1, +)
