@@ -12,3 +12,12 @@ T 54900 40400 9 10 1 0 0 0 1
 microphones.sch
 T 55000 40700 9 10 1 0 0 0 1
 microphones
+C 55100 49900 1 0 0 CS5343.sym
+{
+T 56395 52200 5 10 1 1 0 3 1
+refdes=U?
+T 56395 52000 5 10 1 1 0 3 1
+device=CS5343
+T 56395 51800 5 10 1 1 0 3 1
+footprint=TSSOP10
+}
