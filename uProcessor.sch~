@@ -5,7 +5,7 @@ C 80800 61100 1 270 0 capacitor-1.sym
 T 81500 60900 5 10 0 0 270 0 1
 device=CAPACITOR
 T 81300 61000 5 10 1 1 0 0 1
-refdes=C6
+refdes=C100
 T 81700 60900 5 10 0 0 270 0 1
 symversion=0.1
 T 81300 60800 5 10 1 1 0 0 1
@@ -22,7 +22,7 @@ C 66100 50800 1 0 0 capacitor-1.sym
 T 66300 51500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 66500 52100 5 10 1 1 0 3 1
-refdes=C7
+refdes=C101
 T 66300 51700 5 10 0 0 0 0 1
 symversion=0.1
 T 66500 51900 5 10 1 1 0 3 1
@@ -37,7 +37,7 @@ model-name=TPSA225K035R1500
 C 57000 53500 1 0 0 STM32F40xVxT.sym
 {
 T 62200 59000 5 10 1 1 0 4 1
-refdes=U1
+refdes=U100
 T 62195 58595 5 10 1 1 0 4 1
 footprint=TQFP100_14
 T 62195 58795 5 10 1 1 0 4 1
@@ -231,19 +231,19 @@ C 41300 44300 1 0 0 3.3V-plus-1.sym
 C 41400 42400 1 0 0 gnd-1.sym
 N 41500 44300 41500 44000 4
 N 41500 42700 41500 43100 4
-C 43200 43100 1 90 0 capacitor-1.sym
+C 42800 43100 1 270 1 capacitor-1.sym
 {
-T 42500 43300 5 10 0 0 90 0 1
+T 43500 43300 5 10 0 0 90 2 1
 device=CAPACITOR
-T 42700 43400 5 10 1 1 180 0 1
+T 43300 43400 5 10 1 1 180 6 1
 refdes=C11
-T 42300 43300 5 10 0 0 90 0 1
+T 43700 43300 5 10 0 0 90 2 1
 symversion=0.1
-T 42700 43600 5 10 1 1 180 0 1
+T 43300 43600 5 10 1 1 180 6 1
 value=100nF
-T 42700 43800 5 10 1 1 180 0 1
+T 43300 43800 5 10 1 1 180 6 1
 comment=For U1
-T 42700 44000 5 10 1 1 180 0 1
+T 43300 44000 5 10 1 1 180 6 1
 footprint=0805
 }
 C 42800 44300 1 0 0 3.3V-plus-1.sym
@@ -269,19 +269,19 @@ C 44300 44300 1 0 0 3.3V-plus-1.sym
 C 44400 42400 1 0 0 gnd-1.sym
 N 44500 44300 44500 44000 4
 N 44500 42700 44500 43100 4
-C 46200 43100 1 90 0 capacitor-1.sym
+C 45800 43100 1 270 1 capacitor-1.sym
 {
-T 45500 43300 5 10 0 0 90 0 1
+T 46500 43300 5 10 0 0 90 2 1
 device=CAPACITOR
-T 45700 43400 5 10 1 1 180 0 1
+T 46300 43400 5 10 1 1 180 6 1
 refdes=C13
-T 45300 43300 5 10 0 0 90 0 1
+T 46700 43300 5 10 0 0 90 2 1
 symversion=0.1
-T 45700 43600 5 10 1 1 180 0 1
+T 46300 43600 5 10 1 1 180 6 1
 value=100nF
-T 45700 43800 5 10 1 1 180 0 1
+T 46300 43800 5 10 1 1 180 6 1
 comment=For U1
-T 45700 44000 5 10 1 1 180 0 1
+T 46300 44000 5 10 1 1 180 6 1
 footprint=0805
 }
 C 45800 44300 1 0 0 3.3V-plus-1.sym
@@ -317,22 +317,22 @@ T 76900 40400 9 10 1 0 0 0 1
 uProcessor.sch
 T 77000 40700 9 10 1 0 0 0 1
 uProcessor
-T 49300 70500 9 10 1 0 0 0 1
+T 41000 71400 9 10 1 0 0 0 1
 1.8V <= Vss <= 3.3V see page 60 for current consumption see page 66
-T 50100 69800 9 10 1 0 0 0 1
+T 41000 70800 9 10 1 0 0 0 1
 Note: J1 & J2 refer to DM00037051.pdf page 15.
-T 50000 71100 9 10 1 0 0 0 1
+T 41000 71800 9 10 1 0 0 0 1
 DM00037051.pdf
-T 48800 72900 9 10 1 0 0 0 2
+T 41000 72600 9 10 1 0 0 0 2
 Note: JTAG is refrenced in DM00037051.pdf page 36 2.2.37
 Serial wire JTAG debug port (SWJ-DP).
-T 49000 70300 9 10 1 0 0 0 1
+T 41000 71200 9 10 1 0 0 0 1
 DM00037051.pdf page 38.fig. 10 STM32F40x LQFP64 pinout.
-T 51000 71400 9 10 1 0 0 0 1
+T 41000 72000 9 10 1 0 0 0 1
 for a laugh see pages 68-72.
-T 49000 72200 9 10 1 0 0 0 1
+T 41000 72400 9 10 1 0 0 0 1
 Boot modes (very important) & USB fw update page 21.
-T 49800 70900 9 10 1 0 0 0 1
+T 41000 71600 9 10 1 0 0 0 1
 fig 15 for mem/reg map and configuration info.
 T 41500 53700 9 10 1 0 0 0 4
 Layout Note : XTAL1, XTAL2 and their 
@@ -346,7 +346,7 @@ N 56500 56700 57000 56700 4
 N 56500 52500 68500 52500 4
 N 67500 62100 68500 62100 4
 N 68500 62100 68500 52500 4
-T 46200 69200 9 10 1 0 0 0 2
+T 41000 70400 9 10 1 0 0 0 2
 The VCAP capacitors, decoupling caps and etc are all pulled in from page 61 from the 2011 datasheet.
 The VCAP capacitors AVX model TPSA225K035R1500 have 1.5Ohm ESR.
 T 41500 41500 9 10 1 0 0 0 1
@@ -453,9 +453,9 @@ L1 is a choke with peak impedance @
 150MHz. This is shamelessly copied 
 from the refrence board schematic 
 page 32.
-T 44200 71800 9 10 1 0 0 0 1
+T 41000 72200 9 10 1 0 0 0 1
 PDR_ON is to be set to VDD so that the voltage regulator inside U1 is set on and the brown out reset (BOR) will protect the MPU.
-T 44200 70100 9 10 1 0 0 0 1
+T 41000 71000 9 10 1 0 0 0 1
 The jumper between PE0 and NRST is for when the device is running of battery and the internal VREG of U1 is turned off.
 C 61900 69300 1 0 0 busripper-1.sym
 {
@@ -568,9 +568,9 @@ T 53400 57700 5 10 1 1 0 8 1
 netname=SPI2_MOSI
 }
 U 65100 50000 70500 50000 10 -1
-U 53500 66800 53500 45800 10 0
-U 53500 45800 72500 45800 10 0
-U 71700 45800 71700 55300 10 0
+U 53500 66800 53500 46000 10 0
+U 53500 46000 72500 46000 10 0
+U 71700 46000 71700 55300 10 0
 N 58900 64000 58900 64500 4
 N 58900 64500 56500 64500 4
 N 59500 53500 59500 47700 4
@@ -676,7 +676,7 @@ T 70600 50000 9 10 1 0 0 1 1
 I2C2
 T 62100 47500 9 10 1 0 0 1 1
 SPI1
-T 72600 45800 9 10 1 0 0 1 1
+T 72600 46000 9 10 1 0 0 1 1
 SPI2
 T 56100 66500 9 10 1 0 0 1 1
 TRACE
@@ -704,7 +704,7 @@ C 60500 71600 1 90 0 resistor-1.sym
 T 60100 71900 5 10 0 0 90 0 1
 device=RESISTOR
 T 60200 72200 5 10 1 1 0 6 1
-refdes=R2
+refdes=R100
 T 60200 72000 5 10 1 1 0 6 1
 value=10K
 T 60200 71800 5 10 1 1 0 6 1
@@ -864,9 +864,9 @@ C 60500 47100 1 0 0 bus-count.sym
 T 61300 47300 5 10 1 1 0 8 1
 comment=4
 }
-C 71200 45400 1 0 0 bus-count.sym
+C 71200 45600 1 0 0 bus-count.sym
 {
-T 72000 45600 5 10 1 1 0 8 1
+T 72000 45800 5 10 1 1 0 8 1
 comment=4
 }
 C 54500 66100 1 0 0 bus-count.sym
