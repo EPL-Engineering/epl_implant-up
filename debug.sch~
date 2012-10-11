@@ -1,0 +1,89 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-E.sym
+T 80900 40100 9 10 1 0 0 0 1
+Evan Foss
+T 80800 40400 9 10 1 0 0 0 1
+V 1.0
+T 77000 40100 9 10 1 0 0 0 1
+5
+T 78500 40100 9 10 1 0 0 0 1
+6
+T 76900 40400 9 10 1 0 0 0 1
+debug.sch
+T 77000 40700 9 10 1 0 0 0 1
+debug
+C 54800 58800 1 0 0 busripper-1.sym
+{
+T 54800 59200 5 8 0 0 0 0 1
+device=none
+T 55000 59100 5 10 1 1 270 6 1
+netname=JTDO
+}
+C 54500 58800 1 0 0 busripper-1.sym
+{
+T 54500 59200 5 8 0 0 0 0 1
+device=none
+T 54700 59100 5 10 1 1 270 6 1
+netname=\_JTRST
+}
+C 63200 58800 1 0 0 busripper-1.sym
+{
+T 63200 59200 5 8 0 0 0 0 1
+device=none
+T 63400 59100 5 10 1 1 270 6 1
+netname=JTMS
+}
+C 60200 58800 1 0 0 busripper-1.sym
+{
+T 60200 59200 5 8 0 0 0 0 1
+device=none
+T 60400 59100 5 10 1 1 270 6 1
+netname=JTCK
+}
+C 59900 58800 1 0 0 busripper-1.sym
+{
+T 59900 59200 5 8 0 0 0 0 1
+device=none
+T 60100 59100 5 10 1 1 270 6 1
+netname=JTDI
+}
+U 54700 59000 64400 59000 10 1
+C 62900 58600 1 0 0 bus-count.sym
+{
+T 63700 58800 5 10 1 1 0 8 1
+comment=5
+}
+T 64500 59000 9 10 1 0 0 1 1
+JTAG
+C 58800 56600 1 180 1 busripper-1.sym
+{
+T 58800 56200 5 8 0 0 180 6 1
+device=none
+T 59100 56400 5 10 1 1 180 6 1
+netname=USART1_RTS
+}
+C 58800 56300 1 180 1 busripper-1.sym
+{
+T 58800 55900 5 8 0 0 180 6 1
+device=none
+T 59100 56100 5 10 1 1 180 6 1
+netname=USART1_CTS
+}
+C 58800 56000 1 180 1 busripper-1.sym
+{
+T 58800 55600 5 8 0 0 180 6 1
+device=none
+T 59100 55800 5 10 1 1 180 6 1
+netname=USART1_RX
+}
+C 58800 55700 1 180 1 busripper-1.sym
+{
+T 58800 55300 5 8 0 0 180 6 1
+device=none
+T 59100 55500 5 10 1 1 180 6 1
+netname=USART1_TX
+}
+U 59000 56400 59000 54900 10 1
+U 59000 54900 60500 54900 10 0
+T 60600 54900 9 10 1 0 0 1 1
+USART1

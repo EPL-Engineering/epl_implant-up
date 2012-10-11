@@ -10,51 +10,37 @@ DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
-# grab the input values and convert to 1/100 mil
-       
+
 	
 	
 	
 	
 	
 	
-	# how much to grow the pads by for soldermask [1/100 mil]
 	
-	# clearance from planes [1/100 mil]
 	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "R40" "47" 0 0 -3150 -3150 0 100 ""]
+Element(0x00 "ACY200P" "B500" "unknown" 170 52 0 100 0x00)
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pin(0 16 55 30 "1" 0x101)
+	Pin(200 16 55 30 "2" 0x01)
 
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
+	ElementLine(0 16 50 16 10)
+	ElementLine(150 16 200 16 10)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
+	ElementLine(50 0 150 0 10)
+	ElementLine(150 0 150 32 10)
+	ElementLine(150 32 50 32 10)
+	ElementLine(50 32 50 0 10)
 
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
+	ElementLine(0 -61 0 -21 10)
+	ElementLine(-20 -41 20 -41 10)
+	ElementLine(180 -41 220 -41 10)
+	
 
+#	ElementArc(X1 Y 50 50 270 180 10)
+#	ElementArc(X2 Y 50 50 90 180 10)
+
+	Mark(0 16)
 )
 # grab the input values and convert to 1/100 mil
        
@@ -74,34 +60,6 @@ Element[0x00000000 "0805" "R40" "47" 0 0 -3150 -3150 0 100 ""]
 	
 # element_flags, description, pcb-name, value, mark_x, mark_y,
 # text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "C41" "100nF" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
 # grab the input values and convert to 1/100 mil
        
 	
@@ -120,34 +78,6 @@ Element[0x00000000 "0805" "C41" "100nF" 0 0 -3150 -3150 0 100 ""]
 	
 # element_flags, description, pcb-name, value, mark_x, mark_y,
 # text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "C40" "100nF" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
 # grab the input values and convert to 1/100 mil
        
 	
@@ -166,34 +96,246 @@ Element[0x00000000 "0805" "C40" "100nF" 0 0 -3150 -3150 0 100 ""]
 	
 # element_flags, description, pcb-name, value, mark_x, mark_y,
 # text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "F1" "unknown" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
 
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
+	
+	
+	
+	
+	
+	
+	
+	# Silkscreen box coordinates
+	
+	
+	
+	
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
 
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
+	
+	
+	
+	
+	
+	
+	
+	# Silkscreen box coordinates
+	
+	
+	
+	
 
-)
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
 # grab the input values and convert to 1/100 mil
        
 	

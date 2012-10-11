@@ -137,7 +137,7 @@ C 51800 47300 1 0 0 generic-power.sym
 T 52000 47550 5 10 0 1 0 3 1
 net=P5V:1
 T 52000 47600 5 10 1 1 0 3 1
-comment=+5V
+comment=+BattV
 }
 C 44500 43900 1 0 1 output-2.sym
 {
