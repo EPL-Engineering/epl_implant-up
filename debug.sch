@@ -17,35 +17,35 @@ C 62000 56800 1 0 1 busripper-1.sym
 T 62000 57200 5 8 0 0 0 6 1
 device=none
 T 61800 57100 5 10 1 1 270 8 1
-netname=JTDO
+net=JTDO:1
 }
 C 62500 56800 1 0 1 busripper-1.sym
 {
 T 62500 57200 5 8 0 0 0 6 1
 device=none
 T 62300 57100 5 10 1 1 270 8 1
-netname=\_JTRST
+net=\_JTRST:1
 }
 C 54500 56800 1 0 1 busripper-1.sym
 {
 T 54500 57200 5 8 0 0 0 6 1
 device=none
 T 54300 57100 5 10 1 1 270 8 1
-netname=JTMS
+net=JTMS:1
 }
 C 58000 56800 1 0 1 busripper-1.sym
 {
 T 58000 57200 5 8 0 0 0 6 1
 device=none
 T 57800 57100 5 10 1 1 270 8 1
-netname=JTCK
+net=JTCK:1
 }
 C 58500 56800 1 0 1 busripper-1.sym
 {
 T 58500 57200 5 8 0 0 0 6 1
 device=none
 T 58300 57100 5 10 1 1 270 8 1
-netname=JTDI
+net=JTDI:1
 }
 U 62300 57000 51600 57000 10 1
 C 53100 56600 1 0 1 bus-count.sym
@@ -60,28 +60,28 @@ C 62000 63800 1 90 0 busripper-1.sym
 T 61600 63800 5 8 0 0 270 8 1
 device=none
 T 61800 64100 5 10 1 1 270 8 1
-netname=USART1_RTS
+net=USART1_RTS:1
 }
 C 58500 63800 1 90 0 busripper-1.sym
 {
 T 58100 63800 5 8 0 0 270 8 1
 device=none
 T 58300 64100 5 10 1 1 270 8 1
-netname=USART1_CTS
+net=USART1_CTS:1
 }
 C 58000 63800 1 90 0 busripper-1.sym
 {
 T 57600 63800 5 8 0 0 270 8 1
 device=none
 T 57800 64100 5 10 1 1 270 8 1
-netname=USART1_RX
+net=USART1_RX:1
 }
 C 54500 63800 1 90 0 busripper-1.sym
 {
 T 54100 63800 5 8 0 0 270 8 1
 device=none
 T 54300 64100 5 10 1 1 270 8 1
-netname=USART1_TX
+net=USART1_TX:1
 }
 U 61800 64000 52500 64000 10 1
 T 52400 64000 9 10 1 0 0 7 1
@@ -137,35 +137,7 @@ C 66100 48700 1 180 0 busripper-1.sym
 T 66100 48300 5 8 0 0 0 8 1
 device=none
 T 65900 48400 5 10 1 1 270 2 1
-netname=TRACECLK
-}
-C 54500 48700 1 180 0 busripper-1.sym
-{
-T 54500 48300 5 8 0 0 0 8 1
-device=none
-T 54300 48400 5 10 1 1 270 2 1
-netname=TRACE0
-}
-C 58000 48700 1 180 0 busripper-1.sym
-{
-T 58000 48300 5 8 0 0 0 8 1
-device=none
-T 57800 48400 5 10 1 1 270 2 1
-netname=TRACE1
-}
-C 58500 48700 1 180 0 busripper-1.sym
-{
-T 58500 48300 5 8 0 0 0 8 1
-device=none
-T 58300 48400 5 10 1 1 270 2 1
-netname=TRACE2
-}
-C 62000 48700 1 180 0 busripper-1.sym
-{
-T 62000 48300 5 8 0 0 0 8 1
-device=none
-T 61800 48400 5 10 1 1 270 2 1
-netname=TRACE3
+net=TRACECLK:1
 }
 U 65900 48500 52600 48500 10 0
 C 54100 48100 1 0 1 bus-count.sym
@@ -241,3 +213,31 @@ N 62000 61300 62000 63800 4
 N 58500 61300 58500 63800 4
 N 58000 61300 58000 63800 4
 N 54500 61300 54500 63800 4
+C 58000 48700 1 180 0 busripper-1.sym
+{
+T 58000 48300 5 8 0 0 0 8 1
+device=none
+T 57800 48400 5 10 1 1 270 2 1
+net=TRACE0:1
+}
+C 54500 48700 1 180 0 busripper-1.sym
+{
+T 54500 48300 5 8 0 0 0 8 1
+device=none
+T 54300 48400 5 10 1 1 270 2 1
+net=TRACE1:1
+}
+C 62000 48700 1 180 0 busripper-1.sym
+{
+T 62000 48300 5 8 0 0 0 8 1
+device=none
+T 61800 48400 5 10 1 1 270 2 1
+net=TRACE2:1
+}
+C 58500 48700 1 180 0 busripper-1.sym
+{
+T 58500 48300 5 8 0 0 0 8 1
+device=none
+T 58300 48400 5 10 1 1 270 2 1
+net=TRACE3:1
+}

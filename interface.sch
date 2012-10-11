@@ -17,28 +17,28 @@ C 44200 51400 1 180 0 busripper-1.sym
 T 44200 51000 5 8 0 0 180 0 1
 device=none
 T 43900 51200 5 10 1 1 180 0 1
-netname=SPI2_SCK
+net=SPI2_SCK:1
 }
 C 44200 51100 1 180 0 busripper-1.sym
 {
 T 44200 50700 5 8 0 0 180 0 1
 device=none
 T 43900 50900 5 10 1 1 180 0 1
-netname=\_SPI2_SS
+net=\_SPI2_SS:1
 }
 C 44200 51700 1 180 0 busripper-1.sym
 {
 T 44200 51300 5 8 0 0 0 8 1
 device=none
 T 43900 51500 5 10 1 1 180 0 1
-netname=SPI2_MISO
+net=SPI2_MISO:1
 }
 C 44200 52000 1 180 0 busripper-1.sym
 {
 T 44200 51600 5 8 0 0 0 8 1
 device=none
 T 43900 51800 5 10 1 1 180 0 1
-netname=SPI2_MOSI
+net=SPI2_MOSI:1
 }
 L 58400 47900 58600 47700 3 0 0 0 -1 -1
 L 58600 47700 58600 45600 3 0 0 0 -1 -1

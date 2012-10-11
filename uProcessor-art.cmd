@@ -1,5 +1,45 @@
 # Pin name action command file
 
+# Start of element D501
+ChangePinName(D501, 4, Vss)
+ChangePinName(D501, 3, IN2)
+ChangePinName(D501, 2, IN1)
+ChangePinName(D501, 1, GND)
+
+# Start of element D500
+ChangePinName(D500, 4, Vss)
+ChangePinName(D500, 3, IN2)
+ChangePinName(D500, 2, IN1)
+ChangePinName(D500, 1, GND)
+
+# Start of element D505
+ChangePinName(D505, 4, Vss)
+ChangePinName(D505, 3, IN2)
+ChangePinName(D505, 2, IN1)
+ChangePinName(D505, 1, GND)
+
+# Start of element D504
+ChangePinName(D504, 4, Vss)
+ChangePinName(D504, 3, IN2)
+ChangePinName(D504, 2, IN1)
+ChangePinName(D504, 1, GND)
+
+# Start of element D503
+ChangePinName(D503, 4, Vss)
+ChangePinName(D503, 3, IN2)
+ChangePinName(D503, 2, IN1)
+ChangePinName(D503, 1, GND)
+ChangePinName(D503, 4, Vss)
+ChangePinName(D503, 3, IN2)
+ChangePinName(D503, 2, IN1)
+ChangePinName(D503, 1, GND)
+
+# Start of element D502
+ChangePinName(D502, 4, Vss)
+ChangePinName(D502, 3, IN2)
+ChangePinName(D502, 2, IN1)
+ChangePinName(D502, 1, GND)
+
 # Start of element F500
 ChangePinName(F500, 2, 2)
 ChangePinName(F500, 1, 1)
@@ -7,6 +47,24 @@ ChangePinName(F500, 1, 1)
 # Start of element B500
 ChangePinName(B500, 2, -)
 ChangePinName(B500, 1, +)
+
+# Start of element D302
+ChangePinName(D302, 4, Vss)
+ChangePinName(D302, 3, IN2)
+ChangePinName(D302, 2, IN1)
+ChangePinName(D302, 1, GND)
+
+# Start of element D300
+ChangePinName(D300, 4, Vss)
+ChangePinName(D300, 3, IN2)
+ChangePinName(D300, 2, IN1)
+ChangePinName(D300, 1, GND)
+
+# Start of element D301
+ChangePinName(D301, 4, Vss)
+ChangePinName(D301, 3, IN2)
+ChangePinName(D301, 2, IN1)
+ChangePinName(D301, 1, GND)
 
 # Start of element CONN300
 ChangePinName(CONN300, 19, Chassis)
