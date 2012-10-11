@@ -1,5 +1,9 @@
 # Pin name action command file
 
+# Start of element B1
+ChangePinName(B1, 2, -)
+ChangePinName(B1, 1, +)
+
 # Start of element CONN300
 ChangePinName(CONN300, 19, Chassis)
 ChangePinName(CONN300, 18, COM)

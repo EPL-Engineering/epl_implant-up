@@ -16,12 +16,16 @@ C 51000 44700 1 0 1 lm317-1.sym
 {
 T 50700 46400 5 10 0 0 0 6 1
 device=LM317
-T 49300 46300 5 10 1 1 0 0 1
+T 49300 46500 5 10 1 1 0 0 1
 refdes=VREG200
 T 49300 46100 5 10 1 1 0 0 1
 footprint=SOT223
 T 51000 44700 5 10 0 1 0 0 1
 value=LM317
+T 49300 46300 5 10 1 1 0 0 1
+model-name=LM317AEMPX/NOPB
+T 49300 46700 5 10 1 1 0 0 1
+comment=LM317AEMPXCT-ND
 }
 C 49500 43900 1 0 1 resistor-1.sym
 {
@@ -72,10 +76,8 @@ T 48700 43300 5 10 0 0 270 0 1
 symversion=0.1
 T 47700 43200 5 10 1 1 0 6 1
 value=4.7uF
-T 47700 42600 5 10 1 1 0 6 1
-footprint=SMD_POLAR 120 60
 T 47700 42800 5 10 1 1 0 6 1
-comment=P5138-ND
+footprint=SMD_POLAR 120 60
 T 47700 43000 5 10 1 1 0 6 1
 description=Tantalum
 }
@@ -100,10 +102,8 @@ T 46200 43300 5 10 0 0 270 0 1
 symversion=0.1
 T 45200 43200 5 10 1 1 0 6 1
 value=4.7uF
-T 45200 42600 5 10 1 1 0 6 1
-footprint=SMD_POLAR 120 60
 T 45200 42800 5 10 1 1 0 6 1
-comment=P5138-ND
+footprint=SMD_POLAR 120 60
 T 45200 43000 5 10 1 1 0 6 1
 description=Tantalum
 }
@@ -137,7 +137,7 @@ C 51800 47300 1 0 0 generic-power.sym
 T 52000 47550 5 10 0 1 0 3 1
 net=P5V:1
 T 52000 47600 5 10 1 1 0 3 1
-comment=+5V
+comment=+BattV
 }
 C 44500 43900 1 0 1 output-2.sym
 {

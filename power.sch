@@ -12,3 +12,30 @@ T 54900 40400 9 10 1 0 0 0 1
 power.sch
 T 55000 40700 9 10 1 0 0 0 1
 power
+C 46800 52800 1 270 0 battery-2.sym
+{
+T 47500 52500 5 10 0 0 270 0 1
+device=BATTERY
+T 47300 52500 5 10 1 1 270 0 1
+refdes=B500
+T 48100 52500 5 10 0 0 270 0 1
+symversion=0.1
+T 46600 52800 5 10 1 1 270 0 1
+footprint=ACY200P
+}
+C 47000 53200 1 90 0 fuse-1.sym
+{
+T 46600 53400 5 10 0 0 90 0 1
+device=FUSE
+T 46800 53900 5 10 1 1 0 6 1
+refdes=F500
+T 46400 53400 5 10 0 0 90 0 1
+symversion=0.1
+T 46800 53700 5 10 1 1 0 6 1
+footprint=stelleto
+T 46800 53500 5 10 1 1 0 6 1
+model-name=0ZCA0010FF2E
+T 46800 53300 5 10 1 1 0 6 1
+comment=I_hold 100mA;I_trip 250mA;Imax 10A;Vmax 60V
+}
+N 47000 52800 47000 53200 4
