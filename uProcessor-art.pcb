@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[51000 9500 0.000000]
+Cursor[503500 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -1383,7 +1383,7 @@ Rat[318900 142000 0 275008 147717 0  ""]
 Rat[319900 158000 0 275008 151654 0  ""]
 Rat[141900 66500 0 204992 108346 0  ""]
 Rat[141900 75300 0 204992 110315 0  ""]
-Rat[130000 84500 0 204992 112283 0  ""]
+Rat[137400 84500 0 204992 112283 0  ""]
 Rat[137400 93300 0 204992 114252 0  ""]
 Rat[277900 77500 0 204992 106378 0  ""]
 Rat[283690 99319 0 275008 110315 0  ""]
@@ -1532,6 +1532,10 @@ NetList()
 		Connect("D503-2")
 		Connect("U100-90")
 	)
+	Net("\\_SPI1_SS" "(unknown)")
+	(
+		Connect("U100-29")
+	)
 	Net("\\_SPI2_SS" "(unknown)")
 	(
 		Connect("CONN300-2")
@@ -1597,6 +1601,42 @@ NetList()
 		Connect("U100-74")
 		Connect("U100-99")
 	)
+	Net("I2C1_SCL" "(unknown)")
+	(
+		Connect("U100-92")
+	)
+	Net("I2C1_SDA" "(unknown)")
+	(
+		Connect("U100-93")
+	)
+	Net("I2C1_SMBA" "(unknown)")
+	(
+		Connect("U100-91")
+	)
+	Net("I2C2_SCL" "(unknown)")
+	(
+		Connect("U100-47")
+	)
+	Net("I2S2_SDA" "(unknown)")
+	(
+		Connect("U100-48")
+	)
+	Net("I2S2_SMBA" "(unknown)")
+	(
+		Connect("U100-51")
+	)
+	Net("I2S3_SCK" "(unknown)")
+	(
+		Connect("U100-78")
+	)
+	Net("I2S3_SD" "(unknown)")
+	(
+		Connect("U100-80")
+	)
+	Net("I2S3ext_SD" "(unknown)")
+	(
+		Connect("U100-79")
+	)
 	Net("I2S_CKIN" "(unknown)")
 	(
 		Connect("U100-66")
@@ -1620,6 +1660,30 @@ NetList()
 	(
 		Connect("D502-2")
 		Connect("U100-72")
+	)
+	Net("LED1" "(unknown)")
+	(
+		Connect("U100-15")
+	)
+	Net("LED2" "(unknown)")
+	(
+		Connect("U100-16")
+	)
+	Net("LED3" "(unknown)")
+	(
+		Connect("U100-17")
+	)
+	Net("LED4" "(unknown)")
+	(
+		Connect("U100-18")
+	)
+	Net("LED5" "(unknown)")
+	(
+		Connect("U100-33")
+	)
+	Net("LED6" "(unknown)")
+	(
+		Connect("U100-34")
 	)
 	Net("MCO1" "(unknown)")
 	(
@@ -1647,6 +1711,18 @@ NetList()
 		Connect("D302-2")
 		Connect("R300-1")
 		Connect("U100-65")
+	)
+	Net("SPI1_MISO" "(unknown)")
+	(
+		Connect("U100-31")
+	)
+	Net("SPI1_MOSI" "(unknown)")
+	(
+		Connect("U100-32")
+	)
+	Net("SPI1_SCK" "(unknown)")
+	(
+		Connect("U100-30")
 	)
 	Net("SPI2_MISO" "(unknown)")
 	(
@@ -1678,7 +1754,7 @@ NetList()
 	)
 	Net("TRACE2" "(unknown)")
 	(
-		Connect("D505-4")
+		Connect("D505-3")
 		Connect("U100-4")
 	)
 	Net("TRACE3" "(unknown)")
@@ -1729,182 +1805,86 @@ NetList()
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("U100-15")
-	)
-	Net("unnamed_net9" "(unknown)")
-	(
-		Connect("U100-16")
-	)
-	Net("unnamed_net10" "(unknown)")
-	(
-		Connect("U100-17")
-	)
-	Net("unnamed_net11" "(unknown)")
-	(
-		Connect("U100-18")
-	)
-	Net("unnamed_net12" "(unknown)")
-	(
 		Connect("C117-1")
 		Connect("C118-1")
 		Connect("R105-2")
 		Connect("U100-21")
 	)
-	Net("unnamed_net13" "(unknown)")
-	(
-		Connect("U100-29")
-	)
-	Net("unnamed_net14" "(unknown)")
-	(
-		Connect("U100-30")
-	)
-	Net("unnamed_net15" "(unknown)")
-	(
-		Connect("U100-31")
-	)
-	Net("unnamed_net16" "(unknown)")
-	(
-		Connect("U100-32")
-	)
-	Net("unnamed_net17" "(unknown)")
-	(
-		Connect("U100-33")
-	)
-	Net("unnamed_net18" "(unknown)")
-	(
-		Connect("U100-34")
-	)
-	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("U100-47")
-	)
-	Net("unnamed_net20" "(unknown)")
-	(
-		Connect("U100-48")
-	)
-	Net("unnamed_net21" "(unknown)")
-	(
-		Connect("U100-51")
-	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("U100-63")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("U100-64")
 	)
-	Net("unnamed_net24" "(unknown)")
-	(
-		Connect("U100-78")
-	)
-	Net("unnamed_net25" "(unknown)")
-	(
-		Connect("U100-79")
-	)
-	Net("unnamed_net26" "(unknown)")
-	(
-		Connect("U100-80")
-	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("U100-81")
 	)
-	Net("unnamed_net28" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("U100-82")
 	)
-	Net("unnamed_net29" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("U100-83")
 	)
-	Net("unnamed_net30" "(unknown)")
-	(
-		Connect("U100-84")
-	)
-	Net("unnamed_net31" "(unknown)")
-	(
-		Connect("U100-85")
-	)
-	Net("unnamed_net32" "(unknown)")
-	(
-		Connect("U100-86")
-	)
-	Net("unnamed_net33" "(unknown)")
-	(
-		Connect("U100-87")
-	)
-	Net("unnamed_net34" "(unknown)")
-	(
-		Connect("U100-88")
-	)
-	Net("unnamed_net35" "(unknown)")
-	(
-		Connect("U100-91")
-	)
-	Net("unnamed_net36" "(unknown)")
-	(
-		Connect("U100-92")
-	)
-	Net("unnamed_net37" "(unknown)")
-	(
-		Connect("U100-93")
-	)
-	Net("unnamed_net38" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("R100-1")
 		Connect("U100-94")
 	)
-	Net("unnamed_net39" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("C105-2")
 		Connect("R103-1")
 		Connect("XTAL101-1")
 	)
-	Net("unnamed_net40" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("C106-2")
 		Connect("R104-1")
 		Connect("XTAL101-2")
 	)
-	Net("unnamed_net41" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("C104-2")
 		Connect("R102-1")
 		Connect("XTAL102-1")
 	)
-	Net("unnamed_net42" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("C103-2")
 		Connect("R101-1")
 		Connect("XTAL102-2")
 	)
-	Net("unnamed_net43" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("L100-2")
 		Connect("R105-1")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("C202-1")
 		Connect("R201-2")
 		Connect("R203-1")
 		Connect("VREG200-2")
 	)
-	Net("unnamed_net45" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("R201-1")
 		Connect("R202-2")
 		Connect("VREG200-1")
 	)
-	Net("unnamed_net46" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("C300-2")
 		Connect("CONN300-4")
 		Connect("F300-1")
 		Connect("R300-2")
 	)
-	Net("unnamed_net47" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("B500-1")
 		Connect("F500-1")
@@ -1928,5 +1908,25 @@ NetList()
 	(
 		Connect("D500-2")
 		Connect("U100-68")
+	)
+	Net("USART2_CK" "(unknown)")
+	(
+		Connect("U100-88")
+	)
+	Net("USART2_CTS" "(unknown)")
+	(
+		Connect("U100-84")
+	)
+	Net("USART2_RTS" "(unknown)")
+	(
+		Connect("U100-85")
+	)
+	Net("USART2_RX" "(unknown)")
+	(
+		Connect("U100-87")
+	)
+	Net("USART2_TX" "(unknown)")
+	(
+		Connect("U100-86")
 	)
 )
