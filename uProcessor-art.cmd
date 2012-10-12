@@ -154,6 +154,13 @@ ChangePinName(VREG200, 1, Adjust)
 ChangePinName(VREG200, 3, Vin)
 ChangePinName(VREG200, 2, Vout)
 
+# Start of element S101
+ChangePinName(S101, 1, INB_2)
+ChangePinName(S101, 3, INB_1)
+ChangePinName(S101, 2, INA_2)
+ChangePinName(S101, 4, INA_1)
+ChangePinName(S101, 5, CHASSIS)
+
 # Start of element R104
 ChangePinName(R104, 1, 1)
 ChangePinName(R104, 2, 2)
@@ -221,10 +228,6 @@ ChangePinName(C110, 1, 1)
 # Start of element C107
 ChangePinName(C107, 2, 2)
 ChangePinName(C107, 1, 1)
-
-# Start of element S101
-ChangePinName(S101, 2, 2)
-ChangePinName(S101, 1, 1)
 
 # Start of element C109
 ChangePinName(C109, 2, -)
