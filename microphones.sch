@@ -164,3 +164,12 @@ C 52800 51300 1 0 0 3.3V-plus-1.sym
 C 52900 50400 1 0 0 gnd-1.sym
 T 43800 47000 9 10 1 0 0 0 1
 VREG200 - The tab is Vout; I checked the pinout to sym to footprint and it is good.
+C 48200 52600 1 0 0 UDA1361TS.sym
+{
+T 49895 55600 5 10 1 1 0 3 1
+footprint=SSOP16
+T 49895 56000 5 10 1 1 0 3 1
+refdes=U200
+T 49895 55800 5 10 1 1 0 3 1
+model-name=UDA1361TS
+}
