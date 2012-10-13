@@ -1,17 +1,18 @@
-unnamed_net25	F500-1 B500-1 
-unnamed_net24	U?-? CONN300-19 
-unnamed_net23	R300-2 CONN300-4 C300-2 F300-1 
+unnamed_net26	F500-1 B500-1 
+unnamed_net25	U?-? CONN300-19 
+unnamed_net24	R300-2 CONN300-4 C300-2 F300-1 
 P5V	R200-2 
 MIC_VBIAS	C203-1 R203-2 
-unnamed_net22	R201-1 R202-2 VREG200-1 
+unnamed_net23	R201-1 R202-2 VREG200-1 
 P15V	R200-1 C201-2 VREG200-3 
-unnamed_net21	C202-1 R201-2 R203-1 VREG200-2 
+unnamed_net22	C202-1 R201-2 R203-1 VREG200-2 
+unnamed_net21	U?-? XTAL101-3 
 unnamed_net20	U?-? S101-5 
 unnamed_net19	R105-1 L100-2 
 unnamed_net18	R101-1 C103-2 XTAL102-2 
 unnamed_net17	R102-1 C104-2 XTAL102-1 
-unnamed_net16	R104-1 C106-2 XTAL101-2 
-unnamed_net15	R103-1 C105-2 XTAL101-1 
+unnamed_net16	R104-1 XTAL101-2 C106-2 
+unnamed_net15	R103-1 XTAL101-1 C105-2 
 \_SPI2_SS	D300-2 CONN300-2 U100-96 
 unnamed_net14	R100-1 U100-94 
 I2C1_SDA	U100-93 
