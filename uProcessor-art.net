@@ -9,8 +9,8 @@ unnamed_net22	C202-1 R201-2 R203-1 VREG200-2
 unnamed_net21	U?-? XTAL101-3 
 unnamed_net20	U?-? S101-5 
 unnamed_net19	R105-1 L100-2 
-unnamed_net18	R101-1 C103-2 XTAL102-2 
-unnamed_net17	R102-1 C104-2 XTAL102-1 
+unnamed_net18	XTAL102-4 R102-1 C104-2 
+unnamed_net17	R101-1 XTAL102-1 C103-2 
 unnamed_net16	R104-1 XTAL101-2 C106-2 
 unnamed_net15	R103-1 XTAL101-1 C105-2 
 \_SPI2_SS	D300-2 CONN300-2 U100-96 
