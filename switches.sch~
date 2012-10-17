@@ -6,14 +6,14 @@ C 55500 59300 1 0 0 busripper-1.sym
 T 55500 59700 5 8 0 0 0 0 1
 device=none
 T 55700 59600 5 10 1 1 270 6 1
-netname=B_YES:1
+net=B_YES:1
 }
 C 51500 59300 1 0 0 busripper-1.sym
 {
 T 51500 59700 5 8 0 0 0 0 1
 device=none
 T 51700 59600 5 10 1 1 270 6 1
-netname=B_UP:1
+net=B_UP:1
 }
 C 46400 59100 1 0 1 bus-count.sym
 {
@@ -283,7 +283,7 @@ C 55000 59300 1 0 0 busripper-1.sym
 T 55000 59700 5 8 0 0 0 0 1
 device=none
 T 55200 59600 5 10 1 1 270 6 1
-netname=B_NO:1
+net=B_NO:1
 }
 C 51000 59300 1 270 1 busripper-1.sym
 {

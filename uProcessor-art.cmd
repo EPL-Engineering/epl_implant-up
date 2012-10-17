@@ -7,9 +7,9 @@ ChangePinName(S600, 2, INA_2)
 ChangePinName(S600, 4, INA_1)
 ChangePinName(S600, 5, CHASSIS)
 
-# Start of element C107
-ChangePinName(C107, 2, 2)
-ChangePinName(C107, 1, 1)
+# Start of element C600
+ChangePinName(C600, 2, 2)
+ChangePinName(C600, 1, 1)
 
 # Start of element S607
 ChangePinName(S607, 1, INB_2)

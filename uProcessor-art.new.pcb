@@ -28,7 +28,7 @@ Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,
 	
 # element_flags, description, pcb-name, value, mark_x, mark_y,
 # text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "F501" "unknown" 0 0 -3150 -3150 0 100 ""]
+Element[0x00000000 "0805" "C600" "100nF" 0 0 -3150 -3150 0 100 ""]
 (
 # 
 # Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
@@ -56,6 +56,24 @@ Element[0x00000000 "0805" "F501" "unknown" 0 0 -3150 -3150 0 100 ""]
 #	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
 
 )
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
                              # 78 for SOT23
 	                             # 82 for SOT23
 	      # 41 for SOT23
@@ -407,24 +425,6 @@ Element[0x00000000 "0805" "F501" "unknown" 0 0 -3150 -3150 0 100 ""]
 	
 	
 
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
 # grab the input values and convert to 1/100 mil
        
 	

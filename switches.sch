@@ -215,7 +215,7 @@ C 59800 51300 1 0 0 capacitor-1.sym
 T 60000 52000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 60200 52200 5 10 1 1 0 3 1
-refdes=C107
+refdes=C600
 T 60000 52200 5 10 0 0 0 0 1
 symversion=0.1
 T 60200 52000 5 10 1 1 0 3 1
