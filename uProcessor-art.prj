@@ -1,4 +1,4 @@
 elements-dir ./foot
-schematics uProcessor.sch microphones.sch interface.sch power.sch debug.sch hidden-magic.sch
+schematics uProcessor.sch microphones.sch interface.sch power.sch debug.sch switches.sch hidden-magic.sch
 output-name uProcessor-art
 gsch2pcb:use-m4:            yes

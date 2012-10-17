@@ -1,5 +1,76 @@
 # Pin name action command file
 
+# Start of element S600
+ChangePinName(S600, 1, INB_2)
+ChangePinName(S600, 3, INB_1)
+ChangePinName(S600, 2, INA_2)
+ChangePinName(S600, 4, INA_1)
+ChangePinName(S600, 5, CHASSIS)
+
+# Start of element C107
+ChangePinName(C107, 2, 2)
+ChangePinName(C107, 1, 1)
+
+# Start of element S607
+ChangePinName(S607, 1, INB_2)
+ChangePinName(S607, 3, INB_1)
+ChangePinName(S607, 2, INA_2)
+ChangePinName(S607, 4, INA_1)
+ChangePinName(S607, 5, CHASSIS)
+
+# Start of element S606
+ChangePinName(S606, 1, INB_2)
+ChangePinName(S606, 3, INB_1)
+ChangePinName(S606, 2, INA_2)
+ChangePinName(S606, 4, INA_1)
+ChangePinName(S606, 5, CHASSIS)
+
+# Start of element S605
+ChangePinName(S605, 1, INB_2)
+ChangePinName(S605, 3, INB_1)
+ChangePinName(S605, 2, INA_2)
+ChangePinName(S605, 4, INA_1)
+ChangePinName(S605, 5, CHASSIS)
+
+# Start of element S604
+ChangePinName(S604, 1, INB_2)
+ChangePinName(S604, 3, INB_1)
+ChangePinName(S604, 2, INA_2)
+ChangePinName(S604, 4, INA_1)
+ChangePinName(S604, 5, CHASSIS)
+
+# Start of element S603
+ChangePinName(S603, 1, INB_2)
+ChangePinName(S603, 3, INB_1)
+ChangePinName(S603, 2, INA_2)
+ChangePinName(S603, 4, INA_1)
+ChangePinName(S603, 5, CHASSIS)
+
+# Start of element RP600
+ChangePinName(RP600, 9, 9)
+ChangePinName(RP600, 8, 8)
+ChangePinName(RP600, 7, 7)
+ChangePinName(RP600, 6, 6)
+ChangePinName(RP600, 5, 5)
+ChangePinName(RP600, 4, 4)
+ChangePinName(RP600, 3, 3)
+ChangePinName(RP600, 2, 2)
+ChangePinName(RP600, 1, 1)
+
+# Start of element S602
+ChangePinName(S602, 1, INB_2)
+ChangePinName(S602, 3, INB_1)
+ChangePinName(S602, 2, INA_2)
+ChangePinName(S602, 4, INA_1)
+ChangePinName(S602, 5, CHASSIS)
+
+# Start of element S601
+ChangePinName(S601, 1, INB_2)
+ChangePinName(S601, 3, INB_1)
+ChangePinName(S601, 2, INA_2)
+ChangePinName(S601, 4, INA_1)
+ChangePinName(S601, 5, CHASSIS)
+
 # Start of element F501
 ChangePinName(F501, 2, 2)
 ChangePinName(F501, 1, 1)
@@ -201,13 +272,6 @@ ChangePinName(XTAL101, 3, CHASSIS)
 ChangePinName(XTAL101, 2, B)
 ChangePinName(XTAL101, 1, A)
 
-# Start of element S101
-ChangePinName(S101, 1, INB_2)
-ChangePinName(S101, 3, INB_1)
-ChangePinName(S101, 2, INA_2)
-ChangePinName(S101, 4, INA_1)
-ChangePinName(S101, 5, CHASSIS)
-
 # Start of element R104
 ChangePinName(R104, 1, 1)
 ChangePinName(R104, 2, 2)
@@ -271,10 +335,6 @@ ChangePinName(C111, 1, 1)
 # Start of element C110
 ChangePinName(C110, 2, 2)
 ChangePinName(C110, 1, 1)
-
-# Start of element C107
-ChangePinName(C107, 2, 2)
-ChangePinName(C107, 1, 1)
 
 # Start of element C109
 ChangePinName(C109, 2, -)
