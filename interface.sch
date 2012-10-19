@@ -89,15 +89,6 @@ T 55600 52700 5 10 1 1 0 3 1
 footprint=0805
 }
 N 55100 52500 54800 52500 4
-C 53300 44400 1 0 0 sim_micro-sd_101-00434-68.sym
-{
-T 55600 46100 5 10 1 1 0 3 1
-refdes=CONN300
-T 55600 45900 5 10 1 1 0 3 1
-model-name=101-00434-68
-T 55600 45700 5 10 1 1 0 3 1
-footprint=sim_micro-sd 101-00434-68.fp
-}
 T 42400 51100 9 10 1 0 0 7 1
 SPI2
 C 43300 49900 1 0 1 output-2.sym
@@ -235,3 +226,15 @@ value=INPUT
 N 43300 46500 48500 46500 4
 N 48500 46500 48500 44600 4
 N 48500 44600 47900 44600 4
+C 53300 44400 1 0 0 amphenol-101-00434-xx.sym
+{
+T 55600 46100 5 10 1 1 0 3 1
+refdes=CONN300
+T 55600 45900 5 10 1 1 0 3 1
+model-name=101-00434-68
+T 55600 45700 5 10 1 1 0 3 1
+footprint=amphenol-101-00434-xx-bentpins
+}
+T 47100 42000 9 10 1 0 0 0 2
+Note: I am too cheap to pay for the slots on CONN300 the micro SD Card to be machined. They are bent outward to form pads.
+Hence the weird footprint name. For various reasons please do not use this part again. It has very poor documentation.

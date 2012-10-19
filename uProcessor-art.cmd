@@ -147,24 +147,6 @@ ChangePinName(F500, 1, 1)
 ChangePinName(B500, 2, -)
 ChangePinName(B500, 1, +)
 
-# Start of element D302
-ChangePinName(D302, 4, Vss)
-ChangePinName(D302, 3, IN2)
-ChangePinName(D302, 2, IN1)
-ChangePinName(D302, 1, GND)
-
-# Start of element D300
-ChangePinName(D300, 4, Vss)
-ChangePinName(D300, 3, IN2)
-ChangePinName(D300, 2, IN1)
-ChangePinName(D300, 1, GND)
-
-# Start of element D301
-ChangePinName(D301, 4, Vss)
-ChangePinName(D301, 3, IN2)
-ChangePinName(D301, 2, IN1)
-ChangePinName(D301, 1, GND)
-
 # Start of element CONN300
 ChangePinName(CONN300, 19, Chassis)
 ChangePinName(CONN300, 18, COM)
@@ -185,6 +167,24 @@ ChangePinName(CONN300, 4, VDD)
 ChangePinName(CONN300, 3, CMD)
 ChangePinName(CONN300, 2, CD/DAT3)
 ChangePinName(CONN300, 1, DAT2)
+
+# Start of element D302
+ChangePinName(D302, 4, Vss)
+ChangePinName(D302, 3, IN2)
+ChangePinName(D302, 2, IN1)
+ChangePinName(D302, 1, GND)
+
+# Start of element D300
+ChangePinName(D300, 4, Vss)
+ChangePinName(D300, 3, IN2)
+ChangePinName(D300, 2, IN1)
+ChangePinName(D300, 1, GND)
+
+# Start of element D301
+ChangePinName(D301, 4, Vss)
+ChangePinName(D301, 3, IN2)
+ChangePinName(D301, 2, IN1)
+ChangePinName(D301, 1, GND)
 
 # Start of element R300
 ChangePinName(R300, 1, 1)
