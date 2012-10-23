@@ -13,8 +13,8 @@ interface.sch
 T 55000 40700 9 10 1 0 0 0 1
 interface
 L 58400 47900 58600 47700 3 0 0 0 -1 -1
-L 58600 47700 58600 45600 3 0 0 0 -1 -1
-L 58600 45600 58400 45400 3 0 0 0 -1 -1
+L 58600 47700 58600 46400 3 0 0 0 -1 -1
+L 58600 46400 58400 46200 3 0 0 0 -1 -1
 T 58700 46700 9 10 1 0 0 1 1
 N.C.
 N 54500 50500 58500 50500 4
@@ -146,13 +146,17 @@ N 45500 45000 45500 44300 4
 C 45400 44000 1 0 0 gnd-1.sym
 N 46100 44600 45000 44600 4
 N 45000 44600 45000 50000 4
-C 58800 43900 1 0 0 chassis.sym
+C 58800 44600 1 0 0 chassis.sym
 {
-T 59100 44100 5 10 1 1 0 0 1
+T 59100 44800 5 10 1 1 0 0 1
 net=CHASSIS:1
 }
-N 58300 44600 59000 44600 4
-N 59000 44600 59000 44200 4
+N 58300 45300 59000 45300 4
+N 59000 45300 59000 44900 4
+{
+T 59000 45300 5 10 1 1 0 0 1
+netname=CHASSIS
+}
 C 46500 50900 1 90 0 busripper-1.sym
 {
 T 46100 50900 5 8 0 0 90 0 1
@@ -226,15 +230,15 @@ value=INPUT
 N 43300 46500 48500 46500 4
 N 48500 46500 48500 44600 4
 N 48500 44600 47900 44600 4
-C 53300 44400 1 0 0 amphenol-101-00434-xx.sym
-{
-T 55600 46100 5 10 1 1 0 3 1
-refdes=CONN300
-T 55600 45900 5 10 1 1 0 3 1
-model-name=101-00434-68
-T 55600 45700 5 10 1 1 0 3 1
-footprint=amphenol-101-00434-xx-bentpins
-}
 T 47100 42000 9 10 1 0 0 0 2
 Note: I am too cheap to pay for the slots on CONN300 the micro SD Card to be machined. They are bent outward to form pads.
 Hence the weird footprint name. For various reasons please do not use this part again. It has very poor documentation.
+C 54200 45100 1 0 0 AMPHENOL-101-00434-xx.sym
+{
+T 55800 45800 5 10 1 1 0 3 1
+refdes=CONN300
+T 55800 45600 5 10 1 1 0 3 1
+model-name=101-00434-68
+T 56100 44900 5 10 1 1 0 3 1
+footprint=AMPHENOL-101-00434-xx-bentpins.fp
+}

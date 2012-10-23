@@ -1,5 +1,15 @@
 # Pin name action command file
 
+# Start of element SERPAC_031I.GY_Lid
+ChangePinName(SERPAC_031I.GY_Lid, 7, 7)
+ChangePinName(SERPAC_031I.GY_Lid, 5, 5)
+ChangePinName(SERPAC_031I.GY_Lid, 3, 3)
+ChangePinName(SERPAC_031I.GY_Lid, 1, 1)
+ChangePinName(SERPAC_031I.GY_Lid, 8, 8)
+ChangePinName(SERPAC_031I.GY_Lid, 6, 6)
+ChangePinName(SERPAC_031I.GY_Lid, 4, 4)
+ChangePinName(SERPAC_031I.GY_Lid, 2, 2)
+
 # Start of element S600
 ChangePinName(S600, 1, INB_2)
 ChangePinName(S600, 3, INB_1)
@@ -148,17 +158,15 @@ ChangePinName(B500, 2, -)
 ChangePinName(B500, 1, +)
 
 # Start of element CONN300
-ChangePinName(CONN300, 19, Chassis)
-ChangePinName(CONN300, 18, COM)
-ChangePinName(CONN300, 17, CD)
-ChangePinName(CONN300, 16, Reserved)
-ChangePinName(CONN300, 15, I/O)
-ChangePinName(CONN300, 14, VPP)
-ChangePinName(CONN300, 13, GND)
-ChangePinName(CONN300, 12, Reserved)
-ChangePinName(CONN300, 11, CLK)
-ChangePinName(CONN300, 10, RST)
-ChangePinName(CONN300, 9, VCC)
+ChangePinName(CONN300, 17, Chassis)
+ChangePinName(CONN300, 10, COM)
+ChangePinName(CONN300, 9, CD)
+ChangePinName(CONN300, 11, I/O)
+ChangePinName(CONN300, 13, VPP)
+ChangePinName(CONN300, 15, GND)
+ChangePinName(CONN300, 12, CLK)
+ChangePinName(CONN300, 14, RST)
+ChangePinName(CONN300, 16, VCC)
 ChangePinName(CONN300, 8, DAT1)
 ChangePinName(CONN300, 7, DAT0)
 ChangePinName(CONN300, 6, VSS)

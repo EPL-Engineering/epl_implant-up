@@ -12,3 +12,12 @@ T 54900 40400 9 10 1 0 0 0 1
 hidden-magic.sch
 T 55000 40700 9 10 1 0 0 0 1
 hidden-magic
+C 43900 48200 1 0 0 connector8-1.sym
+{
+T 44000 51400 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 44000 50800 5 10 1 1 0 0 1
+refdes=SERPAC_031I.GY_Lid
+T 43900 48200 5 10 1 1 0 0 1
+footprint=SERPAC-031i_GY-outline_and_holes
+}
