@@ -10,6 +10,30 @@ ChangePinName(SERPAC_031I.GY_Lid, 6, 6)
 ChangePinName(SERPAC_031I.GY_Lid, 4, 4)
 ChangePinName(SERPAC_031I.GY_Lid, 2, 2)
 
+# Start of element D603
+ChangePinName(D603, 4, Vss)
+ChangePinName(D603, 3, IN2)
+ChangePinName(D603, 2, IN1)
+ChangePinName(D603, 1, GND)
+
+# Start of element D602
+ChangePinName(D602, 4, Vss)
+ChangePinName(D602, 3, IN2)
+ChangePinName(D602, 2, IN1)
+ChangePinName(D602, 1, GND)
+
+# Start of element D601
+ChangePinName(D601, 4, Vss)
+ChangePinName(D601, 3, IN2)
+ChangePinName(D601, 2, IN1)
+ChangePinName(D601, 1, GND)
+
+# Start of element D604
+ChangePinName(D604, 4, Vss)
+ChangePinName(D604, 3, IN2)
+ChangePinName(D604, 2, IN1)
+ChangePinName(D604, 1, GND)
+
 # Start of element S600
 ChangePinName(S600, 1, INB_2)
 ChangePinName(S600, 3, INB_1)
