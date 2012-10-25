@@ -10,6 +10,34 @@ ChangePinName(SERPAC_031I.GY_Lid, 6, 6)
 ChangePinName(SERPAC_031I.GY_Lid, 4, 4)
 ChangePinName(SERPAC_031I.GY_Lid, 2, 2)
 
+# Start of element R607
+ChangePinName(R607, 1, 1)
+ChangePinName(R607, 2, 2)
+
+# Start of element R605
+ChangePinName(R605, 1, 1)
+ChangePinName(R605, 2, 2)
+
+# Start of element R603
+ChangePinName(R603, 1, 1)
+ChangePinName(R603, 2, 2)
+
+# Start of element R606
+ChangePinName(R606, 1, 1)
+ChangePinName(R606, 2, 2)
+
+# Start of element R604
+ChangePinName(R604, 1, 1)
+ChangePinName(R604, 2, 2)
+
+# Start of element R602
+ChangePinName(R602, 1, 1)
+ChangePinName(R602, 2, 2)
+
+# Start of element R601
+ChangePinName(R601, 1, 1)
+ChangePinName(R601, 2, 2)
+
 # Start of element D603
 ChangePinName(D603, 4, Vss)
 ChangePinName(D603, 3, IN2)
@@ -79,17 +107,6 @@ ChangePinName(S603, 3, INB_1)
 ChangePinName(S603, 2, INA_2)
 ChangePinName(S603, 4, INA_1)
 ChangePinName(S603, 5, CHASSIS)
-
-# Start of element RP600
-ChangePinName(RP600, 9, 9)
-ChangePinName(RP600, 8, 8)
-ChangePinName(RP600, 7, 7)
-ChangePinName(RP600, 6, 6)
-ChangePinName(RP600, 5, 5)
-ChangePinName(RP600, 4, 4)
-ChangePinName(RP600, 3, 3)
-ChangePinName(RP600, 2, 2)
-ChangePinName(RP600, 1, 1)
 
 # Start of element S602
 ChangePinName(S602, 1, INB_2)
@@ -234,6 +251,17 @@ ChangePinName(C301, 1, 1)
 ChangePinName(F300, 2, 2)
 ChangePinName(F300, 1, 1)
 
+# Start of element C204
+ChangePinName(C204, 2, 2)
+ChangePinName(C204, 1, 1)
+
+# Start of element VREG200
+ChangePinName(VREG200, 4, BYP)
+ChangePinName(VREG200, 3, \_SHDN\_)
+ChangePinName(VREG200, 5, +Vout)
+ChangePinName(VREG200, 2, GND)
+ChangePinName(VREG200, 1, +Vin)
+
 # Start of element U200
 ChangePinName(U200, 9, V_DDD)
 ChangePinName(U200, 10, V_SSD)
@@ -271,19 +299,6 @@ ChangePinName(C202, 1, +)
 # Start of element C201
 ChangePinName(C201, 2, 2)
 ChangePinName(C201, 1, 1)
-
-# Start of element R202
-ChangePinName(R202, 1, 1)
-ChangePinName(R202, 2, 2)
-
-# Start of element R201
-ChangePinName(R201, 1, 1)
-ChangePinName(R201, 2, 2)
-
-# Start of element VREG200
-ChangePinName(VREG200, 1, Adjust)
-ChangePinName(VREG200, 3, Vin)
-ChangePinName(VREG200, 2, Vout)
 
 # Start of element C120
 ChangePinName(C120, 2, 2)

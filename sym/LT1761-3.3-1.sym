@@ -59,3 +59,9 @@ pinseq=4
 }
 T 395 1700 8 10 1 1 0 0 1
 refdes=VREG?
+T 995 700 8 10 0 1 0 0 1
+device=LT1761-3.3
+T 995 700 8 10 0 1 0 0 1
+author=Evan Foss (evanfoss@gmail.com)
+T 95 500 8 10 0 1 0 0 1
+description=3.3V LDO with Shutdown and external bypass capacitor connection

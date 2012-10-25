@@ -1,4 +1,4 @@
-v 20100214 2
+v 20110115 2
 P 0 1300 400 1300 1 0 0
 {
 T 0 1300 5 10 0 0 0 0 1
@@ -59,3 +59,9 @@ pinseq=4
 }
 T 395 1700 8 10 1 1 0 0 1
 refdes=VREG?
+T 595 1000 8 10 0 1 0 0 1
+device=LT1761-5
+T 595 1000 8 10 0 1 0 0 1
+description=5V LDO With Shutdown and Bypass Capacitor Connection
+T 595 1000 8 10 0 1 0 0 1
+author=Evan Foss (evanfoss@gmail.com evan_foss@meei.harvard.edu)
