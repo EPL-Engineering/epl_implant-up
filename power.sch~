@@ -49,3 +49,8 @@ comment=+BattV
 C 51300 52100 1 0 0 5V-plus-1.sym
 C 50400 52100 1 0 0 3.3V-plus-1.sym
 C 49600 51900 1 0 0 gnd-1.sym
+C 52800 52000 1 0 0 chassis.sym
+{
+T 53100 52200 5 10 1 1 0 0 1
+net=CHASSIS:1
+}
