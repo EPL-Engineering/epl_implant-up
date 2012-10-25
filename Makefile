@@ -32,7 +32,7 @@ SCH2PCB = uProcessor-art.prj
 #Project Printed Circuit Boards
 PCBS = uProcessor-art
 #Project Gerbers
-GERBERS = $(PCBS).fab.gbr $(PCBS).plated-drill.cnc $(PCBS).frontsilk.gbr (PCBS$).front.gbr $(PCBS).frontmask.gbr $(PCBS).back.gbr  $(PCBS).backmask.gbr
+GERBERS = $(PCBS).fab.gbr $(PCBS).plated-drill.cnc $(PCBS).topsilk.gbr $(PCBS).top.gbr $(PCBS).topmask.gbr $(PCBS).group1.gbr $(PCBS).group2.gbr $(PCBS).bottomsilk.gbr $(PCBS).bottom.gbr  $(PCBS).bottommask.gbr
 
 #
 ## Text Editor
