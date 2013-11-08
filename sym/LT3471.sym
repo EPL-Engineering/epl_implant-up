@@ -1,0 +1,133 @@
+v 20121123 2
+P 0 2400 400 2400 1 0 0
+{
+T 1500 2400 5 10 0 0 0 0 1
+pintype=in
+T 455 2395 5 10 1 1 0 0 1
+pinlabel=FB1N
+T 305 2445 5 10 1 1 0 6 1
+pinnumber=1
+T 3500 2400 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 2000 400 2000 1 0 0
+{
+T 1500 2000 5 10 0 0 0 0 1
+pintype=in
+T 455 1995 5 10 1 1 0 0 1
+pinlabel=FB1P
+T 305 2045 5 10 1 1 0 6 1
+pinnumber=2
+T 3500 2000 5 10 0 0 0 0 1
+pinseq=2
+}
+P 0 1600 400 1600 1 0 0
+{
+T 1500 1600 5 10 0 0 0 0 1
+pintype=out
+T 455 1595 5 10 1 1 0 0 1
+pinlabel=V_REF
+T 305 1645 5 10 1 1 0 6 1
+pinnumber=3
+T 3500 1600 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 1200 400 1200 1 0 0
+{
+T 1500 1200 5 10 0 0 0 0 1
+pintype=in
+T 455 1195 5 10 1 1 0 0 1
+pinlabel=FB2P
+T 305 1245 5 10 1 1 0 6 1
+pinnumber=4
+T 3500 1200 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 800 400 800 1 0 0
+{
+T 1500 800 5 10 0 0 0 0 1
+pintype=in
+T 455 795 5 10 1 1 0 0 1
+pinlabel=FB2N
+T 305 845 5 10 1 1 0 6 1
+pinnumber=5
+T 3500 800 5 10 0 0 0 0 1
+pinseq=5
+}
+P 2500 0 2500 400 1 0 0
+{
+T 2500 1500 5 10 0 0 90 0 1
+pintype=pwr
+T 2450 305 5 10 1 1 90 6 1
+pinnumber=11
+T 2500 3500 5 10 0 0 90 0 1
+pinseq=11
+T 2500 500 5 10 1 1 0 3 1
+pinlabel=GND
+T 2500 700 5 10 1 1 0 3 1
+comment=Note: Pin 11 is the Pad
+}
+P 5000 2400 4600 2400 1 0 0
+{
+T 3500 2400 5 10 0 0 0 6 1
+pintype=out
+T 4545 2395 5 10 1 1 0 6 1
+pinlabel=SW1
+T 4695 2445 5 10 1 1 0 0 1
+pinnumber=10
+T 1500 2400 5 10 0 0 0 6 1
+pinseq=10
+}
+P 5000 2000 4600 2000 1 0 0
+{
+T 3500 2000 5 10 0 0 0 6 1
+pintype=in
+T 4545 1995 5 10 1 1 0 6 1
+pinlabel=\_SHDN\_/SS1
+T 4695 2045 5 10 1 1 0 0 1
+pinnumber=9
+T 1500 2000 5 10 0 0 0 6 1
+pinseq=9
+}
+P 5000 1600 4600 1600 1 0 0
+{
+T 3500 1600 5 10 0 0 0 6 1
+pintype=in
+T 4545 1595 5 10 1 1 0 6 1
+pinlabel=V_IN
+T 4695 1645 5 10 1 1 0 0 1
+pinnumber=8
+T 1500 1600 5 10 0 0 0 6 1
+pinseq=8
+}
+P 5000 1200 4600 1200 1 0 0
+{
+T 3500 1200 5 10 0 0 0 6 1
+pintype=in
+T 4545 1195 5 10 1 1 0 6 1
+pinlabel=\_SHDN\_/SS2
+T 4695 1245 5 10 1 1 0 0 1
+pinnumber=7
+T 1500 1200 5 10 0 0 0 6 1
+pinseq=7
+}
+P 5000 800 4600 800 1 0 0
+{
+T 3500 800 5 10 0 0 0 6 1
+pintype=out
+T 4545 795 5 10 1 1 0 6 1
+pinlabel=SW2
+T 4695 845 5 10 1 1 0 0 1
+pinnumber=6
+T 1500 800 5 10 0 0 0 6 1
+pinseq=6
+}
+B 400 400 4200 2500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2495 1695 8 10 1 1 0 3 1
+device=LT3471
+T 2495 1895 8 10 1 1 0 3 1
+refdes=U?
+T 2495 1495 8 10 1 1 0 3 1
+footprint=lineartech_dfn_dd11
+T 2495 1295 8 10 0 1 0 3 1
+documentation=http://cds.linear.com/docs/en/datasheet/3471fb.pdf

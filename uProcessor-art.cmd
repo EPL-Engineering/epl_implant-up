@@ -1,14 +1,164 @@
 # Pin name action command file
 
-# Start of element SERPAC_031I.GY_Lid
-ChangePinName(SERPAC_031I.GY_Lid, 7, 7)
-ChangePinName(SERPAC_031I.GY_Lid, 5, 5)
-ChangePinName(SERPAC_031I.GY_Lid, 3, 3)
-ChangePinName(SERPAC_031I.GY_Lid, 1, 1)
-ChangePinName(SERPAC_031I.GY_Lid, 8, 8)
-ChangePinName(SERPAC_031I.GY_Lid, 6, 6)
-ChangePinName(SERPAC_031I.GY_Lid, 4, 4)
-ChangePinName(SERPAC_031I.GY_Lid, 2, 2)
+# Start of element SERPAC_031I.Gx_insert
+ChangePinName(SERPAC_031I.Gx_insert, 7, 7)
+ChangePinName(SERPAC_031I.Gx_insert, 5, 5)
+ChangePinName(SERPAC_031I.Gx_insert, 3, 3)
+ChangePinName(SERPAC_031I.Gx_insert, 1, 1)
+ChangePinName(SERPAC_031I.Gx_insert, 8, 8)
+ChangePinName(SERPAC_031I.Gx_insert, 6, 6)
+ChangePinName(SERPAC_031I.Gx_insert, 4, 4)
+ChangePinName(SERPAC_031I.Gx_insert, 2, 2)
+
+# Start of element CONN705
+ChangePinName(CONN705, 20, 20)
+ChangePinName(CONN705, 19, 19)
+ChangePinName(CONN705, 18, 18)
+ChangePinName(CONN705, 17, 17)
+ChangePinName(CONN705, 16, 16)
+ChangePinName(CONN705, 15, 15)
+ChangePinName(CONN705, 14, 14)
+ChangePinName(CONN705, 13, 13)
+ChangePinName(CONN705, 12, 12)
+ChangePinName(CONN705, 11, 11)
+ChangePinName(CONN705, 10, 10)
+ChangePinName(CONN705, 9, 9)
+ChangePinName(CONN705, 8, 8)
+ChangePinName(CONN705, 7, 7)
+ChangePinName(CONN705, 6, 6)
+ChangePinName(CONN705, 5, 5)
+ChangePinName(CONN705, 4, 4)
+ChangePinName(CONN705, 3, 3)
+ChangePinName(CONN705, 2, 2)
+ChangePinName(CONN705, 1, 1)
+
+# Start of element CONN704
+ChangePinName(CONN704, 30, 30)
+ChangePinName(CONN704, 28, 28)
+ChangePinName(CONN704, 26, 26)
+ChangePinName(CONN704, 24, 24)
+ChangePinName(CONN704, 22, 22)
+ChangePinName(CONN704, 20, 20)
+ChangePinName(CONN704, 18, 18)
+ChangePinName(CONN704, 8, 8)
+ChangePinName(CONN704, 6, 6)
+ChangePinName(CONN704, 4, 4)
+ChangePinName(CONN704, 2, 2)
+ChangePinName(CONN704, 16, 16)
+ChangePinName(CONN704, 14, 14)
+ChangePinName(CONN704, 12, 12)
+ChangePinName(CONN704, 10, 10)
+ChangePinName(CONN704, 29, 29)
+ChangePinName(CONN704, 27, 27)
+ChangePinName(CONN704, 25, 25)
+ChangePinName(CONN704, 23, 23)
+ChangePinName(CONN704, 21, 21)
+ChangePinName(CONN704, 19, 19)
+ChangePinName(CONN704, 17, 17)
+ChangePinName(CONN704, 7, 7)
+ChangePinName(CONN704, 5, 5)
+ChangePinName(CONN704, 3, 3)
+ChangePinName(CONN704, 1, 1)
+ChangePinName(CONN704, 15, 15)
+ChangePinName(CONN704, 13, 13)
+ChangePinName(CONN704, 11, 11)
+ChangePinName(CONN704, 9, 9)
+ChangePinName(CONN704, 30, 30)
+ChangePinName(CONN704, 28, 28)
+ChangePinName(CONN704, 26, 26)
+ChangePinName(CONN704, 24, 24)
+ChangePinName(CONN704, 22, 22)
+ChangePinName(CONN704, 20, 20)
+ChangePinName(CONN704, 18, 18)
+ChangePinName(CONN704, 8, 8)
+ChangePinName(CONN704, 6, 6)
+ChangePinName(CONN704, 4, 4)
+ChangePinName(CONN704, 2, 2)
+ChangePinName(CONN704, 16, 16)
+ChangePinName(CONN704, 14, 14)
+ChangePinName(CONN704, 12, 12)
+ChangePinName(CONN704, 10, 10)
+ChangePinName(CONN704, 29, 29)
+ChangePinName(CONN704, 27, 27)
+ChangePinName(CONN704, 25, 25)
+ChangePinName(CONN704, 23, 23)
+ChangePinName(CONN704, 21, 21)
+ChangePinName(CONN704, 19, 19)
+ChangePinName(CONN704, 17, 17)
+ChangePinName(CONN704, 7, 7)
+ChangePinName(CONN704, 5, 5)
+ChangePinName(CONN704, 3, 3)
+ChangePinName(CONN704, 1, 1)
+ChangePinName(CONN704, 15, 15)
+ChangePinName(CONN704, 13, 13)
+ChangePinName(CONN704, 11, 11)
+ChangePinName(CONN704, 9, 9)
+
+# Start of element CONN703
+ChangePinName(CONN703, 20, 20)
+ChangePinName(CONN703, 19, 19)
+ChangePinName(CONN703, 18, 18)
+ChangePinName(CONN703, 17, 17)
+ChangePinName(CONN703, 16, 16)
+ChangePinName(CONN703, 15, 15)
+ChangePinName(CONN703, 14, 14)
+ChangePinName(CONN703, 13, 13)
+ChangePinName(CONN703, 12, 12)
+ChangePinName(CONN703, 11, 11)
+ChangePinName(CONN703, 10, 10)
+ChangePinName(CONN703, 9, 9)
+ChangePinName(CONN703, 8, 8)
+ChangePinName(CONN703, 7, 7)
+ChangePinName(CONN703, 6, 6)
+ChangePinName(CONN703, 5, 5)
+ChangePinName(CONN703, 4, 4)
+ChangePinName(CONN703, 3, 3)
+ChangePinName(CONN703, 2, 2)
+ChangePinName(CONN703, 1, 1)
+
+# Start of element CONN702
+ChangePinName(CONN702, 20, 20)
+ChangePinName(CONN702, 19, 19)
+ChangePinName(CONN702, 18, 18)
+ChangePinName(CONN702, 17, 17)
+ChangePinName(CONN702, 16, 16)
+ChangePinName(CONN702, 15, 15)
+ChangePinName(CONN702, 14, 14)
+ChangePinName(CONN702, 13, 13)
+ChangePinName(CONN702, 12, 12)
+ChangePinName(CONN702, 11, 11)
+ChangePinName(CONN702, 10, 10)
+ChangePinName(CONN702, 9, 9)
+ChangePinName(CONN702, 8, 8)
+ChangePinName(CONN702, 7, 7)
+ChangePinName(CONN702, 6, 6)
+ChangePinName(CONN702, 5, 5)
+ChangePinName(CONN702, 4, 4)
+ChangePinName(CONN702, 3, 3)
+ChangePinName(CONN702, 2, 2)
+ChangePinName(CONN702, 1, 1)
+
+# Start of element CONN701
+ChangePinName(CONN701, 20, 20)
+ChangePinName(CONN701, 19, 19)
+ChangePinName(CONN701, 18, 18)
+ChangePinName(CONN701, 17, 17)
+ChangePinName(CONN701, 16, 16)
+ChangePinName(CONN701, 15, 15)
+ChangePinName(CONN701, 14, 14)
+ChangePinName(CONN701, 13, 13)
+ChangePinName(CONN701, 12, 12)
+ChangePinName(CONN701, 11, 11)
+ChangePinName(CONN701, 10, 10)
+ChangePinName(CONN701, 9, 9)
+ChangePinName(CONN701, 8, 8)
+ChangePinName(CONN701, 7, 7)
+ChangePinName(CONN701, 6, 6)
+ChangePinName(CONN701, 5, 5)
+ChangePinName(CONN701, 4, 4)
+ChangePinName(CONN701, 3, 3)
+ChangePinName(CONN701, 2, 2)
+ChangePinName(CONN701, 1, 1)
 
 # Start of element R607
 ChangePinName(R607, 1, 1)
@@ -126,14 +276,6 @@ ChangePinName(S601, 5, CHASSIS)
 ChangePinName(F501, 2, 2)
 ChangePinName(F501, 1, 1)
 
-# Start of element CONN501
-ChangePinName(CONN501, 5, 5)
-ChangePinName(CONN501, 3, 3)
-ChangePinName(CONN501, 1, 1)
-ChangePinName(CONN501, 6, 6)
-ChangePinName(CONN501, 4, 4)
-ChangePinName(CONN501, 2, 2)
-
 # Start of element CONN502
 ChangePinName(CONN502, 11, 11)
 ChangePinName(CONN502, 9, 9)
@@ -147,12 +289,6 @@ ChangePinName(CONN502, 8, 8)
 ChangePinName(CONN502, 6, 6)
 ChangePinName(CONN502, 4, 4)
 ChangePinName(CONN502, 2, 2)
-
-# Start of element D501
-ChangePinName(D501, 4, Vss)
-ChangePinName(D501, 3, IN2)
-ChangePinName(D501, 2, IN1)
-ChangePinName(D501, 1, GND)
 
 # Start of element D500
 ChangePinName(D500, 4, Vss)
@@ -182,11 +318,234 @@ ChangePinName(D503, 3, IN2)
 ChangePinName(D503, 2, IN1)
 ChangePinName(D503, 1, GND)
 
+# Start of element R519
+ChangePinName(R519, 1, 1)
+ChangePinName(R519, 2, 2)
+
+# Start of element R520
+ChangePinName(R520, 1, 1)
+ChangePinName(R520, 2, 2)
+
+# Start of element C512
+ChangePinName(C512, 2, 2)
+ChangePinName(C512, 1, 1)
+
 # Start of element D502
 ChangePinName(D502, 4, Vss)
 ChangePinName(D502, 3, IN2)
 ChangePinName(D502, 2, IN1)
 ChangePinName(D502, 1, GND)
+ChangePinName(D502, 2, IN1)
+ChangePinName(D502, 1, GND)
+
+# Start of element L503
+ChangePinName(L503, 1, 1)
+ChangePinName(L503, 2, 2)
+
+# Start of element L501
+ChangePinName(L501, 1, 1)
+ChangePinName(L501, 2, 2)
+
+# Start of element C510
+ChangePinName(C510, 2, 2)
+ChangePinName(C510, 1, 1)
+
+# Start of element C509
+ChangePinName(C509, 2, 2)
+ChangePinName(C509, 1, 1)
+
+# Start of element C504
+ChangePinName(C504, 2, 2)
+ChangePinName(C504, 1, 1)
+
+# Start of element C502
+ChangePinName(C502, 2, 2)
+ChangePinName(C502, 1, 1)
+
+# Start of element C508
+ChangePinName(C508, 2, 2)
+ChangePinName(C508, 1, 1)
+
+# Start of element C505
+ChangePinName(C505, 2, 2)
+ChangePinName(C505, 1, 1)
+
+# Start of element C506
+ChangePinName(C506, 2, 2)
+ChangePinName(C506, 1, 1)
+
+# Start of element C503
+ChangePinName(C503, 2, 2)
+ChangePinName(C503, 1, 1)
+ChangePinName(C503, 2, 2)
+ChangePinName(C503, 1, 1)
+
+# Start of element C501
+ChangePinName(C501, 2, 2)
+ChangePinName(C501, 1, 1)
+
+# Start of element R517
+ChangePinName(R517, 1, 1)
+ChangePinName(R517, 2, 2)
+
+# Start of element R518
+ChangePinName(R518, 1, 1)
+ChangePinName(R518, 2, 2)
+
+# Start of element R504
+ChangePinName(R504, 1, 1)
+ChangePinName(R504, 2, 2)
+
+# Start of element R506
+ChangePinName(R506, 1, 1)
+ChangePinName(R506, 2, 2)
+
+# Start of element R505
+ChangePinName(R505, 1, 1)
+ChangePinName(R505, 2, 2)
+
+# Start of element R509
+ChangePinName(R509, 1, 1)
+ChangePinName(R509, 2, 2)
+
+# Start of element R513
+ChangePinName(R513, 1, 1)
+ChangePinName(R513, 2, 2)
+
+# Start of element R514
+ChangePinName(R514, 1, 1)
+ChangePinName(R514, 2, 2)
+
+# Start of element R508
+ChangePinName(R508, 1, 1)
+ChangePinName(R508, 2, 2)
+
+# Start of element R515
+ChangePinName(R515, 1, 1)
+ChangePinName(R515, 2, 2)
+ChangePinName(R515, 1, 1)
+ChangePinName(R515, 2, 2)
+
+# Start of element R512
+ChangePinName(R512, 1, 1)
+ChangePinName(R512, 2, 2)
+
+# Start of element R511
+ChangePinName(R511, 1, 1)
+ChangePinName(R511, 2, 2)
+
+# Start of element R503
+ChangePinName(R503, 1, 1)
+ChangePinName(R503, 2, 2)
+
+# Start of element R502
+ChangePinName(R502, 1, 1)
+ChangePinName(R502, 2, 2)
+
+# Start of element R501
+ChangePinName(R501, 1, 1)
+ChangePinName(R501, 2, 2)
+
+# Start of element C507
+ChangePinName(C507, 2, 2)
+ChangePinName(C507, 1, 1)
+ChangePinName(C507, 2, 2)
+ChangePinName(C507, 1, 1)
+
+# Start of element R510
+ChangePinName(R510, 1, 1)
+ChangePinName(R510, 2, 2)
+ChangePinName(R510, 1, 1)
+ChangePinName(R510, 2, 2)
+
+# Start of element R516
+ChangePinName(R516, 1, 1)
+ChangePinName(R516, 2, 2)
+ChangePinName(R516, 1, 1)
+ChangePinName(R516, 2, 2)
+
+# Start of element R507
+ChangePinName(R507, 1, 1)
+ChangePinName(R507, 2, 2)
+
+# Start of element L502
+ChangePinName(L502, 1, 1)
+ChangePinName(L502, 2, 2)
+
+# Start of element D501
+ChangePinName(D501, 4, Vss)
+ChangePinName(D501, 3, IN2)
+ChangePinName(D501, 2, IN1)
+ChangePinName(D501, 1, GND)
+ChangePinName(D501, 2, IN1)
+ChangePinName(D501, 1, GND)
+
+# Start of element CONN501
+ChangePinName(CONN501, 5, 5)
+ChangePinName(CONN501, 3, 3)
+ChangePinName(CONN501, 1, 1)
+ChangePinName(CONN501, 6, 6)
+ChangePinName(CONN501, 4, 4)
+ChangePinName(CONN501, 2, 2)
+ChangePinName(CONN501, 1, 1)
+ChangePinName(CONN501, 2, 2)
+
+# Start of element LED501
+ChangePinName(LED501, 2, K)
+ChangePinName(LED501, 1, A)
+
+# Start of element C511
+ChangePinName(C511, 2, 2)
+ChangePinName(C511, 1, 1)
+
+# Start of element S501
+ChangePinName(S501, 1, INB_2)
+ChangePinName(S501, 3, INB_1)
+ChangePinName(S501, 2, INA_2)
+ChangePinName(S501, 4, INA_1)
+ChangePinName(S501, 5, CHASSIS)
+
+# Start of element U502
+ChangePinName(U502, 13, PGND)
+ChangePinName(U502, 7, MODE/SYNC)
+ChangePinName(U502, 8, V_OUT)
+ChangePinName(U502, 9, PV_IN)
+ChangePinName(U502, 12, FB)
+ChangePinName(U502, 10, V_IN)
+ChangePinName(U502, 11, V_C)
+ChangePinName(U502, 6, PGND)
+ChangePinName(U502, 5, SW2)
+ChangePinName(U502, 4, SW1)
+ChangePinName(U502, 1, \_SHDN\_/SS)
+ChangePinName(U502, 3, PGND)
+ChangePinName(U502, 2, GND)
+
+# Start of element U501
+ChangePinName(U501, 18, FB2)
+ChangePinName(U501, 14, HSO)
+ChangePinName(U501, 15, HSON)
+ChangePinName(U501, 16, AI)
+ChangePinName(U501, 17, AO)
+ChangePinName(U501, 19, ON2)
+ChangePinName(U501, 20, \_RST\_)
+ChangePinName(U501, 21, MODE)
+ChangePinName(U501, 22, PWRON)
+ChangePinName(U501, 23, PBSTAT)
+ChangePinName(U501, 24, \_ON\_)
+ChangePinName(U501, 25, GND)
+ChangePinName(U501, 9, V_BAT)
+ChangePinName(U501, 13, HSI)
+ChangePinName(U501, 12, SW2)
+ChangePinName(U501, 11, WALL_FB)
+ChangePinName(U501, 10, V_MAX)
+ChangePinName(U501, 8, USB)
+ChangePinName(U501, 7, SW1)
+ChangePinName(U501, 6, SUSPEND)
+ChangePinName(U501, 5, USBHP)
+ChangePinName(U501, 4, \_CHRG\_)
+ChangePinName(U501, 3, TIMER)
+ChangePinName(U501, 2, PROG)
+ChangePinName(U501, 1, FB1)
 
 # Start of element F500
 ChangePinName(F500, 2, 2)

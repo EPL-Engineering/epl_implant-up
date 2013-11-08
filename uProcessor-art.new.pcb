@@ -8,849 +8,118 @@ PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
-Groups("1,c:2,s:3:4:5:6:7:8")
+Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element["" "amphenol-101-00434-xx-bentpins" "CONN300" "unknown" 50000 50000 1572 -75063 0 100 ""]
+Element["" "62674-201121ALF" "CONN705" "unknown" 0 0 -7480 -17323 0 100 ""]
 (
-	Pad[28150 -71437 28150 -70690 3544 2000 4544 "" "11" "square"]
-	Pad[33150 -71437 33150 -70690 3544 2000 4544 "" "12" "square"]
-	Pad[38150 -71437 38150 -70690 3544 2000 4544 "" "13" "square"]
-	Pad[43150 -71437 43150 -70690 3544 2000 4544 "" "14" "square"]
-	Pad[48150 -71437 48150 -70690 3544 2000 4544 "" "15" "square"]
-	Pad[53150 -71437 53150 -70690 3544 2000 4544 "" "16" "square"]
-	Pad[-4331 -17402 -1575 -17402 2362 2000 3362 "" "10" "square"]
-	Pad[-4330 -20748 -1576 -20748 2363 2000 3363 "" "9" "square"]
-	Pad[-4331 -24095 -1575 -24095 2362 2000 3362 "" "8" "square"]
-	Pad[-4331 -28426 -1575 -28426 2362 2000 3362 "" "7" "square"]
-	Pad[-4331 -32756 -1575 -32756 2362 2000 3362 "" "6" "square"]
-	Pad[-4331 -37087 -1575 -37087 2362 2000 3362 "" "5" "square"]
-	Pad[-4331 -41418 -1575 -41418 2362 2000 3362 "" "4" "square"]
-	Pad[-4330 -45748 -1576 -45748 2363 2000 3363 "" "3" "square"]
-	Pad[-4331 -50079 -1575 -50079 2362 2000 3362 "" "2" "square"]
-	Pad[-4331 -54410 -1575 -54410 2362 2000 3362 "" "1" "square"]
-	Pad[-985 -67716 -985 -59842 1969 2000 2969 "" "17" "square"]
-	Pad[59272 -70473 62422 -70473 5512 2000 6512 "" "17" "square,edge2"]
-	Pad[59272 2756 62422 2756 5511 2000 6511 "" "17" "square,edge2"]
-	Pad[-985 -6890 -985 788 1969 2000 2969 "" "17" "square,edge2"]
-	Pad[-1083 886 7579 886 1772 2000 2772 "" "17" "square"]
-	ElementLine [0 1 0 -68109 1000]
-	ElementLine [64961 1 0 0 1000]
-	ElementLine [15945 3937 59252 3937 1000]
-	ElementLine [15945 7874 59252 7874 1000]
-	ElementLine [15945 0 15945 19685 1000]
-	ElementLine [15945 19685 59252 19685 1000]
-	ElementLine [59252 0 59252 19685 1000]
-	ElementLine [0 -68109 64961 -68109 1000]
-	ElementLine [64961 -68109 64961 1 1000]
-	ElementLine [64961 -4920 103150 -4920 1000]
-	ElementLine [103150 -4920 103150 -43404 1000]
-	ElementLine [82578 -63976 64961 -63976 1000]
-	ElementLine [103150 -43404 82578 -63976 1000]
+	Pad[-17717 -9252 -17717 -4528 1575 2000 2575 "" "19" "square"]
+	Pad[-13780 -9252 -13780 -4528 1575 2000 2575 "" "17" "square"]
+	Pad[-9843 -9252 -9843 -4528 1575 2000 2575 "" "15" "square"]
+	Pad[-5906 -9252 -5906 -4528 1575 2000 2575 "" "13" "square"]
+	Pad[-1969 -9252 -1969 -4528 1575 2000 2575 "" "11" "square"]
+	Pad[1968 -9252 1968 -4528 1575 2000 2575 "" "9" "square"]
+	Pad[5905 -9252 5905 -4528 1575 2000 2575 "" "7" "square"]
+	Pad[9842 -9252 9842 -4528 1575 2000 2575 "" "5" "square"]
+	Pad[13779 -9252 13779 -4528 1575 2000 2575 "" "3" "square"]
+	Pad[17716 -9252 17716 -4528 1575 2000 2575 "" "1" "square"]
+	Pad[-19685 197 -19685 4922 1574 2000 2574 "" "20" "square,edge2"]
+	Pad[-15748 197 -15748 4922 1574 2000 2574 "" "18" "square,edge2"]
+	Pad[-11811 197 -11811 4922 1574 2000 2574 "" "16" "square,edge2"]
+	Pad[-7874 197 -7874 4922 1574 2000 2574 "" "14" "square,edge2"]
+	Pad[-3937 197 -3937 4922 1574 2000 2574 "" "12" "square,edge2"]
+	Pad[0 197 0 4921 1575 2000 2575 "" "10" "square,edge2"]
+	Pad[3937 197 3937 4921 1575 2000 2575 "" "8" "square,edge2"]
+	Pad[7874 197 7874 4921 1575 2000 2575 "" "6" "square,edge2"]
+	Pad[11811 197 11811 4921 1575 2000 2575 "" "4" "square,edge2"]
+	Pad[15748 197 15748 4921 1575 2000 2575 "" "2" "square,edge2"]
+	Pad[21654 -8858 21654 -4921 2362 2000 3362 "" "21" "square"]
+	Pad[21654 591 21654 4528 2362 2000 3362 "" "22" "square,edge2"]
+	Pad[-23622 -8858 -23622 -4921 2362 2000 3362 "" "23" "square"]
+	Pad[-23622 591 -23622 4528 2362 2000 3362 "" "24" "square,edge2"]
+	ElementLine [27559 5709 27559 -5906 1000]
+	ElementLine [-29528 -5906 -29528 5709 1000]
+	ElementLine [-26575 -5906 -29528 -5906 1000]
+	ElementLine [27559 -5906 24606 -5906 1000]
+	ElementLine [27559 5709 24606 5709 1000]
+	ElementLine [-26575 5709 -29528 5709 1000]
+	ElementLine [17717 -12008 17717 -16142 1000]
+	ElementLine [17717 -12008 16535 -13189 1000]
+	ElementLine [17717 -12008 18898 -13189 1000]
+	ElementLine [16535 -13189 18898 -13189 1000]
 
 	)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
+Element["" "panasonic-AXN330038P" "CONN704" "unknown" 0 0 0 0 0 100 ""]
+(
+	Pin[-26575 7796 3943 2000 4543 3543 "" "31" "edge2"]
+	Pin[26575 7796 3943 2000 4543 3543 "" "32" "edge2"]
+	Pad[-22047 -11456 -22047 -7400 1968 2000 2968 "" "29" "square"]
+	Pad[-18897 -11456 -18897 -7400 1968 2000 2968 "" "27" "square"]
+	Pad[-15747 -11456 -15747 -7400 1968 2000 2968 "" "25" "square"]
+	Pad[-12598 -11456 -12598 -7400 1968 2000 2968 "" "23" "square"]
+	Pad[22048 -11456 22048 -7400 1968 2000 2968 "" "1" "square"]
+	Pad[18898 -11456 18898 -7400 1968 2000 2968 "" "3" "square"]
+	Pad[15749 -11456 15749 -7400 1968 2000 2968 "" "5" "square"]
+	Pad[12599 -11456 12599 -7400 1968 2000 2968 "" "7" "square"]
+	Pad[9450 -11456 9450 -7400 1968 2000 2968 "" "9" "square"]
+	Pad[6299 -11456 6299 -7401 1969 2000 2969 "" "11" "square"]
+	Pad[3150 -11456 3150 -7400 1968 2000 2968 "" "13" "square"]
+	Pad[1 -11456 1 -7400 1968 2000 2968 "" "15" "square"]
+	Pad[-3149 -11456 -3149 -7400 1968 2000 2968 "" "17" "square"]
+	Pad[-6298 -11456 -6298 -7400 1968 2000 2968 "" "19" "square"]
+	Pad[-9449 -11456 -9449 -7401 1969 2000 2969 "" "21" "square"]
+	Pad[-22047 7639 -22047 11694 1968 2000 2968 "" "30" "square,edge2"]
+	Pad[-18897 7639 -18897 11694 1968 2000 2968 "" "28" "square,edge2"]
+	Pad[-15747 7639 -15747 11694 1968 2000 2968 "" "26" "square,edge2"]
+	Pad[-12598 7639 -12598 11694 1968 2000 2968 "" "24" "square,edge2"]
+	Pad[22048 7639 22048 11694 1968 2000 2968 "" "2" "square,edge2"]
+	Pad[18898 7639 18898 11694 1968 2000 2968 "" "4" "square,edge2"]
+	Pad[15749 7639 15749 11694 1968 2000 2968 "" "6" "square,edge2"]
+	Pad[12599 7639 12599 11694 1968 2000 2968 "" "8" "square,edge2"]
+	Pad[9450 7639 9450 11694 1968 2000 2968 "" "10" "square,edge2"]
+	Pad[6299 7639 6299 11693 1969 2000 2969 "" "12" "square,edge2"]
+	Pad[3150 7639 3150 11694 1968 2000 2968 "" "14" "square,edge2"]
+	Pad[1 7639 1 11694 1968 2000 2968 "" "16" "square,edge2"]
+	Pad[-3149 7639 -3149 11694 1968 2000 2968 "" "18" "square,edge2"]
+	Pad[-6298 7639 -6298 11694 1968 2000 2968 "" "20" "square,edge2"]
+	Pad[-9449 7639 -9449 11693 1969 2000 2969 "" "22" "square,edge2"]
+	ElementLine [-28740 9844 28740 9844 1000]
+	ElementLine [28740 9844 28741 -5669 1000]
+	ElementLine [24804 -9606 -24802 -9606 1000]
+	ElementLine [-28739 -5669 -28740 9844 1000]
+	ElementLine [-28739 -5669 -24802 -9606 1000]
+	ElementLine [28741 -5669 24804 -9606 1000]
+	ElementLine [-30432 -7402 -26102 -11732 1000]
+	ElementLine [-26102 -11732 26890 -11732 1000]
+	ElementLine [26890 -11732 30827 -7795 1000]
+	ElementLine [30827 -7795 30827 11733 1000]
+	ElementLine [30827 11733 -30432 11733 1000]
+	ElementLine [-30432 11733 -30433 -7402 1000]
 
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-
-	
-	
-	
-	
-	
-	
-	
-	# Silkscreen box coordinates
-	
-	
-	
-	
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-
-	
-	
-	
-	
-	
-	
-	
-	# Silkscreen box coordinates
-	
-	
-	
-	
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-
-        
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Layer(1 "component")
+	)
+Layer(1 "top")
 (
 )
-Layer(2 "solder")
+Layer(2 "ground")
 (
 )
-Layer(3 "outline")
+Layer(3 "signal2")
 (
 )
-Layer(4 "GND")
+Layer(4 "signal3")
 (
 )
 Layer(5 "power")
 (
 )
-Layer(6 "signal1")
+Layer(6 "bottom")
 (
 )
-Layer(7 "signal2")
+Layer(7 "outline")
 (
 )
-Layer(8 "signal3")
+Layer(8 "spare")
 (
 )
 Layer(9 "silk")

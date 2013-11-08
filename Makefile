@@ -14,7 +14,7 @@
 #Project Name
 NAME = uProcessor
 #Project Schematics
-SCHEMATICS = uProcessor.sch microphones.sch interface.sch power.sch debug.sch switches.sch hidden-magic.sch
+SCHEMATICS = uProcessor.sch microphones.sch interface.sch power.sch debug.sch switches.sch cableconnectors.sch hidden-magic.sch isostimbreakout.sch headbreakout.sch headboard-i2s.sch headboard-analog.sch 
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
