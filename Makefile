@@ -96,6 +96,30 @@ sch2pcb:
 pcb:    sch2pcb
 	$(PCBTOOL) $(PCBS).pcb
 
+sch2pcb-isostimbreak:
+	$(SCH2PCBTOOL) isostimbreakout.sch
+
+sch2pcb-headbreak:
+        $(SCH2PCBTOOL) headbreakout.prj
+
+sch2pcb-i2s:
+        $(SCH2PCBTOOL) headboard-i2s.prj
+
+sch2pcb-analog:
+	$(SCH2PCBTOOL) headboard-analog.prj
+
+pcb-isostimbreak:	sch2pcb-isostimbreak
+	$(PCBTOOL) isostimbreakout.pcb
+
+pcb-headbreak:	sch2pcb-headbreak
+	$(PCBTOOL) headbreakout.pcb
+
+pcb-i2s:	sch2pcb-i2s
+	$(PCBTOOL) headboard-i2s.pcb
+
+pcb-analog:	sch2pcb-analog
+	$(PCBTOOL) headboard-analog.pcb
+
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)
 
