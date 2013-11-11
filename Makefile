@@ -100,10 +100,10 @@ sch2pcb-isostimbreak:
 	$(SCH2PCBTOOL) isostimbreakout.sch
 
 sch2pcb-headbreak:
-        $(SCH2PCBTOOL) headbreakout.prj
+	$(SCH2PCBTOOL) headbreakout.prj
 
 sch2pcb-i2s:
-        $(SCH2PCBTOOL) headboard-i2s.prj
+	$(SCH2PCBTOOL) headboard-i2s.prj
 
 sch2pcb-analog:
 	$(SCH2PCBTOOL) headboard-analog.prj
