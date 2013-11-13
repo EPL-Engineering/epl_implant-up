@@ -123,3 +123,7 @@ device=none
 T 54600 50800 5 10 1 1 0 0 1
 net=MIC_EN:1
 }
+T 48600 48800 9 10 1 0 0 0 3
+To make this work some power filtering is required on the analog rails for the ADC.
+It will also need some source of clock. I think the STM32F4 has a clock generator 
+but I do not know how to use it yet. -EEF
