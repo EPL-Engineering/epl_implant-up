@@ -281,20 +281,6 @@ ChangePinName(S601, 5, CHASSIS)
 ChangePinName(F501, 2, 2)
 ChangePinName(F501, 1, 1)
 
-# Start of element CONN502
-ChangePinName(CONN502, 11, 11)
-ChangePinName(CONN502, 9, 9)
-ChangePinName(CONN502, 12, 12)
-ChangePinName(CONN502, 10, 10)
-ChangePinName(CONN502, 7, 7)
-ChangePinName(CONN502, 5, 5)
-ChangePinName(CONN502, 3, 3)
-ChangePinName(CONN502, 1, 1)
-ChangePinName(CONN502, 8, 8)
-ChangePinName(CONN502, 6, 6)
-ChangePinName(CONN502, 4, 4)
-ChangePinName(CONN502, 2, 2)
-
 # Start of element D500
 ChangePinName(D500, 4, Vss)
 ChangePinName(D500, 3, IN2)
@@ -486,12 +472,26 @@ ChangePinName(D501, 2, IN1)
 ChangePinName(D501, 1, GND)
 
 # Start of element CONN501
-ChangePinName(CONN501, 5, 5)
-ChangePinName(CONN501, 3, 3)
-ChangePinName(CONN501, 1, 1)
+ChangePinName(CONN501, 20, 20)
+ChangePinName(CONN501, 19, 19)
+ChangePinName(CONN501, 18, 18)
+ChangePinName(CONN501, 17, 17)
+ChangePinName(CONN501, 16, 16)
+ChangePinName(CONN501, 15, 15)
+ChangePinName(CONN501, 14, 14)
+ChangePinName(CONN501, 13, 13)
+ChangePinName(CONN501, 12, 12)
+ChangePinName(CONN501, 11, 11)
+ChangePinName(CONN501, 10, 10)
+ChangePinName(CONN501, 9, 9)
+ChangePinName(CONN501, 8, 8)
+ChangePinName(CONN501, 7, 7)
 ChangePinName(CONN501, 6, 6)
+ChangePinName(CONN501, 5, 5)
 ChangePinName(CONN501, 4, 4)
+ChangePinName(CONN501, 3, 3)
 ChangePinName(CONN501, 2, 2)
+ChangePinName(CONN501, 1, 1)
 ChangePinName(CONN501, 1, 1)
 ChangePinName(CONN501, 2, 2)
 
@@ -615,17 +615,6 @@ ChangePinName(C301, 1, 1)
 ChangePinName(F300, 2, 2)
 ChangePinName(F300, 1, 1)
 
-# Start of element C204
-ChangePinName(C204, 2, 2)
-ChangePinName(C204, 1, 1)
-
-# Start of element VREG200
-ChangePinName(VREG200, 4, BYP)
-ChangePinName(VREG200, 3, \_SHDN\_)
-ChangePinName(VREG200, 5, +Vout)
-ChangePinName(VREG200, 2, GND)
-ChangePinName(VREG200, 1, +Vin)
-
 # Start of element U200
 ChangePinName(U200, 9, V_DDD)
 ChangePinName(U200, 10, V_SSD)
@@ -643,26 +632,6 @@ ChangePinName(U200, 4, V_RN)
 ChangePinName(U200, 3, V_INR)
 ChangePinName(U200, 2, V_Ref)
 ChangePinName(U200, 1, V_INL)
-
-# Start of element R200
-ChangePinName(R200, 1, 1)
-ChangePinName(R200, 2, 2)
-
-# Start of element C203
-ChangePinName(C203, 2, -)
-ChangePinName(C203, 1, +)
-
-# Start of element R203
-ChangePinName(R203, 1, 1)
-ChangePinName(R203, 2, 2)
-
-# Start of element C202
-ChangePinName(C202, 2, -)
-ChangePinName(C202, 1, +)
-
-# Start of element C201
-ChangePinName(C201, 2, 2)
-ChangePinName(C201, 1, 1)
 
 # Start of element C120
 ChangePinName(C120, 2, 2)
