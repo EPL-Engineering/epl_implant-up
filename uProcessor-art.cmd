@@ -1,5 +1,11 @@
 # Pin name action command file
 
+# Start of element MODE
+ChangePinName(MODE, 1, 1)
+
+# Start of element STATUS
+ChangePinName(STATUS, 1, 1)
+
 # Start of element TP800-chassis
 ChangePinName(TP800-chassis, 1, 1)
 
