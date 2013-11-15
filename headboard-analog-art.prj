@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics headboard-analog.sch
+output-name headboard-analog-art

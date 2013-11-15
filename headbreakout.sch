@@ -334,22 +334,11 @@ footprint=none
 }
 N 54300 43100 54300 42700 4
 N 54300 42700 53300 42700 4
-C 54500 44500 1 0 0 testpt-1.sym
-{
-T 54600 44900 5 10 1 1 0 0 1
-refdes=TP1001
-T 54900 45400 5 10 0 0 0 0 1
-device=TESTPOINT
-T 54900 45200 5 10 0 0 0 0 1
-footprint=none
-T 54500 44500 5 10 1 1 0 0 1
-comment=This testpoint is actually the mounting hole for the board.
-}
-N 54600 44100 54600 44500 4
-N 53600 44100 54600 44100 4
+N 56000 44100 56000 44500 4
+N 53600 44100 56000 44100 4
 C 53900 44300 1 0 0 testpt-1.sym
 {
-T 54000 44700 5 10 1 1 0 0 1
+T 54000 44800 5 10 1 1 0 0 1
 refdes=TP1000
 T 54300 45200 5 10 0 0 0 0 1
 device=TESTPOINT
@@ -361,4 +350,13 @@ C 53800 43500 1 0 1 chassis.sym
 {
 T 53800 43500 5 10 1 1 0 0 1
 netname=CHASSIS:1
+}
+C 55900 44500 1 0 0 testpt-1.sym
+{
+T 56300 45400 5 10 0 0 0 0 1
+device=TESTPOINT
+T 55900 45000 5 10 1 1 0 0 1
+refdes=SCREW4-40_3
+T 56100 44800 5 10 1 1 0 0 1
+footprint=screw-num4-close_fit-lockwasher
 }

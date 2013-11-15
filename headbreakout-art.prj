@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics headbreakout.sch
+output-name headbreakout-art

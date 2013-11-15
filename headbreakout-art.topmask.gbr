@@ -1,0 +1,17 @@
+G04 start of page 6 for group -4063 idx -4063 *
+G04 Title: (unknown), componentmask *
+G04 Creator: pcb 20110918 *
+G04 CreationDate: Fri Nov 15 22:26:29 2013 UTC *
+G04 For: fosse *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 72000 152000 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNTOPMASK*%
+%ADD27C,0.0454*%
+%ADD26C,0.2760*%
+G54D26*X36000Y58000D03*
+G54D27*X62575Y93205D03*
+X9425D03*
+M02*

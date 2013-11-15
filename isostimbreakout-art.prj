@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics isostimbreakout.sch
+output-name isostimbreakout-art

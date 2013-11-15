@@ -72,3 +72,25 @@ device=LIGHT_PIPE
 T 49600 50500 5 10 1 1 0 3 1
 footprint=bivar-PLP2-xxx
 }
+C 50600 49700 1 0 0 testpt-1.sym
+{
+T 51000 50600 5 10 0 0 0 0 1
+device=TESTPOINT
+T 50700 50200 5 10 1 1 0 0 1
+refdes=SCREW4-40_1
+T 50600 49700 5 10 1 1 0 0 1
+footprint=screw-num4-close_fit-lockwasher
+}
+N 50700 49700 50700 49100 4
+N 50700 49100 46500 49100 4
+C 53500 49800 1 0 0 testpt-1.sym
+{
+T 53900 50700 5 10 0 0 0 0 1
+device=TESTPOINT
+T 53600 50300 5 10 1 1 0 0 1
+refdes=SCREW4-40_2
+T 53700 50100 5 10 1 1 0 0 1
+footprint=screw-num4-close_fit-lockwasher
+}
+N 53600 49800 53600 48900 4
+N 53600 48900 46500 48900 4

@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics headboard-i2s.sch
+output-name headboard-i2s-art
