@@ -1,5 +1,27 @@
 # Pin name action command file
 
+# Start of element CONN1002
+ChangePinName(CONN1002, 9, 9)
+ChangePinName(CONN1002, 7, 7)
+ChangePinName(CONN1002, 5, 5)
+ChangePinName(CONN1002, 3, 3)
+ChangePinName(CONN1002, 1, 1)
+ChangePinName(CONN1002, 8, 8)
+ChangePinName(CONN1002, 6, 6)
+ChangePinName(CONN1002, 4, 4)
+ChangePinName(CONN1002, 2, 2)
+
+# Start of element CONN1001
+ChangePinName(CONN1001, 9, 9)
+ChangePinName(CONN1001, 7, 7)
+ChangePinName(CONN1001, 5, 5)
+ChangePinName(CONN1001, 3, 3)
+ChangePinName(CONN1001, 1, 1)
+ChangePinName(CONN1001, 8, 8)
+ChangePinName(CONN1001, 6, 6)
+ChangePinName(CONN1001, 4, 4)
+ChangePinName(CONN1001, 2, 2)
+
 # Start of element SCREW4-40_3
 ChangePinName(SCREW4-40_3, 1, 1)
 
@@ -20,26 +42,6 @@ ChangePinName(CONN1003, 8, 8)
 ChangePinName(CONN1003, 6, 6)
 ChangePinName(CONN1003, 4, 4)
 ChangePinName(CONN1003, 2, 2)
-
-# Start of element CONN1002
-ChangePinName(CONN1002, 7, 7)
-ChangePinName(CONN1002, 5, 5)
-ChangePinName(CONN1002, 3, 3)
-ChangePinName(CONN1002, 1, 1)
-ChangePinName(CONN1002, 8, 8)
-ChangePinName(CONN1002, 6, 6)
-ChangePinName(CONN1002, 4, 4)
-ChangePinName(CONN1002, 2, 2)
-
-# Start of element CONN1001
-ChangePinName(CONN1001, 7, 7)
-ChangePinName(CONN1001, 5, 5)
-ChangePinName(CONN1001, 3, 3)
-ChangePinName(CONN1001, 1, 1)
-ChangePinName(CONN1001, 8, 8)
-ChangePinName(CONN1001, 6, 6)
-ChangePinName(CONN1001, 4, 4)
-ChangePinName(CONN1001, 2, 2)
 
 # Start of element CONN1000
 ChangePinName(CONN1000, 30, 30)
