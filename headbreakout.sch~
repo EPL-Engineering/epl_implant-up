@@ -304,6 +304,8 @@ T 42500 48500 5 10 1 1 0 0 1
 refdes=CONN1003
 T 42500 48300 5 10 1 1 0 0 1
 comment=This is just solder pads.
+T 42500 45100 5 10 1 1 0 0 1
+footprint=microphonecable
 }
 C 54200 43100 1 0 0 testpt-1.sym
 {
@@ -348,6 +350,8 @@ T 54900 57000 5 10 0 0 0 6 1
 device=CONNECTOR_9
 T 54900 56400 5 10 1 1 0 6 1
 refdes=CONN1001
+T 55000 53500 5 10 1 1 0 0 1
+footprint=implantfanleft
 }
 C 57500 50700 1 0 1 connector9-1.sym
 {
@@ -355,4 +359,6 @@ T 57400 54200 5 10 0 0 0 6 1
 device=CONNECTOR_9
 T 57400 53600 5 10 1 1 0 6 1
 refdes=CONN1002
+T 57500 50700 5 10 1 1 0 0 1
+footprint=implantfanright
 }
