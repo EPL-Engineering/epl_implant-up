@@ -1,0 +1,21 @@
+
+The plug used by this device to connect to the cochlear implant electrodes is a 9 pin "dual lobe" TE Nanonics part. 
+We buy them with the connector terminated to 30AWG stranded wire. Part number 1-1589455-4 digikey part number 
+1-1589455-4-ND
+
+Facing the mating side of the plug with the lobes down the manufacture calls the pin on the left 1. I assume that 
+this makes the pin on the right 9. While they have not labeled the wire colors used on the prewired cables so far 
+it appears that they are all in the following sequence.
+
+1	Brown	N.C.
+2	Red	Apical
+3	Orange	
+4	Yellow	
+5	Green	
+6	Blue	
+7	Purple	
+8	Gray	
+9	White	Basal
+
+
+
