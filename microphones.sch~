@@ -127,3 +127,7 @@ T 48600 48800 9 10 1 0 0 0 3
 To make this work some power filtering is required on the analog rails for the ADC.
 It will also need some source of clock. I think the STM32F4 has a clock generator 
 but I do not know how to use it yet. -EEF
+T 40500 40500 9 23 1 0 0 0 3
+This page has been at least for the time being removed from the design.
+Please disreguard the content of it.
+-EEF

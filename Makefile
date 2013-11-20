@@ -14,7 +14,7 @@
 #Project Name
 NAME = uProcessor
 #Project Schematics
-SCHEMATICS = uProcessor.sch microphones.sch interface.sch debug.sch power.sch switches.sch cableconnectors.sch hidden-magic.sch isostimbreakout.sch headbreakout.sch headboard-i2s.sch headboard-analog.sch 
+SCHEMATICS = uProcessor.sch microphones.sch interface.sch debug.sch power.sch switches.sch cableconnectors.sch hidden-magic.sch isostimbreakout.sch headbreakout.sch headboard-i2s.sch headboard-analog.sch cpubreak.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -108,7 +108,7 @@ sch2pcb-i2s:
 sch2pcb-analog:
 	$(SCH2PCBTOOL) headboard-analog-art.prj
 
-sch2break-cpubreak:
+sch2pcb-cpubreak:
 	$(SCH2PCBTOOL) cpubreak-art.prj
 
 pcb-isostimbreak:	sch2pcb-isostimbreak

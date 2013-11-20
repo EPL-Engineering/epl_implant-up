@@ -12,7 +12,6 @@ T 54900 40400 9 10 1 0 0 0 1
 microphones.sch
 T 55000 40700 9 10 1 0 0 0 1
 Microphone ADC
-C 47300 53500 1 0 0 3.3V-plus-1.sym
 C 47400 52600 1 0 0 gnd-1.sym
 C 48100 50100 1 0 0 UDA1361TS.sym
 {
