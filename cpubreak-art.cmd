@@ -1,5 +1,14 @@
 # Pin name action command file
 
+# Start of element SCREW4-40_4
+ChangePinName(SCREW4-40_4, 1, 1)
+
+# Start of element SCREW2-56_4
+ChangePinName(SCREW2-56_4, 1, 1)
+
+# Start of element SCREW2-56_3
+ChangePinName(SCREW2-56_3, 1, 1)
+
 # Start of element CONN1302
 ChangePinName(CONN1302, 30, 30)
 ChangePinName(CONN1302, 28, 28)

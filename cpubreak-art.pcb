@@ -5,12 +5,12 @@ FileVersion[20070407]
 
 PCB["" 600000 500000]
 
-Grid[10000.0 0 0 0]
-Cursor[0 170000 0.000000]
+Grid[1000.0 0 0 1]
+Cursor[0 116000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
-Flags("nameonpcb,uniquename,clearnew,snappin")
+Flags("nameonpcb,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -788,56 +788,160 @@ Symbol['~' 1200]
 )
 Attribute("PCB::grid::unit" "mil")
 
-Element["" "panasonic-AXN330038P" "CONN1302" "unknown" 90000 60000 -10000 20000 0 100 ""]
+Element["" "screw-num2-close_fit-lockwasher" "SCREW2-56_4" "unknown" 179000 256000 0 0 0 100 ""]
 (
-	Pin[-26575 7796 4943 2000 5543 3543 "" "31" "edge2"]
-	Pin[26575 7796 4943 2000 5543 3543 "" "32" "edge2"]
-	Pad[-22047 -11456 -22047 -7400 1968 2000 2968 "" "29" "square"]
-	Pad[-18897 -11456 -18897 -7400 1968 2000 2968 "" "27" "square"]
-	Pad[-15747 -11456 -15747 -7400 1968 2000 2968 "" "25" "square"]
-	Pad[-12598 -11456 -12598 -7400 1968 2000 2968 "" "23" "square"]
-	Pad[22048 -11456 22048 -7400 1968 2000 2968 "" "1" "square"]
-	Pad[18898 -11456 18898 -7400 1968 2000 2968 "" "3" "square"]
-	Pad[15749 -11456 15749 -7400 1968 2000 2968 "" "5" "square"]
-	Pad[12599 -11456 12599 -7400 1968 2000 2968 "" "7" "square"]
-	Pad[9450 -11456 9450 -7400 1968 2000 2968 "" "9" "square"]
-	Pad[6299 -11456 6299 -7401 1969 2000 2969 "" "11" "square"]
-	Pad[3150 -11456 3150 -7400 1968 2000 2968 "" "13" "square"]
-	Pad[1 -11456 1 -7400 1968 2000 2968 "" "15" "square"]
-	Pad[-3149 -11456 -3149 -7400 1968 2000 2968 "" "17" "square"]
-	Pad[-6298 -11456 -6298 -7400 1968 2000 2968 "" "19" "square"]
-	Pad[-9449 -11456 -9449 -7401 1969 2000 2969 "" "21" "square"]
-	Pad[-22047 7639 -22047 11694 1968 2000 2968 "" "30" "square,edge2"]
-	Pad[-18897 7639 -18897 11694 1968 2000 2968 "" "28" "square,edge2"]
-	Pad[-15747 7639 -15747 11694 1968 2000 2968 "" "26" "square,edge2"]
-	Pad[-12598 7639 -12598 11694 1968 2000 2968 "" "24" "square,edge2"]
-	Pad[22048 7639 22048 11694 1968 2000 2968 "" "2" "square,edge2"]
-	Pad[18898 7639 18898 11694 1968 2000 2968 "" "4" "square,edge2"]
-	Pad[15749 7639 15749 11694 1968 2000 2968 "" "6" "square,edge2"]
-	Pad[12599 7639 12599 11694 1968 2000 2968 "" "8" "square,edge2"]
-	Pad[9450 7639 9450 11694 1968 2000 2968 "" "10" "square,edge2"]
-	Pad[6299 7639 6299 11693 1969 2000 2969 "" "12" "square,edge2"]
-	Pad[3150 7639 3150 11694 1968 2000 2968 "" "14" "square,edge2"]
-	Pad[1 7639 1 11694 1968 2000 2968 "" "16" "square,edge2"]
-	Pad[-3149 7639 -3149 11694 1968 2000 2968 "" "18" "square,edge2"]
-	Pad[-6298 7639 -6298 11694 1968 2000 2968 "" "20" "square,edge2"]
-	Pad[-9449 7639 -9449 11693 1969 2000 2969 "" "22" "square,edge2"]
-	ElementLine [-28740 9844 28740 9844 1000]
-	ElementLine [28740 9844 28741 -5669 1000]
-	ElementLine [24804 -9606 -24802 -9606 1000]
-	ElementLine [-28739 -5669 -28740 9844 1000]
-	ElementLine [-28739 -5669 -24802 -9606 1000]
-	ElementLine [28741 -5669 24804 -9606 1000]
-	ElementLine [-30432 -7402 -26102 -11732 1000]
-	ElementLine [-26102 -11732 26890 -11732 1000]
-	ElementLine [26890 -11732 30827 -7795 1000]
-	ElementLine [30827 -7795 30827 11733 1000]
-	ElementLine [30827 11733 -30432 11733 1000]
-	ElementLine [-30432 11733 -30433 -7402 1000]
+	Pin[0 0 20000 2000 20600 8900 "" "1" ""]
 
 	)
+
+Element["" "screw-num2-close_fit-lockwasher" "SCREW2-56_3" "unknown" 173000 221000 0 0 0 100 ""]
+(
+	Pin[0 0 20000 2000 20600 8900 "" "1" ""]
+
+	)
+
+Element["" "screw-num4-close_fit-lockwasher" "SCREW4-40_4" "unknown" 110000 152000 10000 3000 2 55 ""]
+(
+	Pin[0 0 27000 2000 27600 11600 "" "1" ""]
+
+	)
+
+Element["onsolder" "panasonic-AXN330038P" "CONN1302" "unknown" 110000 184000 30000 13000 2 100 "auto"]
+(
+	Pin[26575 7796 4943 2000 5543 3543 "" "31" "edge2"]
+	Pin[-26575 7796 4943 2000 5543 3543 "" "32" "edge2"]
+	Pad[22047 -11456 22047 -7400 1968 2000 2968 "" "29" "onsolder,square"]
+	Pad[18897 -11456 18897 -7400 1968 2000 2968 "" "27" "onsolder,square"]
+	Pad[15747 -11456 15747 -7400 1968 2000 2968 "" "25" "onsolder,square"]
+	Pad[12598 -11456 12598 -7400 1968 2000 2968 "" "23" "onsolder,square"]
+	Pad[-22048 -11456 -22048 -7400 1968 2000 2968 "" "1" "onsolder,square"]
+	Pad[-18898 -11456 -18898 -7400 1968 2000 2968 "" "3" "onsolder,square"]
+	Pad[-15749 -11456 -15749 -7400 1968 2000 2968 "" "5" "onsolder,square"]
+	Pad[-12599 -11456 -12599 -7400 1968 2000 2968 "" "7" "onsolder,square"]
+	Pad[-9450 -11456 -9450 -7400 1968 2000 2968 "" "9" "onsolder,square"]
+	Pad[-6299 -11456 -6299 -7401 1969 2000 2969 "" "11" "onsolder,square"]
+	Pad[-3150 -11456 -3150 -7400 1968 2000 2968 "" "13" "onsolder,square"]
+	Pad[-1 -11456 -1 -7400 1968 2000 2968 "" "15" "onsolder,square"]
+	Pad[3149 -11456 3149 -7400 1968 2000 2968 "" "17" "onsolder,square"]
+	Pad[6298 -11456 6298 -7400 1968 2000 2968 "" "19" "onsolder,square"]
+	Pad[9449 -11456 9449 -7401 1969 2000 2969 "" "21" "onsolder,square"]
+	Pad[22047 7639 22047 11694 1968 2000 2968 "" "30" "onsolder,square,edge2"]
+	Pad[18897 7639 18897 11694 1968 2000 2968 "" "28" "onsolder,square,edge2"]
+	Pad[15747 7639 15747 11694 1968 2000 2968 "" "26" "onsolder,square,edge2"]
+	Pad[12598 7639 12598 11694 1968 2000 2968 "" "24" "onsolder,square,edge2"]
+	Pad[-22048 7639 -22048 11694 1968 2000 2968 "" "2" "onsolder,square,edge2"]
+	Pad[-18898 7639 -18898 11694 1968 2000 2968 "" "4" "onsolder,square,edge2"]
+	Pad[-15749 7639 -15749 11694 1968 2000 2968 "" "6" "onsolder,square,edge2"]
+	Pad[-12599 7639 -12599 11694 1968 2000 2968 "" "8" "onsolder,square,edge2"]
+	Pad[-9450 7639 -9450 11694 1968 2000 2968 "" "10" "onsolder,square,edge2"]
+	Pad[-6299 7639 -6299 11693 1969 2000 2969 "" "12" "onsolder,square,edge2"]
+	Pad[-3150 7639 -3150 11694 1968 2000 2968 "" "14" "onsolder,square,edge2"]
+	Pad[-1 7639 -1 11694 1968 2000 2968 "" "16" "onsolder,square,edge2"]
+	Pad[3149 7639 3149 11694 1968 2000 2968 "" "18" "onsolder,square,edge2"]
+	Pad[6298 7639 6298 11694 1968 2000 2968 "" "20" "onsolder,square,edge2"]
+	Pad[9449 7639 9449 11693 1969 2000 2969 "" "22" "onsolder,square,edge2"]
+	ElementLine [-28740 9844 28740 9844 1000]
+	ElementLine [-28740 9844 -28741 -5669 1000]
+	ElementLine [-24804 -9606 24802 -9606 1000]
+	ElementLine [28739 -5669 28740 9844 1000]
+	ElementLine [28739 -5669 24802 -9606 1000]
+	ElementLine [-28741 -5669 -24804 -9606 1000]
+	ElementLine [30432 -7402 26102 -11732 1000]
+	ElementLine [-26890 -11732 26102 -11732 1000]
+	ElementLine [-26890 -11732 -30827 -7795 1000]
+	ElementLine [-30827 -7795 -30827 11733 1000]
+	ElementLine [-30827 11733 30432 11733 1000]
+	ElementLine [30432 11733 30433 -7402 1000]
+
+	)
+Rat[122598 172544 5 122598 195694 5  ""]
+Rat[125747 172544 5 125747 195694 5  ""]
+Rat[128897 172544 5 132047 172544 5  ""]
+Rat[128897 172544 5 128897 195694 5  ""]
+Rat[128897 195694 5 132047 195694 5  ""]
+Rat[119449 172544 5 119449 195693 5  ""]
 Layer(1 "top")
 (
+	Polygon("clearpoly")
+	(
+		[81000 137000] [85000 137000] [85000 144000] [81000 144000] 
+	)
+	Polygon("clearpoly")
+	(
+		[89000 137000] [93000 137000] [93000 144000] [89000 144000] 
+	)
+	Polygon("clearpoly")
+	(
+		[85000 148000] [89000 148000] [89000 155000] [85000 155000] 
+	)
+	Polygon("clearpoly")
+	(
+		[77000 148000] [81000 148000] [81000 155000] [77000 155000] 
+	)
+	Polygon("clearpoly")
+	(
+		[81000 159000] [85000 159000] [85000 166000] [81000 166000] 
+	)
+	Polygon("clearpoly")
+	(
+		[89000 159000] [93000 159000] [93000 166000] [89000 166000] 
+	)
+	Polygon("clearpoly")
+	(
+		[127000 159000] [131000 159000] [131000 166000] [127000 166000] 
+	)
+	Polygon("clearpoly")
+	(
+		[135000 159000] [139000 159000] [139000 166000] [135000 166000] 
+	)
+	Polygon("clearpoly")
+	(
+		[131000 148000] [135000 148000] [135000 155000] [131000 155000] 
+	)
+	Polygon("clearpoly")
+	(
+		[139000 148000] [143000 148000] [143000 155000] [139000 155000] 
+	)
+	Polygon("clearpoly")
+	(
+		[135000 137000] [139000 137000] [139000 144000] [135000 144000] 
+	)
+	Polygon("clearpoly")
+	(
+		[127000 137000] [131000 137000] [131000 144000] [127000 144000] 
+	)
+	Polygon("clearpoly")
+	(
+		[80000 200000] [84000 200000] [84000 207000] [80000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[88000 200000] [92000 200000] [92000 207000] [88000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[96000 200000] [100000 200000] [100000 207000] [96000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[104000 200000] [108000 200000] [108000 207000] [104000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[112000 200000] [116000 200000] [116000 207000] [112000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[120000 200000] [124000 200000] [124000 207000] [120000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[128000 200000] [132000 200000] [132000 207000] [128000 207000] 
+	)
+	Polygon("clearpoly")
+	(
+		[136000 200000] [140000 200000] [140000 207000] [136000 207000] 
+	)
 )
 Layer(2 "ground")
 (
@@ -865,4 +969,133 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+)
+NetList()
+(
+	Net("+3.3V" "(unknown)")
+	(
+		Connect("CONN1302-23")
+		Connect("CONN1302-24")
+	)
+	Net("+5V" "(unknown)")
+	(
+		Connect("CONN1302-25")
+		Connect("CONN1302-26")
+	)
+	Net("CHASSIS:1" "(unknown)")
+	(
+		Connect("CONN1302-27")
+		Connect("CONN1302-28")
+		Connect("CONN1302-29")
+		Connect("CONN1302-30")
+		Connect("SCREW2-56_3-1")
+		Connect("SCREW2-56_4-1")
+		Connect("SCREW4-40_4-1")
+		Connect("U?-?")
+	)
+	Net("CLK_B" "(unknown)")
+	(
+		Connect("CONN1301-14")
+		Connect("CONN1302-14")
+	)
+	Net("CMD_B" "(unknown)")
+	(
+		Connect("CONN1301-6")
+		Connect("CONN1302-6")
+	)
+	Net("DAT0_B" "(unknown)")
+	(
+		Connect("CONN1301-16")
+		Connect("CONN1302-16")
+	)
+	Net("DAT1_B" "(unknown)")
+	(
+		Connect("CONN1301-18")
+		Connect("CONN1302-18")
+	)
+	Net("DAT2_B" "(unknown)")
+	(
+		Connect("CONN1301-2")
+		Connect("CONN1302-2")
+	)
+	Net("DAT3_B" "(unknown)")
+	(
+		Connect("CONN1301-4")
+		Connect("CONN1302-4")
+	)
+	Net("P1V8" "(unknown)")
+	(
+		Connect("CONN1302-21")
+		Connect("CONN1302-22")
+	)
+	Net("SDCARD_GND1" "(unknown)")
+	(
+		Connect("CONN1301-1")
+		Connect("CONN1302-1")
+	)
+	Net("SDCARD_GND2" "(unknown)")
+	(
+		Connect("CONN1301-3")
+		Connect("CONN1302-3")
+	)
+	Net("SDCARD_GND3" "(unknown)")
+	(
+		Connect("CONN1301-5")
+		Connect("CONN1302-5")
+	)
+	Net("SDCARD_GND4" "(unknown)")
+	(
+		Connect("CONN1301-7")
+		Connect("CONN1302-7")
+	)
+	Net("SDCARD_GND5" "(unknown)")
+	(
+		Connect("CONN1301-8")
+		Connect("CONN1302-8")
+	)
+	Net("SDCARD_GND6" "(unknown)")
+	(
+		Connect("CONN1301-13")
+		Connect("CONN1302-13")
+	)
+	Net("SDCARD_GND7" "(unknown)")
+	(
+		Connect("CONN1301-15")
+		Connect("CONN1302-15")
+	)
+	Net("SDCARD_GND8" "(unknown)")
+	(
+		Connect("CONN1301-17")
+		Connect("CONN1302-17")
+	)
+	Net("SDCARD_GND9" "(unknown)")
+	(
+		Connect("CONN1301-19")
+		Connect("CONN1302-19")
+	)
+	Net("SDCARD_GND10" "(unknown)")
+	(
+		Connect("CONN1301-20")
+		Connect("CONN1302-20")
+	)
+	Net("SDCARD_VSDIO1" "(unknown)")
+	(
+		Connect("CONN1301-9")
+		Connect("CONN1302-9")
+	)
+	Net("SDCARD_VSDIO2" "(unknown)")
+	(
+		Connect("CONN1301-10")
+		Connect("CONN1302-10")
+	)
+	Net("SDCARD_VSDIO3" "(unknown)")
+	(
+		Connect("CONN1301-11")
+		Connect("CONN1302-11")
+	)
+	Net("SDCARD_VSDIO4" "(unknown)")
+	(
+		Connect("CONN1301-12")
+		Connect("CONN1302-12")
+	)
 )
