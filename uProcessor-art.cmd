@@ -25,6 +25,22 @@ ChangePinName(SERPAC_031I.Gx_insert, 6, 6)
 ChangePinName(SERPAC_031I.Gx_insert, 4, 4)
 ChangePinName(SERPAC_031I.Gx_insert, 2, 2)
 
+# Start of element R704
+ChangePinName(R704, 1, 1)
+ChangePinName(R704, 2, 2)
+
+# Start of element R701
+ChangePinName(R701, 1, 1)
+ChangePinName(R701, 2, 2)
+
+# Start of element R702
+ChangePinName(R702, 1, 1)
+ChangePinName(R702, 2, 2)
+
+# Start of element R703
+ChangePinName(R703, 1, 1)
+ChangePinName(R703, 2, 2)
+
 # Start of element CONN706
 ChangePinName(CONN706, 30, 30)
 ChangePinName(CONN706, 28, 28)
