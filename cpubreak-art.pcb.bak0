@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[500.0 0 0 1]
-Cursor[140000 121000 0.000000]
+Cursor[246000 107000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -830,9 +830,9 @@ Element["" "screw-num2-close_fit-lockwasher" "SCREW2-56_4" "unknown" 87000 11900
 
 	)
 
-Element["" "screw-num2-close_fit-lockwasher" "SCREW2-56_3" "unknown" 132500 119000 0 0 0 75 "selected"]
+Element["" "screw-num2-close_fit-lockwasher" "SCREW2-56_3" "unknown" 132500 119000 -8500 -500 0 45 ""]
 (
-	Pin[0 0 15000 2000 15600 8900 "" "1" ""]
+	Pin[0 0 20000 2000 20600 8900 "" "1" ""]
 
 	)
 
@@ -854,8 +854,8 @@ Element["onsolder" "panasonic-AXN430330P" "CONN1000" "unknown" 110000 184000 0 0
 	Pad[15748 9961 15748 13583 1969 2000 2969 "" "6" "onsolder,square,edge2"]
 	Pad[18897 9960 18897 13583 1968 2000 2968 "" "4" "onsolder,square,edge2"]
 	Pad[22047 9960 22047 13583 1968 2000 2968 "" "2" "onsolder,square,edge2"]
-	Pad[-22047 9961 -22047 13583 1969 2000 2969 "" "30" "onsolder,square,edge2"]
-	Pad[-18898 9961 -18898 13583 1969 2000 2969 "" "28" "onsolder,square,edge2"]
+	Pad[-22047 9961 -22047 13583 1969 2000 2969 "" "30" "onsolder,square,warn,edge2"]
+	Pad[-18898 9961 -18898 13583 1969 2000 2969 "" "28" "onsolder,square,warn,edge2"]
 	Pad[-15749 9960 -15749 13583 1968 2000 2968 "" "26" "onsolder,square,edge2"]
 	Pad[-12599 9960 -12599 13583 1968 2000 2968 "" "24" "onsolder,square,edge2"]
 	Pad[-9449 9961 -9449 13583 1969 2000 2969 "" "22" "onsolder,square,edge2"]
@@ -952,6 +952,8 @@ Layer(1 "top1")
 	Line[99000 194000 96500 196500 1500 2000 "clearline"]
 	Line[96500 196500 96500 210000 1500 2000 "clearline"]
 	Line[96500 210000 98000 211500 1500 2000 "clearline"]
+	Line[87000 119000 132500 119000 4000 2000 "clearline"]
+	Line[110000 152000 110000 119000 4000 2000 "clearline"]
 )
 Layer(2 "signal2")
 (
@@ -1126,7 +1128,6 @@ Layer(4 "bottom4")
 	Line[91102 172702 91142 172662 1500 2000 "clearline"]
 	Line[91142 172662 91142 169642 1500 2000 "clearline"]
 	Line[91142 169642 90000 168500 1500 2000 "clearline"]
-	Line[90000 168500 89000 168500 1500 2000 "clearline"]
 	Line[89000 168500 88000 169500 1500 2000 "clearline"]
 	Line[88000 169500 88000 171500 1500 2000 "clearline"]
 	Line[88000 171500 87992 171508 1500 2000 "clearline"]
@@ -1174,6 +1175,9 @@ Layer(4 "bottom4")
 	Line[83000 148000 91000 140000 1500 2000 "clearline"]
 	Line[114000 211500 99500 211500 1500 2000 "clearline"]
 	Line[99500 211500 89500 201500 1500 2000 "clearline"]
+	Line[89000 168500 93500 168500 1500 2000 "clearline"]
+	Line[93500 168500 96000 166000 1500 2000 "clearline"]
+	Line[96000 166000 96000 162500 1500 2000 "clearline"]
 )
 Layer(5 "outline")
 (
@@ -1195,17 +1199,6 @@ NetList()
 	(
 		Connect("CONN1000-25")
 		Connect("CONN1000-26")
-	)
-	Net("CHASSIS:1" "(unknown)")
-	(
-		Connect("CONN1000-27")
-		Connect("CONN1000-28")
-		Connect("CONN1000-29")
-		Connect("CONN1000-30")
-		Connect("SCREW2-56_3-1")
-		Connect("SCREW2-56_4-1")
-		Connect("SCREW4-40_4-1")
-		Connect("U?-?")
 	)
 	Net("CLK_B" "(unknown)")
 	(
@@ -1311,5 +1304,23 @@ NetList()
 	(
 		Connect("CONN1000-12")
 		Connect("CONN1301-12")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("SCREW2-56_3-1")
+		Connect("SCREW2-56_4-1")
+		Connect("U?-?")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("CONN1000-28")
+		Connect("SCREW4-40_4-1")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("CONN1000-27")
+		Connect("CONN1000-29")
+		Connect("CONN1000-30")
+		Connect("U?-?")
 	)
 )
