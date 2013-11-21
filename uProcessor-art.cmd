@@ -282,11 +282,13 @@ ChangePinName(D404, 3, IN2)
 ChangePinName(D404, 2, IN1)
 ChangePinName(D404, 1, GND)
 
+# Start of element D406
+ChangePinName(D406, 4, Vss)
+ChangePinName(D406, 3, IN2)
+ChangePinName(D406, 2, IN1)
+ChangePinName(D406, 1, GND)
+
 # Start of element D403
-ChangePinName(D403, 4, Vss)
-ChangePinName(D403, 3, IN2)
-ChangePinName(D403, 2, IN1)
-ChangePinName(D403, 1, GND)
 ChangePinName(D403, 4, Vss)
 ChangePinName(D403, 3, IN2)
 ChangePinName(D403, 2, IN1)
