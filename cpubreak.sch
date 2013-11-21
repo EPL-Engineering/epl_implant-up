@@ -7,7 +7,7 @@ device=CONNECTOR_20
 T 53000 60600 5 10 1 1 0 0 1
 refdes=CONN1301
 T 53000 60400 5 10 1 1 0 0 1
-footprint=winterboots
+footprint=pdafan
 T 53000 60200 5 10 1 1 0 0 1
 comment=Processor
 }
@@ -245,6 +245,10 @@ T 67600 56400 5 10 1 1 0 0 1
 footprint=screw-num2-close_fit-lockwasher
 }
 N 67500 55100 67500 56100 4
+{
+T 67500 55100 5 10 1 1 0 0 1
+netname=CHASSIS:1
+}
 C 68000 55600 1 0 0 testpt-1.sym
 {
 T 68400 56500 5 10 0 0 0 0 1
@@ -266,6 +270,10 @@ T 71700 56800 5 10 1 1 0 0 1
 footprint=screw-num4-close_fit-lockwasher
 }
 N 71600 55100 71600 56500 4
+{
+T 71600 55100 5 10 1 1 0 0 1
+netname=CHASSIS:1
+}
 C 63800 60200 1 90 1 panasonic-AXN430330P.sym
 {
 T 62805 57800 5 10 1 1 90 4 1
