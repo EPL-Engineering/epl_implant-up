@@ -193,51 +193,9 @@ ChangePinName(CONN701, 3, 3)
 ChangePinName(CONN701, 2, 2)
 ChangePinName(CONN701, 1, 1)
 
-# Start of element R607
-ChangePinName(R607, 1, 1)
-ChangePinName(R607, 2, 2)
-
-# Start of element R605
-ChangePinName(R605, 1, 1)
-ChangePinName(R605, 2, 2)
-
-# Start of element R603
-ChangePinName(R603, 1, 1)
-ChangePinName(R603, 2, 2)
-
-# Start of element R606
-ChangePinName(R606, 1, 1)
-ChangePinName(R606, 2, 2)
-
-# Start of element R604
-ChangePinName(R604, 1, 1)
-ChangePinName(R604, 2, 2)
-
-# Start of element R602
-ChangePinName(R602, 1, 1)
-ChangePinName(R602, 2, 2)
-
 # Start of element R601
 ChangePinName(R601, 1, 1)
 ChangePinName(R601, 2, 2)
-
-# Start of element D603
-ChangePinName(D603, 4, Vss)
-ChangePinName(D603, 3, IN2)
-ChangePinName(D603, 2, IN1)
-ChangePinName(D603, 1, GND)
-
-# Start of element D602
-ChangePinName(D602, 4, Vss)
-ChangePinName(D602, 3, IN2)
-ChangePinName(D602, 2, IN1)
-ChangePinName(D602, 1, GND)
-
-# Start of element D601
-ChangePinName(D601, 4, Vss)
-ChangePinName(D601, 3, IN2)
-ChangePinName(D601, 2, IN1)
-ChangePinName(D601, 1, GND)
 
 # Start of element D604
 ChangePinName(D604, 4, Vss)
@@ -255,41 +213,6 @@ ChangePinName(S600, 5, CHASSIS)
 # Start of element C600
 ChangePinName(C600, 2, 2)
 ChangePinName(C600, 1, 1)
-
-# Start of element S607
-ChangePinName(S607, 1, INB_2)
-ChangePinName(S607, 3, INB_1)
-ChangePinName(S607, 2, INA_2)
-ChangePinName(S607, 4, INA_1)
-ChangePinName(S607, 5, CHASSIS)
-
-# Start of element S606
-ChangePinName(S606, 1, INB_2)
-ChangePinName(S606, 3, INB_1)
-ChangePinName(S606, 2, INA_2)
-ChangePinName(S606, 4, INA_1)
-ChangePinName(S606, 5, CHASSIS)
-
-# Start of element S605
-ChangePinName(S605, 1, INB_2)
-ChangePinName(S605, 3, INB_1)
-ChangePinName(S605, 2, INA_2)
-ChangePinName(S605, 4, INA_1)
-ChangePinName(S605, 5, CHASSIS)
-
-# Start of element S604
-ChangePinName(S604, 1, INB_2)
-ChangePinName(S604, 3, INB_1)
-ChangePinName(S604, 2, INA_2)
-ChangePinName(S604, 4, INA_1)
-ChangePinName(S604, 5, CHASSIS)
-
-# Start of element S603
-ChangePinName(S603, 1, INB_2)
-ChangePinName(S603, 3, INB_1)
-ChangePinName(S603, 2, INA_2)
-ChangePinName(S603, 4, INA_1)
-ChangePinName(S603, 5, CHASSIS)
 
 # Start of element S602
 ChangePinName(S602, 1, INB_2)
