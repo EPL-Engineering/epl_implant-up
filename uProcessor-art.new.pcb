@@ -10,18 +10,54 @@ DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
-
-Element["" "bivar-PLP2-xxx" "MODE" "unknown" 0 0 -9000 -13000 0 100 ""]
+Element(0x00 "SOT143" "D304" "unknown" 0 0 3 100 0x00)
 (
-	Pin[0 0 13000 2000 13600 11500 "" "1" ""]
-
-	)
-
-Element["" "bivar-PLP2-xxx" "STATUS" "unknown" 0 0 -9000 -13000 0 100 ""]
+	ElementLine(0 0 0 139 10)
+	ElementLine(0 139 124 139 10)
+	ElementLine(124 139 124 0 10)
+	ElementLine(124 0 0 0 10)
+	   Pad(28 110
+	       31 110
+			   34
+			      "1" "1" 0x100)
+	Pad(99 107
+	    99 113
+			   34
+			      "2" "2" 0x100)
+	Pad(99 25
+	       99 31
+			   34
+			      "3" "3" 0x100)
+	Pad(25 25
+	       25 31
+			   34
+			      "4" "4" 0x100)
+	Mark(25 110)
+)
+Element(0x00 "SOT143" "D303" "unknown" 0 0 3 100 0x00)
 (
-	Pin[0 0 13000 2000 13600 11500 "" "1" ""]
-
-	)
+	ElementLine(0 0 0 139 10)
+	ElementLine(0 139 124 139 10)
+	ElementLine(124 139 124 0 10)
+	ElementLine(124 0 0 0 10)
+	   Pad(28 110
+	       31 110
+			   34
+			      "1" "1" 0x100)
+	Pad(99 107
+	    99 113
+			   34
+			      "2" "2" 0x100)
+	Pad(99 25
+	       99 31
+			   34
+			      "3" "3" 0x100)
+	Pad(25 25
+	       25 31
+			   34
+			      "4" "4" 0x100)
+	Mark(25 110)
+)
 Layer(1 "top")
 (
 )
