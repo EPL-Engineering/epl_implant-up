@@ -6,11 +6,11 @@ ChangePinName(SCREW4-40_2, 1, 1)
 # Start of element SCREW4-40_1
 ChangePinName(SCREW4-40_1, 1, 1)
 
-# Start of element MODE
-ChangePinName(MODE, 1, 1)
+# Start of element LPIPE801
+ChangePinName(LPIPE801, 1, 1)
 
-# Start of element STATUS
-ChangePinName(STATUS, 1, 1)
+# Start of element LPIPE800
+ChangePinName(LPIPE800, 1, 1)
 
 # Start of element TP800-chassis
 ChangePinName(TP800-chassis, 1, 1)
