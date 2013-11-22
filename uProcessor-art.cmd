@@ -523,6 +523,18 @@ ChangePinName(F500, 1, 1)
 ChangePinName(B500, 2, -)
 ChangePinName(B500, 1, +)
 
+# Start of element D306
+ChangePinName(D306, 4, Vss)
+ChangePinName(D306, 3, IN2)
+ChangePinName(D306, 2, IN1)
+ChangePinName(D306, 1, GND)
+
+# Start of element D305
+ChangePinName(D305, 4, Vss)
+ChangePinName(D305, 3, IN2)
+ChangePinName(D305, 2, IN1)
+ChangePinName(D305, 1, GND)
+
 # Start of element D304
 ChangePinName(D304, 4, Vss)
 ChangePinName(D304, 3, IN2)
