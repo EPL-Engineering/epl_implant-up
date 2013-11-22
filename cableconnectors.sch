@@ -394,7 +394,7 @@ value=INPUT
 C 41600 43400 1 0 0 chassis.sym
 {
 T 41700 43600 5 10 1 1 0 6 1
-netname=CHASSIS:1
+net=CHASSIS:1
 }
 N 41800 43700 41800 44900 4
 C 42400 42200 1 270 0 busripper-1.sym

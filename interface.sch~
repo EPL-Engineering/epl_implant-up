@@ -169,13 +169,6 @@ device=none
 T 57100 48200 5 10 1 1 270 8 1
 net=\_SPI2_SS:1
 }
-C 49500 47900 1 90 0 busripper-1.sym
-{
-T 49100 47900 5 8 0 0 90 0 1
-device=none
-T 49300 48200 5 10 1 1 270 8 1
-net=SPI2_SCK:1
-}
 C 56100 47900 1 90 0 busripper-1.sym
 {
 T 55700 47900 5 8 0 0 90 0 1
@@ -183,26 +176,12 @@ device=none
 T 55900 48200 5 10 1 1 270 8 1
 net=SPI2_SCK:1
 }
-C 50500 47900 1 90 0 busripper-1.sym
-{
-T 50100 47900 5 8 0 0 270 8 1
-device=none
-T 50300 48200 5 10 1 1 270 8 1
-net=SPI2_MISO:1
-}
 C 55500 47900 1 90 0 busripper-1.sym
 {
 T 55100 47900 5 8 0 0 270 8 1
 device=none
 T 55300 48200 5 10 1 1 270 8 1
 net=SPI2_MISO:1
-}
-C 53500 47900 1 90 0 busripper-1.sym
-{
-T 53100 47900 5 8 0 0 270 8 1
-device=none
-T 53300 48200 5 10 1 1 270 8 1
-net=SPI2_MOSI:1
 }
 C 57000 47900 1 90 0 busripper-1.sym
 {
@@ -253,13 +232,6 @@ net=P3V3EXT:1
 T 58500 52550 5 7 1 1 0 3 1
 comment=+3.3V_Ext
 }
-C 54500 55400 1 90 0 busripper-1.sym
-{
-T 54100 55400 5 8 0 0 90 0 1
-device=none
-T 54300 55700 5 10 1 1 90 0 1
-net=I2S_SD:1
-}
 C 55000 55400 1 90 0 busripper-1.sym
 {
 T 54600 55400 5 8 0 0 90 0 1
@@ -274,13 +246,6 @@ T 57600 55400 5 8 0 0 90 0 1
 device=none
 T 57800 55700 5 10 1 1 90 0 1
 net=I2S_SCK:1
-}
-C 51500 55400 1 90 0 busripper-1.sym
-{
-T 51100 55400 5 8 0 0 90 0 1
-device=none
-T 51300 55700 5 10 1 1 90 0 1
-net=MIC_EN:1
 }
 C 52100 52700 1 0 0 SR3_3TCT.sym
 {
@@ -314,20 +279,6 @@ N 58000 53000 57400 53000 4
 N 55600 53400 55300 53400 4
 N 55300 53400 55300 52400 4
 C 55200 52100 1 0 0 gnd-1.sym
-C 42500 55300 1 0 1 busripper-1.sym
-{
-T 42500 55700 5 8 0 0 0 6 1
-device=none
-T 42300 55600 5 10 1 1 90 0 1
-net=SPI1_SCK:1
-}
-C 46000 55300 1 0 1 busripper-1.sym
-{
-T 46000 55700 5 8 0 0 0 6 1
-device=none
-T 45800 55600 5 10 1 1 90 0 1
-net=\_SPI1_SS:1
-}
 U 41500 55500 48800 55500 10 0
 C 41000 55900 1 180 1 bus-count.sym
 {
@@ -391,4 +342,53 @@ C 43500 48500 1 180 1 bus-count.sym
 {
 T 44300 48300 5 10 1 1 180 2 1
 comment=4
+}
+C 42500 55300 1 0 1 busripper-1.sym
+{
+T 42500 55700 5 8 0 0 0 6 1
+device=none
+T 42300 55600 5 10 1 1 90 0 1
+net=\_SPI1_SS:1
+}
+C 46000 55300 1 0 1 busripper-1.sym
+{
+T 46000 55700 5 8 0 0 0 6 1
+device=none
+T 45800 55600 5 10 1 1 90 0 1
+net=SPI1_SCK:1
+}
+C 51500 55400 1 90 0 busripper-1.sym
+{
+T 51100 55400 5 8 0 0 90 0 1
+device=none
+T 51300 55700 5 10 1 1 90 0 1
+net=I2S_SD:1
+}
+C 54500 55400 1 90 0 busripper-1.sym
+{
+T 54100 55400 5 8 0 0 90 0 1
+device=none
+T 54300 55700 5 10 1 1 90 0 1
+net=MIC_EN:1
+}
+C 50500 47900 1 90 0 busripper-1.sym
+{
+T 50100 47900 5 8 0 0 90 0 1
+device=none
+T 50300 48200 5 10 1 1 270 8 1
+net=SPI2_SCK:1
+}
+C 49500 47900 1 90 0 busripper-1.sym
+{
+T 49100 47900 5 8 0 0 270 8 1
+device=none
+T 49300 48200 5 10 1 1 270 8 1
+net=SPI2_MOSI:1
+}
+C 53500 47900 1 90 0 busripper-1.sym
+{
+T 53100 47900 5 8 0 0 270 8 1
+device=none
+T 53300 48200 5 10 1 1 270 8 1
+net=SPI2_MISO:1
 }
