@@ -15,15 +15,15 @@ ChangePinName(LPIPE800, 1, 1)
 # Start of element TP800-chassis
 ChangePinName(TP800-chassis, 1, 1)
 
-# Start of element SERPAC_031I.Gx_insert
-ChangePinName(SERPAC_031I.Gx_insert, 7, 7)
-ChangePinName(SERPAC_031I.Gx_insert, 5, 5)
-ChangePinName(SERPAC_031I.Gx_insert, 3, 3)
-ChangePinName(SERPAC_031I.Gx_insert, 1, 1)
-ChangePinName(SERPAC_031I.Gx_insert, 8, 8)
-ChangePinName(SERPAC_031I.Gx_insert, 6, 6)
-ChangePinName(SERPAC_031I.Gx_insert, 4, 4)
-ChangePinName(SERPAC_031I.Gx_insert, 2, 2)
+# Start of element SERPAC031IGx
+ChangePinName(SERPAC031IGx, 7, 7)
+ChangePinName(SERPAC031IGx, 5, 5)
+ChangePinName(SERPAC031IGx, 3, 3)
+ChangePinName(SERPAC031IGx, 1, 1)
+ChangePinName(SERPAC031IGx, 8, 8)
+ChangePinName(SERPAC031IGx, 6, 6)
+ChangePinName(SERPAC031IGx, 4, 4)
+ChangePinName(SERPAC031IGx, 2, 2)
 
 # Start of element R704
 ChangePinName(R704, 1, 1)
@@ -299,6 +299,12 @@ ChangePinName(D402, 4, Vss)
 ChangePinName(D402, 3, IN2)
 ChangePinName(D402, 2, IN1)
 ChangePinName(D402, 1, GND)
+
+# Start of element D505
+ChangePinName(D505, 4, Vss)
+ChangePinName(D505, 3, IN2)
+ChangePinName(D505, 2, IN1)
+ChangePinName(D505, 1, GND)
 
 # Start of element R519
 ChangePinName(R519, 1, 1)

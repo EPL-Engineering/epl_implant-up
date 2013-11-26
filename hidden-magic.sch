@@ -17,9 +17,9 @@ C 43900 48200 1 0 0 connector8-1.sym
 T 44000 51400 5 10 0 0 0 0 1
 device=box_with_8holes
 T 44000 50800 5 10 1 1 0 0 1
-refdes=SERPAC_031I.Gx_insert
+refdes=SERPAC031IGx
 T 43900 48200 5 10 1 1 0 0 1
-footprint=SERPAC-031i_Gx-insert-alt
+footprint=SERPAC-031i_Gx-insert
 }
 C 47600 50700 1 0 0 testpt-1.sym
 {
