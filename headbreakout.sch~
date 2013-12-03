@@ -383,9 +383,20 @@ C 57200 43500 1 0 0 testpt-1.sym
 T 57600 44400 5 10 0 0 0 0 1
 device=TESTPOINT
 T 57200 44000 5 10 1 1 0 0 1
-refdes=SCREW4-40_4
+refdes=SCREW2-56_1
 T 57400 43800 5 10 1 1 0 0 1
-footprint=screw-num4-close_fit-lockwasher
+footprint=screw-num2-close_fit-lockwasher
 }
-N 57300 43500 57300 43000 4
+N 57300 42500 57300 43500 4
 N 57300 43000 56000 43000 4
+C 57800 43000 1 0 0 testpt-1.sym
+{
+T 58200 43900 5 10 0 0 0 0 1
+device=TESTPOINT
+T 57800 43500 5 10 1 1 0 0 1
+refdes=SCREW2-56_2
+T 58000 43300 5 10 1 1 0 0 1
+footprint=screw-num2-close_fit-lockwasher
+}
+N 57900 43000 57900 42500 4
+N 57900 42500 57300 42500 4

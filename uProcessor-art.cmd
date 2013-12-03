@@ -300,6 +300,24 @@ ChangePinName(D402, 3, IN2)
 ChangePinName(D402, 2, IN1)
 ChangePinName(D402, 1, GND)
 
+# Start of element U200
+ChangePinName(U200, 9, V_DDD)
+ChangePinName(U200, 10, V_SSD)
+ChangePinName(U200, 11, BCK)
+ChangePinName(U200, 12, WS)
+ChangePinName(U200, 13, DATAO)
+ChangePinName(U200, 14, MSSEL)
+ChangePinName(U200, 15, V_SSA)
+ChangePinName(U200, 16, V_DDA)
+ChangePinName(U200, 8, SYSCLK)
+ChangePinName(U200, 7, PWON)
+ChangePinName(U200, 6, SFOR)
+ChangePinName(U200, 5, V_RP)
+ChangePinName(U200, 4, V_RN)
+ChangePinName(U200, 3, V_INR)
+ChangePinName(U200, 2, V_Ref)
+ChangePinName(U200, 1, V_INL)
+
 # Start of element R515
 ChangePinName(R515, 1, 1)
 ChangePinName(R515, 2, 2)
@@ -380,6 +398,14 @@ ChangePinName(C301, 1, 1)
 # Start of element F300
 ChangePinName(F300, 2, 2)
 ChangePinName(F300, 1, 1)
+
+# Start of element R106
+ChangePinName(R106, 1, 1)
+ChangePinName(R106, 2, 2)
+
+# Start of element C121
+ChangePinName(C121, 2, -)
+ChangePinName(C121, 1, +)
 
 # Start of element C120
 ChangePinName(C120, 2, 2)
