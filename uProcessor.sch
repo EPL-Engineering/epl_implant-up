@@ -289,7 +289,7 @@ refdes=L100
 T 41700 50600 5 10 0 0 0 0 1
 symversion=0.1
 T 42000 50200 5 10 1 1 0 3 1
-footprint=ballet flats
+footprint=1206
 T 42000 50400 5 10 1 1 0 3 1
 value=priceless
 }
