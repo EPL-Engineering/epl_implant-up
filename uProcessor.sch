@@ -280,17 +280,17 @@ The VCAP capacitors, decoupling caps and etc are all pulled in from page 61 from
 The VCAP capacitors AVX model TPSA225K035R1500 have 1.5Ohm ESR.
 T 41500 40500 9 10 1 0 0 0 1
 The capacitors C10, C11, C12, C13, are all to be located as close as possible to the U1 Vdd and Vss pins.
-C 41500 49900 1 0 0 inductor-1.sym
+C 42400 49900 1 0 1 inductor-1.sym
 {
-T 41700 50400 5 10 0 0 0 0 1
+T 42200 50400 5 10 0 0 0 6 1
 device=INDUCTOR
-T 42000 50600 5 10 1 1 0 3 1
+T 41900 50600 5 10 1 1 0 3 1
 refdes=L100
-T 41700 50600 5 10 0 0 0 0 1
+T 42200 50600 5 10 0 0 0 6 1
 symversion=0.1
-T 42000 50200 5 10 1 1 0 3 1
+T 41900 50200 5 10 1 1 0 3 1
 footprint=1206
-T 42000 50400 5 10 1 1 0 3 1
+T 41900 50400 5 10 1 1 0 3 1
 value=priceless
 }
 C 43500 49900 1 0 0 resistor-1.sym
@@ -783,7 +783,7 @@ C 69300 58800 1 180 1 busripper-1.sym
 T 69300 58400 5 8 0 0 180 6 1
 device=none
 T 69600 58700 5 10 1 1 180 8 1
-netname=I2S2_MCK
+netname=I2S2_MCK:1
 }
 N 67500 56100 74300 56100 4
 C 74300 56100 1 180 1 busripper-1.sym
