@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 550000 550000]
 
 Grid[500.0 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[124000 112500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -2137,7 +2137,7 @@ Element["" "SERPAC-031i_Gx-insert" "SERPAC031IGx" "unknown" 236110 368160 191800
 	Pin[-180000 125000 25000 2000 25600 10900 "1" "1" "edge2"]
 	Pin[180000 125000 25000 2000 25600 10900 "2" "2" "edge2"]
 	Pin[-100000 125000 25000 2000 25600 10900 "5" "5" "edge2"]
-	Pin[100000 125000 25000 2000 25600 10900 "6" "6" "edge2"]
+	Pin[100000 125000 25000 2000 25600 10900 "6" "6" "warn,edge2"]
 	ElementLine [-200700 -144200 -200700 144200 600]
 	ElementLine [-200700 -144200 200700 -144200 600]
 	ElementLine [200700 -144200 200700 144200 600]
@@ -2395,6 +2395,7 @@ Rat[54586 107607 0 15500 36500 3  "via"]
 Rat[54586 147607 0 15500 36500 3  "via"]
 Rat[83405 56819 0 15500 36500 3  "via"]
 Rat[349610 479410 3 37500 226000 3  "via"]
+Rat[171418 407260 0 139000 138500 3  ""]
 Rat[198748 291164 3 155200 133100 0  ""]
 Rat[192450 291164 3 155200 127900 0  ""]
 Rat[195599 291164 3 155200 130500 0  ""]
@@ -4699,6 +4700,11 @@ NetList()
 	(
 		Connect("U100-91")
 	)
+	Net("I2S2_MCK" "(unknown)")
+	(
+		Connect("U100-63")
+		Connect("U200-8")
+	)
 	Net("I2S2_SCK" "(unknown)")
 	(
 		Connect("CONN704-26")
@@ -5094,42 +5100,34 @@ NetList()
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("U100-63")
-	)
-	Net("unnamed_net8" "(unknown)")
-	(
 		Connect("R100-2")
 		Connect("U100-94")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("C105-2")
 		Connect("R103-1")
 		Connect("XTAL101-1")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("C106-1")
 		Connect("R104-1")
 		Connect("XTAL101-2")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("C103-2")
 		Connect("R101-1")
 		Connect("XTAL102-4")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("C104-2")
 		Connect("R102-1")
 		Connect("XTAL102-1")
 	)
-	Net("unnamed_net13" "(unknown)")
-	(
-		Connect("U200-8")
-	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("C213-1")
 		Connect("C214-1")
@@ -5138,59 +5136,59 @@ NetList()
 		Connect("R207-2")
 		Connect("U200-9")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("C200-1")
 		Connect("L200-1")
 		Connect("R200-1")
 		Connect("R204-1")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("C201-1")
 		Connect("L201-1")
 		Connect("R201-2")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("CONN400-1")
 		Connect("CONN400-2")
 		Connect("F400-1")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("CONN400-19")
 		Connect("CONN400-20")
 		Connect("F401-1")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("S601-5")
 		Connect("U?-?")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("S602-5")
 		Connect("U?-?")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("S600-5")
 		Connect("U?-?")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("CONN701-17")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("CONN701-18")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("CONN701-19")
 	)
-	Net("unnamed_net25" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("CONN701-20")
 	)
