@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 550000 550000]
 
 Grid[500.0 0 0 1]
-Cursor[393500 197500 0.000000]
+Cursor[81000 214000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -1952,6 +1952,16 @@ Element["" "SOT143" "D400" "unknown" 81510 348460 16006 -10422 3 100 ""]
 
 	)
 
+Element["" "S1751-46R" "TP800-chassis" "unknown" 375180 200380 -4724 -12992 0 100 ""]
+(
+	Pad[-3130 20 3169 20 8071 2000 9071 "1" "1" "square"]
+	ElementLine [-8937 -5787 8976 -5787 1000]
+	ElementLine [8976 -5787 8976 5827 1000]
+	ElementLine [8976 5827 -8937 5827 1000]
+	ElementLine [-8937 5827 -8937 -5787 1000]
+
+	)
+
 Element["onsolder" "bivar-PLP2-xxx" "LPIPE801" "unknown" 349610 479410 -10000 -7500 0 100 "auto"]
 (
 	Pin[0 0 13000 2000 13600 11500 "1" "1" "thermal(3X)"]
@@ -2381,19 +2391,6 @@ Element["" "1206" "C114" "4.7uF" 220095 365500 -5650 -10150 0 100 ""]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "-" "2" "square"]
 	ElementLine [-2362 -3740 2362 -3740 800]
 	ElementLine [-2362 3740 2362 3740 800]
-
-	)
-
-Element["" "SERPAC-031i_Gx-insert-alt" "SERPACK031iG" "unknown" 236110 368160 193800 111900 1 100 ""]
-(
-	Pin[-180000 -125000 25000 2000 25600 10900 "" "4" "edge2,thermal(3X)"]
-	Pin[180000 -125000 25000 2000 25600 10900 "" "3" "edge2,thermal(3X)"]
-	Pin[-180000 125000 25000 2000 25600 10900 "" "1" "edge2,thermal(3X)"]
-	Pin[180000 125000 25000 2000 25600 10900 "" "2" "edge2,thermal(3X)"]
-	ElementLine [-200700 -144200 -200700 144200 600]
-	ElementLine [-200700 -144200 200700 -144200 600]
-	ElementLine [200700 -144200 200700 144200 600]
-	ElementLine [-200700 144200 200700 144200 600]
 
 	)
 Layer(1 "1top")
@@ -3438,9 +3435,9 @@ Layer(2 "2PV")
 	Line[224500 380000 224500 402570 1500 2000 "clearline"]
 	Line[224500 402570 226330 404400 1500 2000 "clearline"]
 	Line[226330 404400 226330 412170 1500 2000 "clearline"]
-	Line[226330 412170 219000 419500 1500 2000 "clearline"]
-	Line[219000 419500 219000 434500 1500 2000 "clearline"]
-	Line[219000 434500 213500 440000 1500 2000 "clearline"]
+	Line[226330 412170 220500 418000 1500 2000 "clearline"]
+	Line[220500 418000 220500 433000 1500 2000 "clearline"]
+	Line[220500 433000 213500 440000 1500 2000 "clearline"]
 	Line[213500 440000 213500 445500 1500 2000 "clearline"]
 	Line[213500 445500 215000 447000 1500 2000 "clearline"]
 	Line[215000 447000 243000 447000 1500 2000 "clearline"]
@@ -4784,11 +4781,7 @@ NetList()
 		Connect("S602-1")
 		Connect("SCREW4-40_1-1")
 		Connect("SCREW4-40_2-1")
-		Connect("SERPACK031iG-1")
-		Connect("SERPACK031iG-2")
-		Connect("SERPACK031iG-3")
-		Connect("SERPACK031iG-4")
-		Connect("TP800-GND-1")
+		Connect("TP800-chassis-1")
 		Connect("U100-10")
 		Connect("U100-20")
 		Connect("U100-27")

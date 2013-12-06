@@ -1,5 +1,11 @@
 # Pin name action command file
 
+# Start of element SERPACK031iG
+ChangePinName(SERPACK031iG, 1, 1)
+ChangePinName(SERPACK031iG, 4, 4)
+ChangePinName(SERPACK031iG, 2, 2)
+ChangePinName(SERPACK031iG, 3, 3)
+
 # Start of element SCREW4-40_2
 ChangePinName(SCREW4-40_2, 1, 1)
 
@@ -12,18 +18,8 @@ ChangePinName(LPIPE801, 1, 1)
 # Start of element LPIPE800
 ChangePinName(LPIPE800, 1, 1)
 
-# Start of element TP800-chassis
-ChangePinName(TP800-chassis, 1, 1)
-
-# Start of element SERPAC031IGx
-ChangePinName(SERPAC031IGx, 7, 7)
-ChangePinName(SERPAC031IGx, 5, 5)
-ChangePinName(SERPAC031IGx, 3, 3)
-ChangePinName(SERPAC031IGx, 1, 1)
-ChangePinName(SERPAC031IGx, 8, 8)
-ChangePinName(SERPAC031IGx, 6, 6)
-ChangePinName(SERPAC031IGx, 4, 4)
-ChangePinName(SERPAC031IGx, 2, 2)
+# Start of element TP800-GND
+ChangePinName(TP800-GND, 1, 1)
 
 # Start of element R704
 ChangePinName(R704, 1, 1)
