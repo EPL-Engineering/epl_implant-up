@@ -1,16 +1,19 @@
 # Pin name action command file
 
+# Start of element SCREW801
+ChangePinName(SCREW801, 1, 1)
+
+# Start of element SCREW800
+ChangePinName(SCREW800, 1, 1)
+
+# Start of element TP800
+ChangePinName(TP800, 1, 1)
+
 # Start of element SERPACK031iG
 ChangePinName(SERPACK031iG, 1, 1)
 ChangePinName(SERPACK031iG, 4, 4)
 ChangePinName(SERPACK031iG, 2, 2)
 ChangePinName(SERPACK031iG, 3, 3)
-
-# Start of element SCREW4-40_2
-ChangePinName(SCREW4-40_2, 1, 1)
-
-# Start of element SCREW4-40_1
-ChangePinName(SCREW4-40_1, 1, 1)
 
 # Start of element LPIPE801
 ChangePinName(LPIPE801, 1, 1)
@@ -18,8 +21,21 @@ ChangePinName(LPIPE801, 1, 1)
 # Start of element LPIPE800
 ChangePinName(LPIPE800, 1, 1)
 
-# Start of element TP800-GND
-ChangePinName(TP800-GND, 1, 1)
+# Start of element R708
+ChangePinName(R708, 1, 1)
+ChangePinName(R708, 2, 2)
+
+# Start of element R707
+ChangePinName(R707, 1, 1)
+ChangePinName(R707, 2, 2)
+
+# Start of element R706
+ChangePinName(R706, 1, 1)
+ChangePinName(R706, 2, 2)
+
+# Start of element R705
+ChangePinName(R705, 1, 1)
+ChangePinName(R705, 2, 2)
 
 # Start of element R704
 ChangePinName(R704, 1, 1)
@@ -223,6 +239,20 @@ ChangePinName(S601, 3, INB_1)
 ChangePinName(S601, 2, INA_2)
 ChangePinName(S601, 4, INA_1)
 ChangePinName(S601, 5, CHASSIS)
+
+# Start of element LED400
+ChangePinName(LED400, 3, C)
+ChangePinName(LED400, 4, E)
+ChangePinName(LED400, 1, C)
+ChangePinName(LED400, 2, E)
+
+# Start of element R400
+ChangePinName(R400, 1, 1)
+ChangePinName(R400, 2, 2)
+
+# Start of element R401
+ChangePinName(R401, 1, 1)
+ChangePinName(R401, 2, 2)
 
 # Start of element CONN400
 ChangePinName(CONN400, 20, 20)
