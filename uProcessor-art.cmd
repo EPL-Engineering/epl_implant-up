@@ -240,6 +240,9 @@ ChangePinName(S601, 2, INA_2)
 ChangePinName(S601, 4, INA_1)
 ChangePinName(S601, 5, CHASSIS)
 
+# Start of element TP400
+ChangePinName(TP400, 1, 1)
+
 # Start of element LED400
 ChangePinName(LED400, 3, C)
 ChangePinName(LED400, 4, E)
