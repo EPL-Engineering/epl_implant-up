@@ -1,5 +1,26 @@
 # Pin name action command file
 
+# Start of element C1401
+ChangePinName(C1401, 2, 2)
+ChangePinName(C1401, 1, 1)
+
+# Start of element C1400
+ChangePinName(C1400, 2, 2)
+ChangePinName(C1400, 1, 1)
+
+# Start of element VREG1400
+ChangePinName(VREG1400, 3, IN)
+ChangePinName(VREG1400, 2, OUT)
+ChangePinName(VREG1400, 1, GND)
+
+# Start of element F1400
+ChangePinName(F1400, 2, 2)
+ChangePinName(F1400, 1, 1)
+
+# Start of element B1400
+ChangePinName(B1400, 2, -)
+ChangePinName(B1400, 1, +)
+
 # Start of element SCREW801
 ChangePinName(SCREW801, 1, 1)
 
