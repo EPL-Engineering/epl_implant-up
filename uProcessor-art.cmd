@@ -1,5 +1,15 @@
 # Pin name action command file
 
+# Start of element CONN1400
+ChangePinName(CONN1400, 4, SHEILD)
+ChangePinName(CONN1400, 2, SHELL)
+ChangePinName(CONN1400, 3, SWITCHNC)
+ChangePinName(CONN1400, 1, PIN)
+
+# Start of element R1400
+ChangePinName(R1400, 1, 1)
+ChangePinName(R1400, 2, 2)
+
 # Start of element C1401
 ChangePinName(C1401, 2, 2)
 ChangePinName(C1401, 1, 1)
