@@ -5,8 +5,8 @@ FileVersion[20100606]
 
 PCB["" 550000 350000]
 
-Grid[500.0 0 0 0]
-Cursor[32000 0 0.000000]
+Grid[500.0 0 0 1]
+Cursor[84500 152000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -1599,13 +1599,13 @@ Element["" "SOT143" "D304" "unknown" 211000 150000 16500 -10500 3 100 ""]
 
 	)
 
-Element["onsolder" "bivar-PLP2-xxx" "LPIPE800" "unknown" 327110 297910 -12200 -6800 0 100 "auto"]
+Element["onsolder" "bivar-PLP2-xxx" "LPIPE800" "unknown" 327110 297910 -12700 18700 0 100 "auto"]
 (
 	Pin[0 0 13000 2000 13600 11500 "1" "1" "thermal(3X)"]
 
 	)
 
-Element["onsolder" "bivar-PLP2-xxx" "LPIPE801" "unknown" 353110 297910 -10000 -7500 0 100 "auto"]
+Element["onsolder" "bivar-PLP2-xxx" "LPIPE801" "unknown" 353110 297910 -11500 18500 0 100 "auto"]
 (
 	Pin[0 0 13000 2000 13600 11500 "1" "1" "thermal(3X)"]
 
@@ -1637,7 +1637,7 @@ Element["" "SOT143" "D406" "unknown" 85010 146760 16500 -10500 3 100 ""]
 
 	)
 
-Element["onsolder" "omron-B3SN-3112" "S602" "unknown" 63410 263760 18701 2953 3 100 "auto"]
+Element["onsolder" "omron-B3SN-3112" "S602" "unknown" 63410 263760 24201 5953 3 100 "auto"]
 (
 	Pad[7874 -15945 7874 -10630 5512 2000 6512 "INB_1" "3" "onsolder,square"]
 	Pad[0 -15945 0 -10630 5512 2000 6512 "CHASSIS" "5" "onsolder,square"]
@@ -1809,7 +1809,7 @@ Element["" "0805" "F400" "unknown" 55867 169260 -5107 -8650 0 100 ""]
 
 	)
 
-Element["onsolder" "52745-2097" "CONN400" "unknown" 63410 125760 18701 8189 3 100 "auto"]
+Element["onsolder" "52745-2097" "CONN400" "unknown" 63410 125760 24701 11689 3 100 "auto"]
 (
 	Pad[-1791 -23918 -1791 -22146 3346 2000 4346 "" "22" "onsolder,square"]
 	Pad[9135 18700 11103 18700 1182 2000 2182 "1" "1" "onsolder,square,edge2"]
@@ -2185,7 +2185,7 @@ Element["" "0805" "R601" "10K" 82000 183000 -6007 -8950 0 100 ""]
 
 	)
 
-Element["onsolder" "omron-B3SN-3112" "S601" "unknown" 63410 186760 18701 2953 3 100 "auto"]
+Element["onsolder" "omron-B3SN-3112" "S601" "unknown" 63410 186760 23701 5953 3 100 "auto"]
 (
 	Pad[7874 -15945 7874 -10630 5512 2000 6512 "INB_1" "3" "onsolder,square"]
 	Pad[0 -15945 0 -10630 5512 2000 6512 "CHASSIS" "5" "onsolder,square"]
@@ -2208,7 +2208,7 @@ Element["" "0805" "C600" "100nF" 96457 276000 -5650 -8650 0 100 ""]
 
 	)
 
-Element["onsolder" "omron-B3SN-3112" "S600" "unknown" 99410 304260 18701 2953 3 100 "auto"]
+Element["onsolder" "omron-B3SN-3112" "S600" "unknown" 99410 304260 23701 6453 3 100 "auto"]
 (
 	Pad[7874 -15945 7874 -10630 5512 2000 6512 "INB_1" "3" "onsolder,square"]
 	Pad[0 -15945 0 -10630 5512 2000 6512 "CHASSIS" "5" "onsolder,square"]
@@ -2222,7 +2222,7 @@ Element["onsolder" "omron-B3SN-3112" "S600" "unknown" 99410 304260 18701 2953 3 
 
 	)
 
-Element["onsolder" "panasonic-AXN330038P" "CONN706" "unknown" 239910 275760 -11200 19000 0 100 "auto"]
+Element["onsolder" "panasonic-AXN330038P" "CONN706" "unknown" 239910 275760 -22700 19000 0 100 "auto"]
 (
 	Pin[26575 7796 4943 2000 5543 3543 "" "31" "edge2"]
 	Pin[-26575 7796 4943 2000 5543 3543 "" "32" "edge2"]
@@ -2310,7 +2310,7 @@ Element["" "62674-201121ALF" "CONN703" "unknown" 238228 310864 7480 17323 2 100 
 
 	)
 
-Element["onsolder" "62674-201121ALF" "CONN705" "unknown" 262226 105850 -7480 22441 0 100 "auto"]
+Element["onsolder" "62674-201121ALF" "CONN705" "unknown" 262226 105850 -9480 19441 0 100 "auto"]
 (
 	Pad[17717 -9252 17717 -4528 1575 2000 2575 "19" "19" "onsolder,square"]
 	Pad[13780 -9252 13780 -4528 1575 2000 2575 "17" "17" "onsolder,square"]
@@ -2349,7 +2349,7 @@ Element["onsolder" "62674-201121ALF" "CONN705" "unknown" 262226 105850 -7480 224
 
 	)
 
-Element["onsolder" "panasonic-AXN330038P" "CONN704" "unknown" 186501 99998 -12304 19156 0 100 "auto"]
+Element["onsolder" "panasonic-AXN330038P" "CONN704" "unknown" 186501 99998 -22804 19156 0 100 "auto"]
 (
 	Pin[26575 7796 5443 2000 6043 3543 "" "31" "edge2"]
 	Pin[-26575 7796 5443 2000 6043 3543 "" "32" "edge2"]
@@ -2530,7 +2530,7 @@ Element["" "JST-B2B-PH-SM4-TB" "B1400" "unknown" 377000 250500 -8187 -16496 0 10
 
 	)
 
-Element["" "SOT223-tabpin2" "VREG1400" "unknown" 397000 153000 -4500 -39700 0 100 ""]
+Element["" "SOT223-tabpin2" "VREG1400" "unknown" 397000 153000 -40500 12800 0 100 ""]
 (
 	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
 	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
@@ -2606,7 +2606,7 @@ Element["" "0805" "R1401" "1" 422000 289500 -7150 -9150 0 100 ""]
 
 	)
 
-Element["onsolder" "CUI-PJ-043-SMT" "CONN1401" "unknown" 419500 226500 -12646 26327 0 100 "auto"]
+Element["onsolder" "CUI-PJ-043-SMT" "CONN1401" "unknown" 419500 226500 -18646 28327 0 100 "auto"]
 (
 	Pin[10827 -2756 5906 2000 6506 4331 "" "5" "edge2"]
 	Pin[-6890 -2756 5906 2000 6506 4331 "" "6" "edge2"]
@@ -2646,6 +2646,186 @@ Element["" "SERPAC-031i_Gx-insert-alt" "SERPACK031iG" "unknown" 239610 186660 19
 	ElementLine [-200700 -144200 200700 -144200 600]
 	ElementLine [200700 -144200 200700 144200 600]
 	ElementLine [-200700 144200 200700 144200 600]
+
+	)
+
+Element["onsolder" "harwin-S8131-46R" "CLIP801" "unknown" 127000 109001 24606 7166 3 100 "auto"]
+(
+	Pad[0 -3938 0 3937 33070 2000 34070 "" "1" "onsolder,square,edge2"]
+	ElementLine [17323 -21260 17323 21260 1476]
+	ElementLine [-17323 -21260 17323 -21260 1476]
+	ElementLine [-17323 -21260 -17323 21260 1476]
+	ElementLine [-17323 21260 17323 21260 1476]
+	ElementLine [-12008 -7087 -12008 7086 1476]
+	ElementLine [-15748 -19685 -15748 19685 1476]
+	ElementLine [15748 7874 -12008 7086 1476]
+	ElementLine [15748 -7874 -12008 -7087 1476]
+	ElementLine [-14567 26378 -10039 26378 1476]
+	ElementLine [-14567 23228 -14567 26378 1476]
+	ElementLine [-14567 23228 -12205 23228 1476]
+	ElementLine [-12992 24803 -12992 24803 1476]
+	ElementLine [-12205 23228 -11221 23819 1476]
+	ElementLine [-11221 23819 -10827 23819 1476]
+	ElementLine [-10827 23819 -10039 23031 1476]
+	ElementLine [-7677 7213 -7677 18650 1476]
+	ElementLine [-7677 -18676 -7677 -7210 1476]
+	ElementLine [15748 7874 15748 15748 1476]
+	ElementLine [15748 -15748 15748 -7874 1476]
+	ElementLine [-14567 -23229 -10039 -23229 1476]
+	ElementLine [-14567 -26378 -14567 -23229 1476]
+	ElementLine [-14567 -26378 -12205 -26378 1476]
+	ElementLine [-12992 -24803 -12992 -24803 1476]
+	ElementLine [-12205 -26378 -11221 -25788 1476]
+	ElementLine [-11221 -25788 -10827 -25788 1476]
+	ElementLine [-10827 -25788 -10039 -26575 1476]
+	ElementLine [-15748 19685 -12008 19685 1476]
+	ElementLine [-12008 19685 15748 15748 1476]
+	ElementLine [-15748 -19685 -12008 -19685 1476]
+	ElementLine [-12008 -19685 15748 -15748 1476]
+
+	)
+
+Element["onsolder" "harwin-S8131-46R" "CLIP802" "unknown" 375500 199500 24606 7166 3 100 "auto"]
+(
+	Pad[0 -3938 0 3937 33070 2000 34070 "" "1" "onsolder,square,edge2"]
+	ElementLine [17323 -21260 17323 21260 1476]
+	ElementLine [-17323 -21260 17323 -21260 1476]
+	ElementLine [-17323 -21260 -17323 21260 1476]
+	ElementLine [-17323 21260 17323 21260 1476]
+	ElementLine [-12008 -7087 -12008 7086 1476]
+	ElementLine [-15748 -19685 -15748 19685 1476]
+	ElementLine [15748 7874 -12008 7086 1476]
+	ElementLine [15748 -7874 -12008 -7087 1476]
+	ElementLine [-14567 26378 -10039 26378 1476]
+	ElementLine [-14567 23228 -14567 26378 1476]
+	ElementLine [-14567 23228 -12205 23228 1476]
+	ElementLine [-12992 24803 -12992 24803 1476]
+	ElementLine [-12205 23228 -11221 23819 1476]
+	ElementLine [-11221 23819 -10827 23819 1476]
+	ElementLine [-10827 23819 -10039 23031 1476]
+	ElementLine [-7677 7213 -7677 18650 1476]
+	ElementLine [-7677 -18676 -7677 -7210 1476]
+	ElementLine [15748 7874 15748 15748 1476]
+	ElementLine [15748 -15748 15748 -7874 1476]
+	ElementLine [-14567 -23229 -10039 -23229 1476]
+	ElementLine [-14567 -26378 -14567 -23229 1476]
+	ElementLine [-14567 -26378 -12205 -26378 1476]
+	ElementLine [-12992 -24803 -12992 -24803 1476]
+	ElementLine [-12205 -26378 -11221 -25788 1476]
+	ElementLine [-11221 -25788 -10827 -25788 1476]
+	ElementLine [-10827 -25788 -10039 -26575 1476]
+	ElementLine [-15748 19685 -12008 19685 1476]
+	ElementLine [-12008 19685 15748 15748 1476]
+	ElementLine [-15748 -19685 -12008 -19685 1476]
+	ElementLine [-12008 -19685 15748 -15748 1476]
+
+	)
+
+Element["onsolder" "harwin-S8121-46R" "CLIP803" "unknown" 255000 187500 19409 6969 3 100 "auto"]
+(
+	Pad[0 -2953 0 2953 23228 2000 24228 "" "1" "onsolder,square,edge2"]
+	ElementLine [-12362 -15315 -12362 15315 1476]
+	ElementLine [-12362 -15315 12362 -15315 1476]
+	ElementLine [12362 -15315 12362 15315 1476]
+	ElementLine [-12362 15315 12362 15315 1476]
+	ElementLine [-9646 20473 -5118 20473 1476]
+	ElementLine [-9646 17323 -9646 20473 1476]
+	ElementLine [-9646 17323 -7284 17323 1476]
+	ElementLine [-8071 18898 -8071 18898 1476]
+	ElementLine [-7284 17323 -6300 17914 1476]
+	ElementLine [-6300 17914 -5906 17914 1476]
+	ElementLine [-5906 17914 -5118 17126 1476]
+	ElementLine [-9646 -17323 -5118 -17323 1476]
+	ElementLine [-9646 -20472 -9646 -17323 1476]
+	ElementLine [-9646 -20472 -7284 -20472 1476]
+	ElementLine [-8071 -18897 -8071 -18897 1476]
+	ElementLine [-7284 -20472 -6300 -19882 1476]
+	ElementLine [-6300 -19882 -5906 -19882 1476]
+	ElementLine [-5906 -19882 -5118 -20669 1476]
+	ElementLine [-10866 -13819 -10866 13819 1476]
+	ElementLine [-10866 -13819 -7087 -13819 1476]
+	ElementLine [-7087 -13819 10866 -10787 1476]
+	ElementLine [-7087 -6181 -7087 6181 1476]
+	ElementLine [-7087 -6181 10866 -7441 1476]
+	ElementLine [10866 -10787 10866 -7441 1476]
+	ElementLine [-10866 13819 -7087 13819 1476]
+	ElementLine [-7087 13819 10866 10787 1476]
+	ElementLine [-7087 6181 10866 7441 1476]
+	ElementLine [10866 7441 10866 10787 1476]
+	ElementLine [-2598 6496 -2598 13061 1476]
+	ElementLine [-2598 -13061 -2598 -6496 1476]
+
+	)
+
+Element["onsolder" "harwin-S8121-46R" "CLIP804" "unknown" 416500 183500 -6969 19409 0 100 "auto"]
+(
+	Pad[-2953 0 2953 0 23228 2000 24228 "" "1" "onsolder,square"]
+	ElementLine [-15315 -12362 15315 -12362 1476]
+	ElementLine [15315 -12362 15315 12362 1476]
+	ElementLine [-15315 12362 15315 12362 1476]
+	ElementLine [-15315 -12362 -15315 12362 1476]
+	ElementLine [-20473 -9646 -20473 -5118 1476]
+	ElementLine [-20473 -9646 -17323 -9646 1476]
+	ElementLine [-17323 -9646 -17323 -7284 1476]
+	ElementLine [-18898 -8071 -18898 -8071 1476]
+	ElementLine [-17323 -7284 -17914 -6300 1476]
+	ElementLine [-17914 -6300 -17914 -5906 1476]
+	ElementLine [-17914 -5906 -17126 -5118 1476]
+	ElementLine [17323 -9646 17323 -5118 1476]
+	ElementLine [17323 -9646 20472 -9646 1476]
+	ElementLine [20472 -9646 20472 -7284 1476]
+	ElementLine [18897 -8071 18897 -8071 1476]
+	ElementLine [20472 -7284 19882 -6300 1476]
+	ElementLine [19882 -6300 19882 -5906 1476]
+	ElementLine [19882 -5906 20669 -5118 1476]
+	ElementLine [-13819 -10866 13819 -10866 1476]
+	ElementLine [13819 -10866 13819 -7087 1476]
+	ElementLine [13819 -7087 10787 10866 1476]
+	ElementLine [-6181 -7087 6181 -7087 1476]
+	ElementLine [6181 -7087 7441 10866 1476]
+	ElementLine [7441 10866 10787 10866 1476]
+	ElementLine [-13819 -10866 -13819 -7087 1476]
+	ElementLine [-13819 -7087 -10787 10866 1476]
+	ElementLine [-6181 -7087 -7441 10866 1476]
+	ElementLine [-10787 10866 -7441 10866 1476]
+	ElementLine [-13061 -2598 -6496 -2598 1476]
+	ElementLine [6496 -2598 13061 -2598 1476]
+
+	)
+
+Element["onsolder" "harwin-S8121-46R" "CLIP805" "unknown" 363500 265000 -6969 19409 0 100 "auto"]
+(
+	Pad[-2953 0 2953 0 23228 2000 24228 "" "1" "onsolder,square"]
+	ElementLine [-15315 -12362 15315 -12362 1476]
+	ElementLine [15315 -12362 15315 12362 1476]
+	ElementLine [15315 12362 -15315 12362 1476]
+	ElementLine [-15315 12362 -15315 -12362 1476]
+	ElementLine [-20473 -5118 -20473 -9646 1476]
+	ElementLine [-20473 -9646 -17323 -9646 1476]
+	ElementLine [-17323 -9646 -17323 -7284 1476]
+	ElementLine [-18898 -8071 -18898 -8071 1476]
+	ElementLine [-17323 -7284 -17914 -6300 1476]
+	ElementLine [-17914 -6300 -17914 -5906 1476]
+	ElementLine [-17914 -5906 -17126 -5118 1476]
+	ElementLine [17323 -5118 17323 -9646 1476]
+	ElementLine [17323 -9646 20472 -9646 1476]
+	ElementLine [20472 -9646 20472 -7284 1476]
+	ElementLine [18897 -8071 18897 -8071 1476]
+	ElementLine [20472 -7284 19882 -6300 1476]
+	ElementLine [19882 -6300 19882 -5906 1476]
+	ElementLine [19882 -5906 20669 -5118 1476]
+	ElementLine [-13819 -10866 13819 -10866 1476]
+	ElementLine [13819 -10866 13819 -7087 1476]
+	ElementLine [13819 -7087 10787 10866 1476]
+	ElementLine [6181 -7087 -6181 -7087 1476]
+	ElementLine [6181 -7087 7441 10866 1476]
+	ElementLine [7441 10866 10787 10866 1476]
+	ElementLine [-13819 -7087 -13819 -10866 1476]
+	ElementLine [-13819 -7087 -10787 10866 1476]
+	ElementLine [-6181 -7087 -7441 10866 1476]
+	ElementLine [-10787 10866 -7441 10866 1476]
+	ElementLine [-6496 -2598 -13061 -2598 1476]
+	ElementLine [6496 -2598 13061 -2598 1476]
 
 	)
 Layer(1 "1top")
@@ -4827,6 +5007,86 @@ Layer(4 "3GND")
 	(
 		[368500 292000] [373500 292000] [373500 287000] [368500 287000] 
 	)
+	Polygon("")
+	(
+		[146500 85500] [142500 85500] [142500 89500] [146500 89500] 
+	)
+	Polygon("")
+	(
+		[146500 128500] [142500 128500] [142500 132500] [146500 132500] 
+	)
+	Polygon("")
+	(
+		[111500 85500] [107500 85500] [107500 89500] [111500 89500] 
+	)
+	Polygon("")
+	(
+		[112000 126500] [108000 126500] [108000 130500] [112000 130500] 
+	)
+	Polygon("")
+	(
+		[269500 170000] [265500 170000] [265500 174000] [269500 174000] 
+	)
+	Polygon("")
+	(
+		[269500 201000] [265500 201000] [265500 205000] [269500 205000] 
+	)
+	Polygon("")
+	(
+		[244500 201000] [240500 201000] [240500 205000] [244500 205000] 
+	)
+	Polygon("")
+	(
+		[244500 170000] [240500 170000] [240500 174000] [244500 174000] 
+	)
+	Polygon("")
+	(
+		[381000 275500] [377000 275500] [377000 279500] [381000 279500] 
+	)
+	Polygon("")
+	(
+		[381000 250500] [377000 250500] [377000 254500] [381000 254500] 
+	)
+	Polygon("")
+	(
+		[350000 250500] [346000 250500] [346000 254500] [350000 254500] 
+	)
+	Polygon("")
+	(
+		[350000 275500] [346000 275500] [346000 279500] [350000 279500] 
+	)
+	Polygon("")
+	(
+		[395000 219000] [391000 219000] [391000 223000] [395000 223000] 
+	)
+	Polygon("")
+	(
+		[360500 218500] [356500 218500] [356500 222500] [360500 222500] 
+	)
+	Polygon("")
+	(
+		[360500 176500] [356500 176500] [356500 180500] [360500 180500] 
+	)
+	Polygon("")
+	(
+		[394500 176500] [390500 176500] [390500 180500] [394500 180500] 
+	)
+	Polygon("")
+	(
+		[403000 194000] [399000 194000] [399000 198000] [403000 198000] 
+	)
+	Polygon("")
+	(
+		[434000 194000] [430000 194000] [430000 198000] [434000 198000] 
+	)
+	Polygon("")
+	(
+		[434000 169000] [430000 169000] [430000 173000] [434000 173000] 
+	)
+	Polygon("")
+	(
+		[403500 169000] [399500 169000] [399500 173000] [403500 173000] 
+	)
 )
 Layer(5 "outline")
 (
@@ -4838,26 +5098,55 @@ Layer(5 "outline")
 Layer(6 "silk")
 (
 	Text[335250 81750 0 100 "Micro SD-CARD" "clearline,onsolder"]
-	Text[78500 82500 0 100 "IMPLANT PROCESSOR DSP" "clearline,onsolder"]
-	Text[78500 70500 0 100 "2013.12.18" "clearline,onsolder"]
-	Text[78500 64500 0 100 "CREATED AT THE" "clearline,onsolder"]
-	Text[78500 58500 0 100 "EATON PEABODY LAB" "clearline,onsolder"]
-	Text[78500 76500 0 100 "BY EVAN FOSS" "clearline,onsolder"]
-	Text[158000 76500 0 100 "\"DON'T DO ANYTHING THAT SOMEONE ELSE CAN DO." "clearline,selected,onsolder"]
-	Text[158000 58500 0 100 "- EDWIN LAND" "clearline,selected,onsolder"]
-	Text[158000 64500 0 100 "MANIFESTLY IMPORTANT AND NEARLY IMPOSSIBLE.\" " "clearline,selected,onsolder"]
-	Text[158000 70500 0 100 "DON'T UNDERTAKE A PROJECT UNLESS IT IS " "clearline,selected,onsolder"]
+	Text[158000 76500 0 100 "\"DON'T DO ANYTHING THAT SOMEONE ELSE CAN DO." "clearline,onsolder"]
+	Text[158000 58500 0 100 "- EDWIN LAND" "clearline,onsolder"]
+	Text[158000 64500 0 100 "MANIFESTLY IMPORTANT AND NEARLY IMPOSSIBLE.\" " "clearline,onsolder"]
+	Text[158000 70500 0 100 "DON'T UNDERTAKE A PROJECT UNLESS IT IS " "clearline,onsolder"]
+	Text[78500 82000 0 100 "IMPLANT PROCESSOR DSP" "clearline,onsolder"]
+	Text[78500 70000 0 100 "2013.12.18" "clearline,onsolder"]
+	Text[78500 64000 0 100 "CREATED AT THE" "clearline,onsolder"]
+	Text[78500 58000 0 100 "EATON PEABODY LAB" "clearline,onsolder"]
+	Text[78500 76000 0 100 "BY EVAN FOSS" "clearline,onsolder"]
+	Text[368500 314500 0 100 "LED400" "clearline,onsolder"]
+	Text[316500 311000 0 100 "STATUS" "clearline,onsolder"]
+	Text[347000 311000 0 100 "MODE" "clearline,onsolder"]
+	Text[254000 294500 0 100 "I/O" "clearline,onsolder"]
+	Text[237000 119500 0 100 "ISOLATED STIMULUS" "clearline,onsolder"]
+	Text[196500 119000 0 100 "HEAD" "clearline,onsolder"]
+	Text[401000 249500 0 100 "POWER" "clearline,onsolder"]
+	Text[374000 309000 0 100 "DSP" "clearline,onsolder"]
+	Text[117500 312500 3 100 "RESET" "clearline,onsolder"]
+	Text[82000 269500 3 100 "TEST" "clearline,onsolder"]
+	Text[81500 191500 3 100 "RUN" "clearline,onsolder"]
+	Text[82500 134000 3 100 "DEBUG" "clearline,onsolder"]
+	Text[280000 314500 0 100 "UTD-RESET" "clearline,onsolder"]
+	Text[285000 320000 0 100 "UTD-S2" "clearline,onsolder"]
 )
 Layer(7 "silk")
 (
 	Line[306970 307312 282210 282552 1000 2000 "clearline"]
 	Line[307014 282508 282210 307312 1000 2000 "clearline"]
 	Line[307014 282507 307014 282508 1000 2000 "clearline"]
+	Line[383500 165000 389500 159000 1000 2000 "clearline"]
+	Line[389500 159000 387000 159000 1000 2000 "clearline"]
+	Line[387000 159000 389500 161500 1000 2000 "clearline"]
+	Line[389500 161500 389500 159000 1000 2000 "clearline"]
+	Line[382000 172500 356500 172500 1000 2000 "clearline"]
+	Line[356500 172500 355000 171000 1000 2000 "clearline"]
+	Line[355000 171000 355000 166500 1000 2000 "clearline"]
+	Line[355000 166500 356500 165000 1000 2000 "clearline"]
+	Line[356500 165000 383500 165000 1000 2000 "clearline"]
+	Line[383500 165000 383500 171000 1000 2000 "clearline"]
+	Line[383500 171000 382000 172500 1000 2000 "clearline"]
 	Text[317400 285000 0 100 "STATUS" "clearline"]
 	Text[346500 285000 0 100 "MODE" "clearline"]
 	Text[361750 50750 0 100 "+3.3V" "clearline"]
 	Text[386250 50750 0 100 "GND" "clearline"]
 	Text[280000 276000 0 100 "UTD-RESET" "clearline"]
+	Text[180500 219000 0 100 "2013.12.18" "clearline"]
+	Text[180500 208000 0 100 "IMPLANT PROCESSOR DSP" "clearline"]
+	Text[180500 213500 0 100 "BY EVAN FOSS" "clearline"]
+	Text[180500 224500 0 100 "EATON PEABODY LAB" "clearline"]
 	Polygon("clearpoly")
 	(
 		[355267 104658] [383967 104658] [383967 81161] [355267 81161] 
@@ -5233,6 +5522,11 @@ NetList()
 		Connect("C600-1")
 		Connect("C1400-1")
 		Connect("C1401-1")
+		Connect("CLIP801-1")
+		Connect("CLIP802-1")
+		Connect("CLIP803-1")
+		Connect("CLIP804-1")
+		Connect("CLIP805-1")
 		Connect("CONN300-6")
 		Connect("CONN300-10")
 		Connect("CONN300-11")

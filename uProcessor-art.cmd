@@ -41,6 +41,21 @@ ChangePinName(F1400, 1, 1)
 ChangePinName(B1400, 2, -)
 ChangePinName(B1400, 1, +)
 
+# Start of element CLIP805
+ChangePinName(CLIP805, 1, 1)
+
+# Start of element CLIP804
+ChangePinName(CLIP804, 1, 1)
+
+# Start of element CLIP803
+ChangePinName(CLIP803, 1, 1)
+
+# Start of element CLIP802
+ChangePinName(CLIP802, 1, 1)
+
+# Start of element CLIP801
+ChangePinName(CLIP801, 1, 1)
+
 # Start of element HEAT801
 ChangePinName(HEAT801, 1, 1)
 
