@@ -1,5 +1,11 @@
 # Pin name action command file
 
+# Start of element PAD1301
+ChangePinName(PAD1301, 1, 1)
+
+# Start of element PAD1300
+ChangePinName(PAD1300, 1, 1)
+
 # Start of element SCREW4-40_4
 ChangePinName(SCREW4-40_4, 1, 1)
 
