@@ -111,6 +111,9 @@ sch2pcb-analog:
 sch2pcb-cpubreak:
 	$(SCH2PCBTOOL) cpubreak-art.prj
 
+sch2pcb-debugbreak:
+	$(SCH2PCBTOOL) debugbreakout-art.prj
+
 pcb-isostimbreak:	sch2pcb-isostimbreak
 	$(PCBTOOL) isostimbreakout-art.pcb
 
@@ -125,6 +128,9 @@ pcb-analog:	sch2pcb-analog
 
 pcb-cpubreak:	sch2pcb-cpubreak
 	$(PCBTOOL) cpubreak-art.pcb
+
+pcb-debugbreak:	sch2pcb-debugbreak
+	$(PCBTOOL) debugbreakout-art.pcb
 
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)

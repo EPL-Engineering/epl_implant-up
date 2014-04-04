@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics debugbreakout.sch
+output-name debugbreakout-art
