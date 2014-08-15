@@ -33,9 +33,9 @@ symversion=0.1
 T 58300 51000 5 10 1 1 180 0 1
 footprint=0805
 T 58300 51200 5 10 1 1 180 0 1
-model-name=0ZCA0010FF2E
+model-name=PRG21BC2R2MM1RA
 T 58300 51400 5 10 1 1 180 0 1
-comment=I_hold 100mA;I_trip 250mA;Imax 10A;Vmax 60V
+comment=I_hold 220mA;I_trip 500mA;Imax 6.5A;Vmax 16V
 }
 N 58500 52300 58500 51500 4
 C 43900 44900 1 0 0 gnd-1.sym
