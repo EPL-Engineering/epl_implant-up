@@ -1,17 +1,5 @@
 # Pin name action command file
 
-# Start of element TP1106
-ChangePinName(TP1106, 1, 1)
-
-# Start of element TP1105
-ChangePinName(TP1105, 1, 1)
-
-# Start of element TP1104
-ChangePinName(TP1104, 1, 1)
-
-# Start of element TP1103
-ChangePinName(TP1103, 1, 1)
-
 # Start of element CONN1103
 ChangePinName(CONN1103, 7, 7)
 ChangePinName(CONN1103, 5, 5)
@@ -21,9 +9,6 @@ ChangePinName(CONN1103, 8, 8)
 ChangePinName(CONN1103, 6, 6)
 ChangePinName(CONN1103, 4, 4)
 ChangePinName(CONN1103, 2, 2)
-
-# Start of element TP1102
-ChangePinName(TP1102, 1, 1)
 
 # Start of element R1104
 ChangePinName(R1104, 1, 1)
@@ -40,9 +25,6 @@ ChangePinName(R1102, 2, 2)
 # Start of element R1103
 ChangePinName(R1103, 1, 1)
 ChangePinName(R1103, 2, 2)
-
-# Start of element TP1101
-ChangePinName(TP1101, 1, 1)
 
 # Start of element D1101
 ChangePinName(D1101, 4, Vss)
