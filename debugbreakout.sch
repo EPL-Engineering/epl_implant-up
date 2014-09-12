@@ -708,3 +708,7 @@ refdes=TP1520
 T 72500 54000 5 10 1 1 0 3 1
 footprint=S1751-46R
 }
+T 57000 66100 9 24 1 0 0 0 3
+This page is removed from the final design. 
+The debugging hardware was moved to a seperate project.
+-EEF
