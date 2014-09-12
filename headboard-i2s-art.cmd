@@ -79,14 +79,6 @@ ChangePinName(MIC1101, 3, WS)
 ChangePinName(MIC1101, 2, SD)
 ChangePinName(MIC1101, 1, SCK)
 
-# Start of element C1102
-ChangePinName(C1102, 2, 2)
-ChangePinName(C1102, 1, 1)
-
-# Start of element C1101
-ChangePinName(C1101, 2, 2)
-ChangePinName(C1101, 1, 1)
-
 # Start of element MIC1100
 ChangePinName(MIC1100, 9, GND)
 ChangePinName(MIC1100, 8, CHIPEN)
