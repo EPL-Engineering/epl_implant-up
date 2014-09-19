@@ -14,7 +14,7 @@
 #Project Name
 NAME = uProcessor
 #Project Schematics
-SCHEMATICS = uProcessor.sch microphones.sch interface.sch debug.sch power.sch switches.sch cableconnectors.sch hidden-magic.sch isostimbreakout.sch headbreakout.sch headboard-i2s.sch headboard-analog.sch cpubreak.sch power-alt.sch debugbreakout.sch
+SCHEMATICS = uProcessor.sch microphones.sch interface.sch debug.sch power.sch switches.sch cableconnectors.sch hidden-magic.sch isostimbreakout.sch headbreakout.sch headboard-i2s.sch headboard-analog.sch cpubreak.sch power-alt.sch debugbreakout.sch spi2flatflex.sch
 #Project Netlists
 NETLISTS = $(NAME).net
 #Project SPICE Simulation Data
@@ -114,6 +114,9 @@ sch2pcb-cpubreak:
 sch2pcb-debugbreak:
 	$(SCH2PCBTOOL) debugbreakout-art.prj
 
+sch2pcb-spi2flatflex:
+	$(SCH2PCBTOOL) spi2flatflex-art.prj
+
 pcb-isostimbreak:	sch2pcb-isostimbreak
 	$(PCBTOOL) isostimbreakout-art.pcb
 
@@ -131,6 +134,9 @@ pcb-cpubreak:	sch2pcb-cpubreak
 
 pcb-debugbreak:	sch2pcb-debugbreak
 	$(PCBTOOL) debugbreakout-art.pcb
+
+pcb-spi2flatflex:	sch2pcb-spi2flatflex
+	$(PCBTOOL) spi2flatflex-art.pcb
 
 gerbv:
 	$(PCBVIEW) $(PCBVIEWFLAGS) $(GERBERS)

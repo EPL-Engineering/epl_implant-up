@@ -1,0 +1,3 @@
+elements-dir ./foot
+schematics spi2flatflex.sch
+output-name spi2flatflex-art
