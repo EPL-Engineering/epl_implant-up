@@ -1,0 +1,18 @@
+G04 start of page 8 for group -4062 idx -4062 *
+G04 Title: (unknown), soldermask *
+G04 Creator: pcb 20110918 *
+G04 CreationDate: Mon Sep 22 22:22:36 2014 UTC *
+G04 For: fosse *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 320000 125000 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNBOTTOMMASK*%
+%ADD43R,0.0600X0.0600*%
+G54D43*X66500Y80000D02*X71500D01*
+X51500D02*X56500D01*
+X81500D02*X86500D01*
+X96500D02*X101500D01*
+X111500D02*X116500D01*
+M02*
